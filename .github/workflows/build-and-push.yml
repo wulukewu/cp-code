@@ -20,7 +20,7 @@ jobs:
       run: |
         mkdir -p build
         for file in *.cpp; do
-          g++ -o build/${file%.cpp} $file
+          g++ -o "build/${file%.cpp}" "$file"
         done
 
     - name: Push build results to another branch

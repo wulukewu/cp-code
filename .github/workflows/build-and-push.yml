@@ -20,7 +20,10 @@ jobs:
       run: |
         mkdir -p build
         for file in *.cpp; do
-          g++ -o "build/${file%.cpp}" "$file"
+          if ! g++ -o "build/${file%.cpp}" "$file"; then
+            echo "Failed to build $file"
+            g++ -o "build/${file%.cpp}" "$file" 2>&1 | tee -a build_errors.log
+          fi
         done
 
     - name: Push build results to another branch
@@ -30,6 +33,6 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git checkout -b build-branch
-        git add build/
+        git add build/ build_errors.log
         git commit -m 'Add build results'
         git push --force origin build-branch

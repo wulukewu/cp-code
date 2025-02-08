@@ -33,3 +33,8 @@
 
 # Debug files
 .DS_Store
+/output
+*.dSYM
+*.su
+*.idb
+*.pdb

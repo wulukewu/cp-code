@@ -13,10 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up C++ environment
-      uses: actions/setup-cpp@v1
-      with:
-        compiler: 'gcc'
+    - name: Install dependencies
+      run: sudo apt-get install -y g++
 
     - name: Build C++ files
       run: |
@@ -26,10 +24,12 @@ jobs:
         done
 
     - name: Push build results to another branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git checkout -b build-branch
         git add build/
         git commit -m 'Add build results'
-        git push --force origin build
+        git push --force origin build-branch

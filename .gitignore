@@ -33,7 +33,10 @@
 
 # Debug files
 .DS_Store
-/output
+.vscode
+output
+input.txt
+output.txt
 *.dSYM
 *.su
 *.idb

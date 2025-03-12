@@ -12,7 +12,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install dependencies
-      run: sudo apt-get install -y g++
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++ python3 python3-pip
+        python3 -m pip install auto-py-to-exe pyinstaller
 
     - name: Build C++ files
       run: |
@@ -30,6 +33,21 @@ jobs:
             echo "Failed to build $file"
             g++ -o "build/$dir/$filename" "$file" 2>&1 | tee -a build_errors.log
           fi
+        done
+
+    - name: Build Python files
+      run: |
+        find . -name "*.py" -print0 | while IFS= read -r -d $'\0' file; do
+          # Get the directory of the file
+          dir=$(dirname "$file")
+          # Create corresponding directory in build folder
+          mkdir -p "build/$dir"
+
+          # Extract filename without extension
+          filename=$(basename "$file" .py)
+
+          # Use auto-py-to-exe to create executable
+          python3 -m auto_py_to_exe --onefile --console --name "$filename" --output-dir "build/$dir" "$file"
         done
 
     - name: Push build results to another branch

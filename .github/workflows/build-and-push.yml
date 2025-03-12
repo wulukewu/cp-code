@@ -35,23 +35,23 @@ jobs:
           fi
         done
 
-    - name: Build Python files
-      run: |
-        find . -name "*.py" -print0 | while IFS= read -r -d $'\0' file; do
-          # Get the directory of the file
-          dir=$(dirname "$file")
-          # Create corresponding directory in build folder
-          mkdir -p "build/$dir"
+    # - name: Build Python files
+    #   run: |
+    #     find . -name "*.py" -print0 | while IFS= read -r -d $'\0' file; do
+    #       # Get the directory of the file
+    #       dir=$(dirname "$file")
+    #       # Create corresponding directory in build folder
+    #       mkdir -p "build/$dir"
 
-          # Extract filename without extension
-          filename=$(basename "$file" .py)
+    #       # Extract filename without extension
+    #       filename=$(basename "$file" .py)
 
-          # Use PyInstaller to create executable
-          if ! python3 -m PyInstaller --onefile --console --name "$filename" "$file" --distpath "build/$dir" ; then
-            echo "Failed to build $file"
-            python3 -m PyInstaller --onefile --console --name "$filename" "$file" --distpath "build/$dir" 2>&1 | tee -a build_errors.log
-          fi
-        done
+    #       # Use PyInstaller to create executable
+    #       if ! python3 -m PyInstaller --onefile --console --name "$filename" "$file" --distpath "build/$dir" ; then
+    #         echo "Failed to build $file"
+    #         python3 -m PyInstaller --onefile --console --name "$filename" "$file" --distpath "build/$dir" 2>&1 | tee -a build_errors.log
+    #       fi
+    #     done
 
     - name: Push build results to another branch
       env:

@@ -14,8 +14,8 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y g++ python3 python3-pip python3-tk
-        python3 -m pip install auto-py-to-exe pyinstaller
+        sudo apt-get install -y g++ python3 python3-pip
+        python3 -m pip install pyinstaller
 
     - name: Build C++ files
       run: |
@@ -46,10 +46,10 @@ jobs:
           # Extract filename without extension
           filename=$(basename "$file" .py)
 
-          # Use auto-py-to-exe to create executable
-          if ! python3 -m auto_py_to_exe --onefile --console --name "$filename" --output-dir "build/$dir" "$file" ; then
+          # Use PyInstaller to create executable
+          if ! python3 -m PyInstaller --onefile --console --name "$filename" "$file" --distpath "build/$dir" ; then
             echo "Failed to build $file"
-            python3 -m auto_py_to_exe --onefile --console --name "$filename" --output-dir "build/$dir" "$file" 2>&1 | tee -a build_errors.log
+            python3 -m PyInstaller --onefile --console --name "$filename" "$file" --distpath "build/$dir" 2>&1 | tee -a build_errors.log
           fi
         done
 

@@ -7,6 +7,7 @@
 #include <random>
 #include <set>
 #include <map>
+#include <stack>
 #include <math.h>
 #define int long long
 // #define float double
@@ -16,7 +17,7 @@ using namespace std;
 // #include <fstream>
 
 signed main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    // freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
     
 }

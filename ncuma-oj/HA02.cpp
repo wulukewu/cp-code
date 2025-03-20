@@ -2,17 +2,12 @@
 
 using namespace std;
 
-signed main(){
-    int arr[4] = {0};
-    for(int i=0; i<4; i++){
-        cin >> arr[i];
-    }
-    
-    if((arr[0]-arr[1])==(arr[1]-arr[2]) and (arr[1]-arr[2])==(arr[2]-arr[3])){
-        cout << 2 * arr[3] - arr[2];
-    }else if((arr[0]*arr[2]==arr[1]*arr[1]) and (arr[1]*arr[3]==arr[2]*arr[2])){
-        cout << (int)arr[3]*arr[3]/arr[2];
-    }else{
-        cout << "關羽快樂嗎";
-    }
+int main(){
+    int n, m;
+    cin >> n >> m;
+
+    int ans = 31 - (m%2==0)*(m<8) - (m%2==1)*(m>=8);
+    int a = (n%4==0) - (n%100==0) + (n%400==0);
+    ans += (a-2) * (m==2);
+    cout << ans;
 }

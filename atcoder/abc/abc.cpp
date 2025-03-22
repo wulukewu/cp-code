@@ -12,7 +12,10 @@
 #define int long long
 // #define float double
 // #define float long double
+#define F first
+#define S second
 #define FOR(i, a, b) for(int i = a; i < b; i++)
+#define Fio ios::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
 using namespace std;
 // #include <fstream>
 

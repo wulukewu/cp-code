@@ -12,7 +12,8 @@ signed main(){
 
     string s;
     char v;
-    while(cin >> s){
+    // while(cin >> s){
+    while(getline(cin, s)){
         for(int i=0; i<s.size(); i++){
             v = s[i];
             if('A' <= v and v <= 'Z'){

@@ -64,13 +64,31 @@ int main(){
 
                 last = l[l.size()-1];
                 l_size = l.size();
-                if(brr[last] != -1) continue;
+                if(brr[last] != -1){
+                    for(int j=l_size-2; j>=0; j--){
+                        brr[l[j]] = max(brr[l[j]], brr[l[j-1]]+1);
+                    }
+                    continue;
+                }
 
-                if(last == i and l_size > 1){
-                    for(int j=0; j<l_size; j++){
-                        brr[l[j]] = l_size-1;
+                bool det = false;
+                for(int j=0; j<l_size-1; j++){
+                    if(last == l[j]){
+                        det = true;
+                        break;
                     }
                 }
+
+                if(det){
+                    for(int j=1; j<l_size; j++){
+                        brr[l[l_size-1-j]] = j;
+                    }
+                }
+                // if(last == i and l_size > 1){
+                //     for(int j=0; j<l_size; j++){
+                //         brr[l[j]] = l_size-1;
+                //     }
+                // }
 
                 for(int j=0; j<arr[last].size(); j++){
                     l.push_back(arr[last][j]);

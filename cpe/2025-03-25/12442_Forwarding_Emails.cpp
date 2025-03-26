@@ -1,9 +1,10 @@
 #include <iostream>
 #include <vector>
+#include <stack>
 
 using namespace std;
 
-// vector < int > brr;
+vector < int > brr;
 
 int dfs(vector < vector < int > > arr, vector < int > went, int k){
     // cout << "call dfs" << endl;
@@ -13,13 +14,12 @@ int dfs(vector < vector < int > > arr, vector < int > went, int k){
     for(auto i: arr[k]){
         if(went[i]){
             continue;
-        // }else if(brr[i] != -1){
-        //     yy = brr[i];
+        }else if(brr[i] != -1){
+            yy = brr[i];
         }else{
             went[i] = 1;
             yy = dfs(arr, went, i);
             went[i] = 0;
-            // brr[i] = yy;
         }
 
         if(yy>y){
@@ -27,7 +27,6 @@ int dfs(vector < vector < int > > arr, vector < int > went, int k){
         }
     }
 
-    // brr[k] = y+1;
     return y+1;
 }
 
@@ -53,8 +52,37 @@ int main(){
         //     cout << endl;
         // }
 
-        // vector < int > brr(n, -1);
-        // brr = vector < int > (n, 1);
+        vector < int > l;
+        int last, l_size;
+        brr = vector < int > (n, -1);
+        for(int i=0; i<n; i++){
+            stack < vector < int > > togo;
+            togo.push(vector < int > (1, i));
+            while(!togo.empty()){
+                l = togo.top();
+                togo.pop();
+
+                last = l[l.size()-1];
+                l_size = l.size();
+                if(brr[last] != -1) continue;
+
+                if(last == i and l_size > 1){
+                    for(int j=0; j<l_size; j++){
+                        brr[l[j]] = l_size-1;
+                    }
+                }
+
+                for(int j=0; j<arr[last].size(); j++){
+                    l.push_back(arr[last][j]);
+                    togo.push(l);
+                }
+            }
+        }
+
+        // for(int i=0; i<n; i++){
+        //     cout << brr[i] << ' ';
+        // }
+        // cout << endl;
 
         vector < int > went(n, 0);
         int ans = 0;

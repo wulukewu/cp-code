@@ -1,0 +1,30 @@
+name: Code Quality Checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install C++ linter
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pip
+          pip3 install cpplint
+
+      - name: Run C++ linter
+        run: |
+          find . -name "*.cpp" | xargs cpplint --filter=-build/include_subdir,-build/header_guard
+
+      - name: Install Python linter
+        run: |
+          pip3 install flake8
+
+      - name: Run Python linter
+        run: |
+          find . -name "*.py" | xargs flake8

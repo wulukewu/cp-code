@@ -1,0 +1,55 @@
+name: Build Matrix
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        compiler: [g++-10, g++-11]
+        exclude:
+          - os: windows-latest
+            compiler: g++-10
+          - os: macos-latest
+            compiler: g++-10
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          if [ "${{ matrix.os }}" = "ubuntu-latest" ]; then
+            sudo apt-get update
+            sudo apt-get install -y ${{ matrix.compiler }} python3 python3-pip
+          elif [ "${{ matrix.os }}" = "macos-latest" ]; then
+            brew install gcc@11
+          fi
+          python3 -m pip install pyinstaller
+
+      - name: Build C++ files
+        run: |
+          if [ "${{ matrix.os }}" = "ubuntu-latest" ]; then
+            COMPILER=${{ matrix.compiler }}
+          elif [ "${{ matrix.os }}" = "macos-latest" ]; then
+            COMPILER=g++-11
+          else
+            COMPILER=g++
+          fi
+
+          find . -name "*.cpp" -print0 | while IFS= read -r -d $'\0' file; do
+            dir=$(dirname "$file")
+            mkdir -p "build/$dir"
+            filename=$(basename "$file" .cpp)
+            $COMPILER -o "build/$dir/$filename" "$file"
+          done
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-${{ matrix.os }}-${{ matrix.compiler }}
+          path: build/
+          retention-days: 5

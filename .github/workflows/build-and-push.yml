@@ -1,0 +1,65 @@
+name: Build and Deploy C++ Files
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++ python3 python3-pip
+        python3 -m pip install pyinstaller
+
+    - name: Build C++ files
+      run: |
+        find . -name "*.cpp" -print0 | while IFS= read -r -d $'\0' file; do
+          # Get the directory of the file
+          dir=$(dirname "$file")
+          # Create corresponding directory in build folder
+          mkdir -p "build/$dir"
+
+          # Extract filename without extension
+          filename=$(basename "$file" .cpp)
+
+          # Compile the file
+          if ! g++ -o "build/$dir/$filename" "$file"; then
+            echo "Failed to build $file"
+            g++ -o "build/$dir/$filename" "$file" 2>&1 | tee -a build_errors.log
+          fi
+        done
+
+    # - name: Build Python files
+    #   run: |
+    #     find . -name "*.py" -print0 | while IFS= read -r -d $'\0' file; do
+    #       # Get the directory of the file
+    #       dir=$(dirname "$file")
+    #       # Create corresponding directory in build folder
+    #       mkdir -p "build/$dir"
+
+    #       # Extract filename without extension
+    #       filename=$(basename "$file" .py)
+
+    #       # Use PyInstaller to create executable
+    #       if ! python3 -m PyInstaller --onefile --console --name "$filename" "$file" --distpath "build/$dir" ; then
+    #         echo "Failed to build $file"
+    #         python3 -m PyInstaller --onefile --console --name "$filename" "$file" --distpath "build/$dir" 2>&1 | tee -a build_errors.log
+    #       fi
+    #     done
+
+    - name: Push build results to another branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git checkout -b build-branch
+        git add build/ build_errors.log
+        git commit -m "Add build results $(date)"
+        git push --force origin build-branch

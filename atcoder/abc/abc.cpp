@@ -17,10 +17,7 @@
 #define FOR(i, a, b) for(int i = a; i < b; i++)
 #define Fio ios::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
 using namespace std;
-// #include <fstream>
 
 signed main() {
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
     
 }

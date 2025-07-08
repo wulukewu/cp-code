@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
@@ -12,9 +11,16 @@ int main(){
         arr.push_back(n);
     }
 
-    sort(arr.begin(), arr.end());
+    n = arr.size();
 
-    for(int i: arr){
-        cout << i << ' ';
+    vector < int > brr(101, 0);
+    for(int i=0; i<n; i++){
+        brr[arr[i]]++;
+    }
+
+    for(int i=0; i<=100; i++){
+        for(int j=0; j<brr[i]; j++){
+            cout << i << ' ';
+        }
     }
 }

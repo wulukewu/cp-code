@@ -45,7 +45,7 @@ signed main(){
 
     int ans = 0;
     ans = max(ans, crr[1]); // first idx=0
-    ans = max(ans, brr[n-2]); // last idx=n-2
+    ans = max(ans, brr[n-2]); // last idx=n-1
 
     for(int i=1; i<n-1; i++){
         ans = max(ans, gcd(brr[i-1], crr[i+1]));

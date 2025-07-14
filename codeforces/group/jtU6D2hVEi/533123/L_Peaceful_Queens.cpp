@@ -32,6 +32,8 @@ void solve() {
     vector < vector < int > > ans;
 
     vector < bool > visit(n, false);
+    vector < bool > diag_pos(n, false);
+    vector < bool > diag_neg(n, false);
     auto dfs = [&](vector < int > v, auto&& self) -> void {
         int m = v.size();
         if(m==n){
@@ -39,33 +41,17 @@ void solve() {
             return;
         }
 
-        vector < vector < bool > > check(n, vector < bool > (n, true));
-        FOR(i, 0, m){
-            FOR(j, 0, n){
-                check[i][j] = false;
-                check[j][v[i]] = false;
-                if(i+j<n and v[i]+j<n){
-                    check[i+j][v[i]+j] = false;
-                }
-                if(i+j<n and v[i]-j>=0){
-                    check[i+j][v[i]-j] = false;
-                }
-            }
-        }
-        // FOR(i, 0, n){
-        //     FOR(j, 0, n){
-        //         cout << check[i][j] << ' ';
-        //     }
-        //     cout << endl;
-        // }
-
         FOR(i, 0, n){
-            if(!visit[i] and check[m][i]){
+            if(!visit[i] and !diag_pos[m-i+n-1] and !diag_neg[m+i]){
                 v.push_back(i);
                 visit[i] = true;
+                diag_pos[m-i+n-1] = true;
+                diag_neg[m+i] = true;
                 self(v, self);
                 v.pop_back();
                 visit[i] = false;
+                diag_pos[m-i+n-1] = false;
+                diag_neg[m+i] = false;
             }
         }
     };

@@ -24,6 +24,29 @@ void addmod(ll &a, ll b) {a = (a+b)%MOD;}
 void submod(ll &a, ll b) {a = (a-b+MOD)%MOD;} 
 void timesmod(ll &a, ll b) {a = (a*b)%MOD;}
 ll POW(ll a, ll b) {ll res=1; do{if(b%2)timesmod(res,a);timesmod(a,a);}while(b>>=1); return res;}
+template<typename T>
+void print(T a){
+    for(auto u: a){
+        cout << u << ' ';
+    }
+    cout << endl;
+}
+template <typename T>
+void printQ(queue < T > q){
+    while(!q.empty()){
+        cout << q.top() << " ";
+        q.pop();
+    }
+    cout << endl;
+}
+template <typename T>
+void printPQ(priority_queue < T > pq){
+    while(!pq.empty()){
+        cout << pq.top() << " ";
+        pq.pop();
+    }
+    cout << endl;
+}
 
 void solve() {
     

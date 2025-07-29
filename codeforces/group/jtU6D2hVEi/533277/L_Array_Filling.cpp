@@ -51,28 +51,24 @@ void printPQ(priority_queue < T > pq){
 void solve() {
     ifstream fcin("input.txt");
     ofstream fcout("output.txt");
+
     int n;
-    cin >> n;
+    fcin >> n;
 
-    int x = n + 1;
-    int m = x / 2;
-    int ans = 0;
-
-    for(int i=1; i*i<=x; i++){
-        if(x%i==0){
-            if(i<=m){
-                ans++;
-            }
-            if(i*i!=x){
-                int j = x / i;
-                if(j<=m){
-                    ans++;
+    vector < int > dp(n+5, 1);
+    for(int i=2; i<=n+1; i++){
+        for(int j=2; j*j<=i; j++){
+            if(i%j==0){
+                dp[i] += dp[j];
+                if(j*j!=i){
+                    dp[i] += dp[i/j];
                 }
             }
         }
     }
 
-    cout << ans << endl;
+    // print(dp);
+    fcout << dp[n+1] << endl;
 }
 
 int main() {

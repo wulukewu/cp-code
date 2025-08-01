@@ -49,6 +49,8 @@ void printPQ(priority_queue < T > pq){
 }
 
 void solve() {
+    ifstream fcin("input.txt");
+    ofstream fcout("output.txt");
     
 }
 

@@ -49,7 +49,33 @@ void printPQ(priority_queue < T > pq){
 }
 
 void solve() {
-    
+    string s1, s2;
+    cin >> s1 >> s2;
+
+    int l1 = s1.size();
+    int l2 = s2.size();
+
+    vector < vector < int > > dp(l1+1, vector < int > (l2+1, 0));
+    FOR(i, 0, l1+1) dp[i][l2] = l1-i;
+    FOR(j, 0, l2+1) dp[l1][j] = l2-j;
+
+    for(int i=l1-1; i>=0; i--){
+        for(int j=l2-1; j>=0; j--){
+            if(s1[i]==s2[j]){
+                dp[i][j] = dp[i+1][j+1];
+            }else{
+                int val =  min(dp[i+1][j], dp[i][j+1]);
+                val = min(val, dp[i+1][j+1]);
+                dp[i][j] = val + 1;
+            }
+        }
+    }
+
+    // FOR(i, 0, l1+1){
+    //     print(dp[i]);
+    // }
+
+    cout << dp[0][0] << endl;
 }
 
 int main() {

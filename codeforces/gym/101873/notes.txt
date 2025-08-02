@@ -1,0 +1,71 @@
+A:給n個村莊和分別座標點 共有3種不同類型村莊 
+畫邊界讓相同類型的村莊在同一區塊 輸出方式為順時鐘or逆時鐘輸出座標點
+
+----
+
+B:每個面有n*n的色塊 共有m個面相鄰(想成為成一個柱狀) 有c種不同顏色
+每個柱皆為不同房子 輸出所有可能的不同房子型態
+
+----
+
+C: x分鐘被接（要剛好用完所有時間）
+n個設施 m個人行道 走每個人行道要花t的時間
+接下來m行是有哪些地方有人行道(a,b之間)
+接下來ｎ行是是各個設施要花t秒玩以及要花p元
+
+輸出一個最小的花費數值
+如果根本不能剛好用完(輸出It is a trap)
+
+----
+
+D:給n+m個句子
+前n個為確定事實(A worse than B)
+後m個為須判定的句子
+• Fact if the statement is true given the n facts of the NYT
+• Alternative Fact if the inversion of the statement is true given the n facts of the NYT
+• Pants on Fire if the statement does not follow, but neither does its inverse.
+
+----
+
+G:有n個點(corner) 每個點用2維座標(0,0)表示
+輸出有幾個點在包起來的範圍的裡面(壓在線上的不算 要strictly inside)
+
+Area = 內部格點數 ＋ 邊上的格點數量/2 -1
+
+             |x1 x2 x3 ......xn |
+Area = 0.5 * |                  |
+             |y1 y2 y3 ......yn |
+
+               |x1 x2|      
+Area1 = 0.5 * (|     |) 
+               |y1 y2|
+
+               |x2 x3|      
+Area2 = 0.5 * (|     |) 
+               |y3 y3|
+
+每條的個點總數是 每條邊的 gcd(|x_i - x_i-1|, |y_i - y_i-1|) + 1
+總數是 sigma(gcd(|x_i - x_i-1|, |y_i - y_i-1|))
+
+
+
+
+----
+
+I:n是遊戲時間, m是大昭充能時間
+給一組數字，x1, x2, ...xi.., xn， xi是 在第i秒有多少敵人
+按下去就會清除該時間的敵人，找到可以殺掉最多的敵人
+
+我覺得是dp吧
+dp = max(dp[i-1], dp[i-m] + x[i])
+dp[0 ~ m-1] 都是 0
+
+----
+
+K: 寫完了
+
+
+2 = 
+1 = 0 + 2 - 1
+0.5 = 0 + 1.5 - 1
+100 = 81 + 20 - 1

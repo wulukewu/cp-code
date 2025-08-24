@@ -18,6 +18,10 @@ template<typename T> using Prior = priority_queue<T>;
 template<typename T> using prior = priority_queue<T, vector<T>, greater<T>>;
 const ll MOD = 1e9 + 7;
 const double EPS = 1e-9;
+void addmod(ll &a, ll b) {a = (a+b)%MOD;}
+void submod(ll &a, ll b) {a = (a-b+MOD)%MOD;} 
+void timesmod(ll &a, ll b) {a = (a*b)%MOD;}
+ll POW(ll a, ll b) {ll res=1; do{if(b%2)timesmod(res,a);timesmod(a,a);}while(b>>=1); return res;}
 template<typename T>
 void print(T a){
     for(auto u: a){

@@ -39,6 +39,7 @@ void addmod(ll &a, ll b) {a = (a+b)%MOD;}
 void submod(ll &a, ll b) {a = (a-b+MOD)%MOD;}
 void timesmod(ll &a, ll b) {a = (a*b)%MOD;}
 ll POW(ll a, ll b) {ll res=1; do{if(b%2)timesmod(res,a);timesmod(a,a);}while(b>>=1); return res;}
+void dividemod(ll &a, ll b){a = a * POW(b, MOD-2) % MOD;}
 
 void solve() {
     ifstream fcin("input.txt");

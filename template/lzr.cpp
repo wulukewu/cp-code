@@ -41,13 +41,13 @@ void timesmod(ll &a, ll b) {a = (a*b)%MOD;}
 ll POW(ll a, ll b) {ll res=1; do{if(b%2)timesmod(res,a);timesmod(a,a);}while(b>>=1); return res;}
 void dividemod(ll &a, ll b){a = a * POW(b, MOD-2) % MOD;}
 
-void solve() {
+void solve(){
     ifstream fcin("input.txt");
     ofstream fcout("output.txt");
     
 }
 
-int main() {
+int main(){
     ios::sync_with_stdio(false),cin.tie(0);
     int t = 1;
     //cin >> t;

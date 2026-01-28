@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC367_A - Shout Everyday
+// URL       : https://atcoder.jp/contests/abc367/tasks/abc367_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

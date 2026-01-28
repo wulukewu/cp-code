@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC392_C - Bib
+// URL       : https://atcoder.jp/contests/abc392/tasks/abc392_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

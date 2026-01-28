@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC157_D - Friend Suggestions
+// URL       : https://atcoder.jp/contests/abc157/tasks/abc157_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

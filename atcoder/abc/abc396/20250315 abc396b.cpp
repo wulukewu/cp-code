@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC396_B - Card Pile
+// URL       : https://atcoder.jp/contests/abc396/tasks/abc396_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

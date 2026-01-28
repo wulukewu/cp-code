@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC375_C - Spiral Rotation
+// URL       : https://atcoder.jp/contests/abc375/tasks/abc375_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC395_A - Strictly Increasing?
+// URL       : https://atcoder.jp/contests/abc395/tasks/abc395_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC392_B - Who is Missing?
+// URL       : https://atcoder.jp/contests/abc392/tasks/abc392_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

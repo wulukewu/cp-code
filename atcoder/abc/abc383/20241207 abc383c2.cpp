@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC383_C - Humidifier 3
+// URL       : https://atcoder.jp/contests/abc383/tasks/abc383_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

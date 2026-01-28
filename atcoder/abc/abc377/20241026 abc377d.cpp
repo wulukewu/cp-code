@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC377_D - Many Segments 2
+// URL       : https://atcoder.jp/contests/abc377/tasks/abc377_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

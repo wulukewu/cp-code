@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC372_A - delete .
+// URL       : https://atcoder.jp/contests/abc372/tasks/abc372_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

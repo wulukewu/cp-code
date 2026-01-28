@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC377_C - Avoid Knight Attack
+// URL       : https://atcoder.jp/contests/abc377/tasks/abc377_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

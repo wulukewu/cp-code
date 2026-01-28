@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC369_C - Count Arithmetic Subarrays
+// URL       : https://atcoder.jp/contests/abc369/tasks/abc369_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

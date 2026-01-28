@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC377_B - Avoid Rook Attack
+// URL       : https://atcoder.jp/contests/abc377/tasks/abc377_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC386_B - Calculator
+// URL       : https://atcoder.jp/contests/abc386/tasks/abc386_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

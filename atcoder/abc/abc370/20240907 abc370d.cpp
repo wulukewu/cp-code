@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC370_D - Cross Explosion
+// URL       : https://atcoder.jp/contests/abc370/tasks/abc370_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

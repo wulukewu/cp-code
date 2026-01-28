@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC376_C - Prepare Another Box
+// URL       : https://atcoder.jp/contests/abc376/tasks/abc376_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

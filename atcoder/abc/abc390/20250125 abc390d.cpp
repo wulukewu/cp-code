@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC390_D - Stone XOR
+// URL       : https://atcoder.jp/contests/abc390/tasks/abc390_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC387_B - 9x9 Sum
+// URL       : https://atcoder.jp/contests/abc387/tasks/abc387_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC387_D - Snaky Walk
+// URL       : https://atcoder.jp/contests/abc387/tasks/abc387_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

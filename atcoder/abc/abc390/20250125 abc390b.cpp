@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC390_B - Geometric Sequence
+// URL       : https://atcoder.jp/contests/abc390/tasks/abc390_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

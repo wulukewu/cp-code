@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC394_D - Colorful Bracket Sequence
+// URL       : https://atcoder.jp/contests/abc394/tasks/abc394_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

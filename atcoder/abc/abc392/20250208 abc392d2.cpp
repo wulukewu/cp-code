@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC392_D - Doubles
+// URL       : https://atcoder.jp/contests/abc392/tasks/abc392_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

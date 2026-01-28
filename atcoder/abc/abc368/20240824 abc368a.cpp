@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC368_A - Cut
+// URL       : https://atcoder.jp/contests/abc368/tasks/abc368_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

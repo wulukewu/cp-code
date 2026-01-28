@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC073_C - Write and Erase
+// URL       : https://atcoder.jp/contests/abc073/tasks/abc073_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

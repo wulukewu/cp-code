@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC372_B - 3^A
+// URL       : https://atcoder.jp/contests/abc372/tasks/abc372_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

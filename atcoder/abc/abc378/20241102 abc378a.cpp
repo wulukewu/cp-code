@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC378_A - Pairing
+// URL       : https://atcoder.jp/contests/abc378/tasks/abc378_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC376_B - Hands on Ring (Easy)
+// URL       : https://atcoder.jp/contests/abc376/tasks/abc376_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

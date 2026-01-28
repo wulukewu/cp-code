@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC370_A - Raise Both Hands
+// URL       : https://atcoder.jp/contests/abc370/tasks/abc370_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

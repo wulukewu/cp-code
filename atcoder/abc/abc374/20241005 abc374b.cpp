@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC374_B - Unvarnished Report
+// URL       : https://atcoder.jp/contests/abc374/tasks/abc374_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

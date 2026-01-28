@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC386_A - Full House 2
+// URL       : https://atcoder.jp/contests/abc386/tasks/abc386_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

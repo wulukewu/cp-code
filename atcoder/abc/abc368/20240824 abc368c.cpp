@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC368_C - Triple Attack
+// URL       : https://atcoder.jp/contests/abc368/tasks/abc368_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC389_C - Snake Queue
+// URL       : https://atcoder.jp/contests/abc389/tasks/abc389_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

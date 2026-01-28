@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC372_C - Count ABC Again
+// URL       : https://atcoder.jp/contests/abc372/tasks/abc372_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

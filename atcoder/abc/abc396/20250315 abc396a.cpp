@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC396_A - Triple Four
+// URL       : https://atcoder.jp/contests/abc396/tasks/abc396_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

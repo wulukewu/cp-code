@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC396_C - Buy Balls
+// URL       : https://atcoder.jp/contests/abc396/tasks/abc396_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

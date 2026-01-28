@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC380_C - Move Segment
+// URL       : https://atcoder.jp/contests/abc380/tasks/abc380_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC365_C - Transportation Expenses
+// URL       : https://atcoder.jp/contests/abc365/tasks/abc365_c
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

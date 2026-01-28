@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC387_A - Happy New Year 2025
+// URL       : https://atcoder.jp/contests/abc387/tasks/abc387_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

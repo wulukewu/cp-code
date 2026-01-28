@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC393_C - Make it Simple
+// URL       : https://atcoder.jp/contests/abc393/tasks/abc393_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

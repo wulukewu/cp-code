@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC375_A - Seats
+// URL       : https://atcoder.jp/contests/abc375/tasks/abc375_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

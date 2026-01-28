@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC373_B - 1D Keyboard
+// URL       : https://atcoder.jp/contests/abc373/tasks/abc373_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

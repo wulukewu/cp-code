@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC366_D - Cuboid Sum Query
+// URL       : https://atcoder.jp/contests/abc366/tasks/abc366_d
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

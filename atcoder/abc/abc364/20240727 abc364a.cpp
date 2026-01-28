@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC364_A - Glutton Takahashi
+// URL       : https://atcoder.jp/contests/abc364/tasks/abc364_a
+// ==================================================
+
 #include <iostream>
 #include <fstream>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC370_B - Binary Alchemy
+// URL       : https://atcoder.jp/contests/abc370/tasks/abc370_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

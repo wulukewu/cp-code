@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC313_C - Approximate Equalization 2
+// URL       : https://atcoder.jp/contests/abc313/tasks/abc313_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

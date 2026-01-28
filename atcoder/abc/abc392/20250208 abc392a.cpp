@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC392_A - Shuffled Equation
+// URL       : https://atcoder.jp/contests/abc392/tasks/abc392_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

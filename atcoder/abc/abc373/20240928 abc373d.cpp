@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC373_D - Hidden Weights
+// URL       : https://atcoder.jp/contests/abc373/tasks/abc373_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

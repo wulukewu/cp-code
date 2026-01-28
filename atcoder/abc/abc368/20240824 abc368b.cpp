@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC368_B - Decrease 2 max elements
+// URL       : https://atcoder.jp/contests/abc368/tasks/abc368_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC382_B - Daily Cookie 2
+// URL       : https://atcoder.jp/contests/abc382/tasks/abc382_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC328_D - Take ABC
+// URL       : https://atcoder.jp/contests/abc328/tasks/abc328_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

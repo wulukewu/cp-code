@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC362_A - Buy a Pen
+// URL       : https://atcoder.jp/contests/abc362/tasks/abc362_a
+// ==================================================
+
 #include <iostream>
 #include <fstream>
 #include <vector>

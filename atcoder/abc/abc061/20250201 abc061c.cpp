@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC061_C - Big Array
+// URL       : https://atcoder.jp/contests/abc061/tasks/abc061_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

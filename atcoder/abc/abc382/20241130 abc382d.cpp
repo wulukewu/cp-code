@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC382_D - Keep Distance
+// URL       : https://atcoder.jp/contests/abc382/tasks/abc382_d
+// ==================================================
+
 #include <bits/stdc++.h>
 #define int long long
 #define FOR(i,a,b) for(int i=a;i<b;i++)

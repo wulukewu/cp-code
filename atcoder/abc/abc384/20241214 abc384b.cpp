@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC384_B - ARC Division
+// URL       : https://atcoder.jp/contests/abc384/tasks/abc384_b
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

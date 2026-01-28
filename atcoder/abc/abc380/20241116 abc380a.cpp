@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC380_A - 123233
+// URL       : https://atcoder.jp/contests/abc380/tasks/abc380_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

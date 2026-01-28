@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC362_B - Right Triangle
+// URL       : https://atcoder.jp/contests/abc362/tasks/abc362_b
+// ==================================================
+
 #include <iostream>
 #include <fstream>
 #include <vector>

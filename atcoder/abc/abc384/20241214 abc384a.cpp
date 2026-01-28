@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC384_A - aaaadaa
+// URL       : https://atcoder.jp/contests/abc384/tasks/abc384_a
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

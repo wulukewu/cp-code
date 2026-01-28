@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC395_C - Shortest Duplicate Subarray
+// URL       : https://atcoder.jp/contests/abc395/tasks/abc395_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

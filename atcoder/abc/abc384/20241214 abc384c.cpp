@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC384_C - Perfect Standings
+// URL       : https://atcoder.jp/contests/abc384/tasks/abc384_c
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

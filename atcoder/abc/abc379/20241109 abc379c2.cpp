@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC379_C - Sowing Stones
+// URL       : https://atcoder.jp/contests/abc379/tasks/abc379_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

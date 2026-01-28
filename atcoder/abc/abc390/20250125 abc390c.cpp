@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC390_C - Paint to make a rectangle
+// URL       : https://atcoder.jp/contests/abc390/tasks/abc390_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

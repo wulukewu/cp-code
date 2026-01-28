@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC382_C - Kaiten Sushi
+// URL       : https://atcoder.jp/contests/abc382/tasks/abc382_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

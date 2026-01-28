@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC366_C - Balls and Bag Query
+// URL       : https://atcoder.jp/contests/abc366/tasks/abc366_c
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC386_F - Operate K
+// URL       : https://atcoder.jp/contests/abc386/tasks/abc386_f
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC393_A - Poisonous Oyster
+// URL       : https://atcoder.jp/contests/abc393/tasks/abc393_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

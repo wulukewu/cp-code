@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC391_E - Hierarchical Majority Vote
+// URL       : https://atcoder.jp/contests/abc391/tasks/abc391_e
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

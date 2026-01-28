@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC313_E - Duplicate
+// URL       : https://atcoder.jp/contests/abc313/tasks/abc313_e
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC388_B - Heavy Snake
+// URL       : https://atcoder.jp/contests/abc388/tasks/abc388_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

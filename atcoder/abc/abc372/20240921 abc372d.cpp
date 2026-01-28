@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC372_D - Buildings
+// URL       : https://atcoder.jp/contests/abc372/tasks/abc372_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

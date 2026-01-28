@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC376_A - Candy Button
+// URL       : https://atcoder.jp/contests/abc376/tasks/abc376_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC172_E - NEQ
+// URL       : https://atcoder.jp/contests/abc172/tasks/abc172_e
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC378_C - Repeating
+// URL       : https://atcoder.jp/contests/abc378/tasks/abc378_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

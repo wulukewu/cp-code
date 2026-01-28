@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC384_D - Repeated Sequence
+// URL       : https://atcoder.jp/contests/abc384/tasks/abc384_d
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

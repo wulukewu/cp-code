@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC374_D - Laser Marking
+// URL       : https://atcoder.jp/contests/abc374/tasks/abc374_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC321_A - 321-like Checker
+// URL       : https://atcoder.jp/contests/abc321/tasks/abc321_a
+// ==================================================
+
 #include <iostream>
 #include <fstream>
 #include <vector>

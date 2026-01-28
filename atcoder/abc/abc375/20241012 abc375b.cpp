@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC375_B - Traveling Takahashi Problem
+// URL       : https://atcoder.jp/contests/abc375/tasks/abc375_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

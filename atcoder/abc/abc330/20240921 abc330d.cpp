@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC330_D - Counting Ls
+// URL       : https://atcoder.jp/contests/abc330/tasks/abc330_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC392_E - Cables and Servers
+// URL       : https://atcoder.jp/contests/abc392/tasks/abc392_e
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

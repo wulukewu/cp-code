@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC379_B - Strawberries
+// URL       : https://atcoder.jp/contests/abc379/tasks/abc379_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

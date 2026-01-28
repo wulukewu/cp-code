@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC364_C - Minimum Glutton
+// URL       : https://atcoder.jp/contests/abc364/tasks/abc364_c
+// ==================================================
+
 #include <iostream>
 #include <fstream>
 #include <vector>

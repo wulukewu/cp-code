@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC388_A - ?UPC
+// URL       : https://atcoder.jp/contests/abc388/tasks/abc388_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

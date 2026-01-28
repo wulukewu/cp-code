@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC378_B - Garbage Collection
+// URL       : https://atcoder.jp/contests/abc378/tasks/abc378_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

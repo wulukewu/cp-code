@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC388_C - Various Kagamimochi
+// URL       : https://atcoder.jp/contests/abc388/tasks/abc388_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

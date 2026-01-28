@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC374_C - Separated Lunch
+// URL       : https://atcoder.jp/contests/abc374/tasks/abc374_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

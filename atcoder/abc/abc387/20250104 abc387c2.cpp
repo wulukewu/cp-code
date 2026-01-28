@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC387_C - Snake Numbers
+// URL       : https://atcoder.jp/contests/abc387/tasks/abc387_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

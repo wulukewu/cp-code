@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC394_B - cat
+// URL       : https://atcoder.jp/contests/abc394/tasks/abc394_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

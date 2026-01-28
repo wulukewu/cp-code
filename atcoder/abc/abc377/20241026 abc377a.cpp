@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC377_A - Rearranging ABC
+// URL       : https://atcoder.jp/contests/abc377/tasks/abc377_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

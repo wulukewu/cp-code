@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC374_A - Takahashi san 2
+// URL       : https://atcoder.jp/contests/abc374/tasks/abc374_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

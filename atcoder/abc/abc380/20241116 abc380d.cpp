@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC380_D - Strange Mirroring
+// URL       : https://atcoder.jp/contests/abc380/tasks/abc380_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

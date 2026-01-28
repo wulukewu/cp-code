@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ABC393_D - Swap to Gather
+// URL       : https://atcoder.jp/contests/abc393/tasks/abc393_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

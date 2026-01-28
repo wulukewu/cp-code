@@ -1,0 +1,1517 @@
+[
+  {
+    "file": "codeforces/contest/2178/A_Yes_or_Yes.cpp",
+    "problemId": "2178A",
+    "contestId": 2178,
+    "index": "A",
+    "title": "Yes or Yes",
+    "rating": null,
+    "tags": [
+      "greedy",
+      "strings"
+    ],
+    "url": "https://codeforces.com/contest/2178/problem/A"
+  },
+  {
+    "file": "codeforces/contest/2178/B_Impost_or_Sus.cpp",
+    "problemId": "2178B",
+    "contestId": 2178,
+    "index": "B",
+    "title": "Impost or Sus",
+    "rating": null,
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "strings"
+    ],
+    "url": "https://codeforces.com/contest/2178/problem/B"
+  },
+  {
+    "file": "codeforces/contest/2178/C_First_or_Second.cpp",
+    "problemId": "2178C",
+    "contestId": 2178,
+    "index": "C",
+    "title": "First or Second",
+    "rating": null,
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation"
+    ],
+    "url": "https://codeforces.com/contest/2178/problem/C"
+  },
+  {
+    "file": "codeforces/contest/2178/D_Xmas_or_Hysteria.cpp",
+    "problemId": "2178D",
+    "contestId": 2178,
+    "index": "D",
+    "title": "Xmas or Hysteria",
+    "rating": null,
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/2178/problem/D"
+  },
+  {
+    "file": "codeforces/contest/2178/D_Xmas_or_Hysteria2.cpp",
+    "problemId": "2178D",
+    "contestId": 2178,
+    "index": "D",
+    "title": "Xmas or Hysteria",
+    "rating": null,
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/2178/problem/D"
+  },
+  {
+    "file": "codeforces/contest/2182/B_New_Year_Cake.cpp",
+    "problemId": "2182B",
+    "contestId": 2182,
+    "index": "B",
+    "title": "New Year Cake",
+    "rating": null,
+    "tags": [
+      "brute force"
+    ],
+    "url": "https://codeforces.com/contest/2182/problem/B"
+  },
+  {
+    "file": "codeforces/contest/2182/C_Production_of_Snowmen.cpp",
+    "problemId": "2182C",
+    "contestId": 2182,
+    "index": "C",
+    "title": "Production of Snowmen",
+    "rating": null,
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dp"
+    ],
+    "url": "https://codeforces.com/contest/2182/problem/C"
+  },
+  {
+    "file": "codeforces/contest/2182/D_Christmas_Tree_Decoration.cpp",
+    "problemId": "2182D",
+    "contestId": 2182,
+    "index": "D",
+    "title": "Christmas Tree Decoration",
+    "rating": null,
+    "tags": [
+      "combinatorics",
+      "dp",
+      "greedy",
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/2182/problem/D"
+  },
+  {
+    "file": "codeforces/contest/2182/E_New_Year_s_Gifts.cpp",
+    "problemId": "2182E",
+    "contestId": 2182,
+    "index": "E",
+    "title": "New Year's Gifts",
+    "rating": null,
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "sortings",
+      "two pointers"
+    ],
+    "url": "https://codeforces.com/contest/2182/problem/E"
+  },
+  {
+    "file": "codeforces/contest/2183/A_Binary_Array_Game.cpp",
+    "problemId": "2183A",
+    "contestId": 2183,
+    "index": "A",
+    "title": "Binary Array Game",
+    "rating": null,
+    "tags": [
+      "games"
+    ],
+    "url": "https://codeforces.com/contest/2183/problem/A"
+  },
+  {
+    "file": "codeforces/contest/2183/B_Yet_Another_MEX_Problem.cpp",
+    "problemId": "2183B",
+    "contestId": 2183,
+    "index": "B",
+    "title": "Yet Another MEX Problem",
+    "rating": null,
+    "tags": [
+      "constructive algorithms",
+      "greedy"
+    ],
+    "url": "https://codeforces.com/contest/2183/problem/B"
+  },
+  {
+    "file": "codeforces/contest/2183/C_War_Strategy.cpp",
+    "problemId": "2183C",
+    "contestId": 2183,
+    "index": "C",
+    "title": "War Strategy",
+    "rating": null,
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "two pointers"
+    ],
+    "url": "https://codeforces.com/contest/2183/problem/C"
+  },
+  {
+    "file": "codeforces/contest/2183/D_1_Tree_Coloring_Easy_Version.cpp",
+    "problemId": "2183D",
+    "contestId": 2183,
+    "index": "D",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/2183/problem/D"
+  },
+  {
+    "file": "codeforces/contest/2184/A_Social_Experiment.cpp",
+    "problemId": "2184A",
+    "contestId": 2184,
+    "index": "A",
+    "title": "Social Experiment",
+    "rating": null,
+    "tags": [
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/2184/problem/A"
+  },
+  {
+    "file": "codeforces/contest/2184/B_Hourglass.cpp",
+    "problemId": "2184B",
+    "contestId": 2184,
+    "index": "B",
+    "title": "Hourglass",
+    "rating": null,
+    "tags": [
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/2184/problem/B"
+  },
+  {
+    "file": "codeforces/contest/2184/C_Huge_Pile.cpp",
+    "problemId": "2184C",
+    "contestId": 2184,
+    "index": "C",
+    "title": "Huge Pile",
+    "rating": null,
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/2184/problem/C"
+  },
+  {
+    "file": "codeforces/contest/2184/D_Unfair_Game.cpp",
+    "problemId": "2184D",
+    "contestId": 2184,
+    "index": "D",
+    "title": "Unfair Game",
+    "rating": null,
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/2184/problem/D"
+  },
+  {
+    "file": "codeforces/contest/2184/E_Exquisite_Array.cpp",
+    "problemId": "2184E",
+    "contestId": 2184,
+    "index": "E",
+    "title": "Exquisite Array",
+    "rating": null,
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "dsu",
+      "sortings"
+    ],
+    "url": "https://codeforces.com/contest/2184/problem/E"
+  },
+  {
+    "file": "codeforces/contest/2193/A_DBMB_and_the_Array.cpp",
+    "problemId": "2193A",
+    "contestId": 2193,
+    "index": "A",
+    "title": "DBMB and the Array",
+    "rating": null,
+    "tags": [
+      "brute force",
+      "math"
+    ],
+    "url": "https://codeforces.com/contest/2193/problem/A"
+  },
+  {
+    "file": "codeforces/contest/2193/B_Reverse_a_Permutation.cpp",
+    "problemId": "2193B",
+    "contestId": 2193,
+    "index": "B",
+    "title": "Reverse a Permutation",
+    "rating": null,
+    "tags": [
+      "greedy"
+    ],
+    "url": "https://codeforces.com/contest/2193/problem/B"
+  },
+  {
+    "file": "codeforces/contest/2193/C_Replace_and_Sum.cpp",
+    "problemId": "2193C",
+    "contestId": 2193,
+    "index": "C",
+    "title": "Replace and Sum",
+    "rating": null,
+    "tags": [
+      "data structures",
+      "greedy"
+    ],
+    "url": "https://codeforces.com/contest/2193/problem/C"
+  },
+  {
+    "file": "codeforces/contest/2193/D_Monster_Game.cpp",
+    "problemId": "2193D",
+    "contestId": 2193,
+    "index": "D",
+    "title": "Monster Game",
+    "rating": null,
+    "tags": [
+      "binary search",
+      "sortings",
+      "two pointers"
+    ],
+    "url": "https://codeforces.com/contest/2193/problem/D"
+  },
+  {
+    "file": "codeforces/contest/2193/E_Product_Queries.cpp",
+    "problemId": "2193E",
+    "contestId": 2193,
+    "index": "E",
+    "title": "Product Queries",
+    "rating": null,
+    "tags": [
+      "dp",
+      "math",
+      "number theory",
+      "shortest paths"
+    ],
+    "url": "https://codeforces.com/contest/2193/problem/E"
+  },
+  {
+    "file": "codeforces/div/round1011/A_Serval_and_String_Theory.cpp",
+    "problemId": "round1011A",
+    "contestId": "round1011",
+    "index": "A",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1011/problem/A"
+  },
+  {
+    "file": "codeforces/div/round1011/B_Serval_and_Final_MEX.cpp",
+    "problemId": "round1011B",
+    "contestId": "round1011",
+    "index": "B",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1011/problem/B"
+  },
+  {
+    "file": "codeforces/div/round1055/A_Increase_or_Smash.cpp",
+    "problemId": "round1055A",
+    "contestId": "round1055",
+    "index": "A",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1055/problem/A"
+  },
+  {
+    "file": "codeforces/div/round1055/B_Catching_the_Krug.cpp",
+    "problemId": "round1055B",
+    "contestId": "round1055",
+    "index": "B",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1055/problem/B"
+  },
+  {
+    "file": "codeforces/div/round1557/A_Circle_of_Apple_Trees.cpp",
+    "problemId": "round1557A",
+    "contestId": "round1557",
+    "index": "A",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1557/problem/A"
+  },
+  {
+    "file": "codeforces/div/round1557/B_Bitwise_Reversion.cpp",
+    "problemId": "round1557B",
+    "contestId": "round1557",
+    "index": "B",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1557/problem/B"
+  },
+  {
+    "file": "codeforces/div/round1557/C_Symmetrical_Polygons.cpp",
+    "problemId": "round1557C",
+    "contestId": "round1557",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1557/problem/C"
+  },
+  {
+    "file": "codeforces/div/round1557/D_Not_Alone.cpp",
+    "problemId": "round1557D",
+    "contestId": "round1557",
+    "index": "D",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1557/problem/D"
+  },
+  {
+    "file": "codeforces/div/round1559/A_Beautiful_Average.cpp",
+    "problemId": "round1559A",
+    "contestId": "round1559",
+    "index": "A",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1559/problem/A"
+  },
+  {
+    "file": "codeforces/div/round1559/B_Beautiful_String.cpp",
+    "problemId": "round1559B",
+    "contestId": "round1559",
+    "index": "B",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1559/problem/B"
+  },
+  {
+    "file": "codeforces/div/round1559/C_Beautiful_XOR.cpp",
+    "problemId": "round1559C",
+    "contestId": "round1559",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/round1559/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/104997/A_Sum_on_Segments.cpp",
+    "problemId": "jtU6D2hVEiA",
+    "contestId": "jtU6D2hVEi",
+    "index": "A",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/A"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/104997/B_Number_of_Zeros_in_a_Segment.cpp",
+    "problemId": "jtU6D2hVEiB",
+    "contestId": "jtU6D2hVEi",
+    "index": "B",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/B"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/104997/C_Rectangle_Sum.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/104997/D_Greatest_Common_Divisor.cpp",
+    "problemId": "jtU6D2hVEiD",
+    "contestId": "jtU6D2hVEi",
+    "index": "D",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/D"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/104997/E_Counting.cpp",
+    "problemId": "jtU6D2hVEiE",
+    "contestId": "jtU6D2hVEi",
+    "index": "E",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/E"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/104997/F_Counting_Sort.cpp",
+    "problemId": "jtU6D2hVEiF",
+    "contestId": "jtU6D2hVEi",
+    "index": "F",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/F"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/104997/G_Haybale_Stacking.cpp",
+    "problemId": "jtU6D2hVEiG",
+    "contestId": "jtU6D2hVEi",
+    "index": "G",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/G"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/104997/H_Painting_the_Barn.cpp",
+    "problemId": "jtU6D2hVEiH",
+    "contestId": "jtU6D2hVEi",
+    "index": "H",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/H"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/105000/C_Sorting_halves.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/105000/D_Merge_Lists.cpp",
+    "problemId": "jtU6D2hVEiD",
+    "contestId": "jtU6D2hVEi",
+    "index": "D",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/D"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/105000/F_Sorting_Stone_method.cpp",
+    "problemId": "jtU6D2hVEiF",
+    "contestId": "jtU6D2hVEi",
+    "index": "F",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/F"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/105000/K_Olympiad_Results.cpp",
+    "problemId": "jtU6D2hVEiK",
+    "contestId": "jtU6D2hVEi",
+    "index": "K",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/K"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533121/C_Street_with_monuments.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533121/E_Diplomas.cpp",
+    "problemId": "jtU6D2hVEiE",
+    "contestId": "jtU6D2hVEi",
+    "index": "E",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/E"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533121/J_Forest_Clearing.cpp",
+    "problemId": "jtU6D2hVEiJ",
+    "contestId": "jtU6D2hVEi",
+    "index": "J",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/J"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533123/A_Power.cpp",
+    "problemId": "jtU6D2hVEiA",
+    "contestId": "jtU6D2hVEi",
+    "index": "A",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/A"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533123/C_Transformations.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533123/D_Multiplication_Game.cpp",
+    "problemId": "jtU6D2hVEiD",
+    "contestId": "jtU6D2hVEi",
+    "index": "D",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/D"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533123/E_Weighing.cpp",
+    "problemId": "jtU6D2hVEiE",
+    "contestId": "jtU6D2hVEi",
+    "index": "E",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/E"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533123/G_Fence_of_Numbers.cpp",
+    "problemId": "jtU6D2hVEiG",
+    "contestId": "jtU6D2hVEi",
+    "index": "G",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/G"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533123/J_Coins.cpp",
+    "problemId": "jtU6D2hVEiJ",
+    "contestId": "jtU6D2hVEi",
+    "index": "J",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/J"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533123/L_Peaceful_Queens.cpp",
+    "problemId": "jtU6D2hVEiL",
+    "contestId": "jtU6D2hVEi",
+    "index": "L",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/L"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533249/C_Stylish_clothes.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533249/G_Elves_and_Reindeer.cpp",
+    "problemId": "jtU6D2hVEiG",
+    "contestId": "jtU6D2hVEi",
+    "index": "G",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/G"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533250/C_Brackets.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533250/H_Postfix_Notation.cpp",
+    "problemId": "jtU6D2hVEiH",
+    "contestId": "jtU6D2hVEi",
+    "index": "H",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/H"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533250/M_Adjacency_Lists.cpp",
+    "problemId": "jtU6D2hVEiM",
+    "contestId": "jtU6D2hVEi",
+    "index": "M",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/M"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533251/B_Same_values.cpp",
+    "problemId": "jtU6D2hVEiB",
+    "contestId": "jtU6D2hVEi",
+    "index": "B",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/B"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533251/G_Shooting.cpp",
+    "problemId": "jtU6D2hVEiG",
+    "contestId": "jtU6D2hVEi",
+    "index": "G",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/G"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533251/L_Set_3.cpp",
+    "problemId": "jtU6D2hVEiL",
+    "contestId": "jtU6D2hVEi",
+    "index": "L",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/L"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533255/A_Connected_components.cpp",
+    "problemId": "jtU6D2hVEiA",
+    "contestId": "jtU6D2hVEi",
+    "index": "A",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/A"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533255/C_Looking_for_cycle.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533255/E_Bipartite_graph.cpp",
+    "problemId": "jtU6D2hVEiE",
+    "contestId": "jtU6D2hVEi",
+    "index": "E",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/E"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533255/J_Mafija.cpp",
+    "problemId": "jtU6D2hVEiJ",
+    "contestId": "jtU6D2hVEi",
+    "index": "J",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/J"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533255/K_Oh_the_roads.cpp",
+    "problemId": "jtU6D2hVEiK",
+    "contestId": "jtU6D2hVEi",
+    "index": "K",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/K"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533277/C_Grasshoper_K.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533277/E_Grasshopper_and_Money.cpp",
+    "problemId": "jtU6D2hVEiE",
+    "contestId": "jtU6D2hVEi",
+    "index": "E",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/E"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533277/I_Milk_Bottles.cpp",
+    "problemId": "jtU6D2hVEiI",
+    "contestId": "jtU6D2hVEi",
+    "index": "I",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/I"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533277/J_Milk_in_Bottles_K.cpp",
+    "problemId": "jtU6D2hVEiJ",
+    "contestId": "jtU6D2hVEi",
+    "index": "J",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/J"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533277/L_Array_Filling.cpp",
+    "problemId": "jtU6D2hVEiL",
+    "contestId": "jtU6D2hVEi",
+    "index": "L",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/L"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533280/C_Turtle_and_Money.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533280/E_Knight.cpp",
+    "problemId": "jtU6D2hVEiE",
+    "contestId": "jtU6D2hVEi",
+    "index": "E",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/E"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533280/I_Levenshtein_Distance.cpp",
+    "problemId": "jtU6D2hVEiI",
+    "contestId": "jtU6D2hVEi",
+    "index": "I",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/I"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533280/N_Knapsack_Problem.cpp",
+    "problemId": "jtU6D2hVEiN",
+    "contestId": "jtU6D2hVEi",
+    "index": "N",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/N"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533280/P_Weights.cpp",
+    "problemId": "jtU6D2hVEiP",
+    "contestId": "jtU6D2hVEi",
+    "index": "P",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/P"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533282/A_Islands.cpp",
+    "problemId": "jtU6D2hVEiA",
+    "contestId": "jtU6D2hVEi",
+    "index": "A",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/A"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533282/F_Vessels.cpp",
+    "problemId": "jtU6D2hVEiF",
+    "contestId": "jtU6D2hVEi",
+    "index": "F",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/F"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533284/C_Rain_2.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533284/D_Roadblock.cpp",
+    "problemId": "jtU6D2hVEiD",
+    "contestId": "jtU6D2hVEi",
+    "index": "D",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/D"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533371/C_Gifts.cpp",
+    "problemId": "jtU6D2hVEiC",
+    "contestId": "jtU6D2hVEi",
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/C"
+  },
+  {
+    "file": "codeforces/group/jtU6D2hVEi/533371/E_Badgers.cpp",
+    "problemId": "jtU6D2hVEiE",
+    "contestId": "jtU6D2hVEi",
+    "index": "E",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/jtU6D2hVEi/problem/E"
+  },
+  {
+    "file": "codeforces/gym/101667/C.cpp",
+    "problemId": "101667C.cpp",
+    "contestId": 101667,
+    "index": "C.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101667/problem/C.cpp"
+  },
+  {
+    "file": "codeforces/gym/101667/C2.cpp",
+    "problemId": "101667C2.cpp",
+    "contestId": 101667,
+    "index": "C2.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101667/problem/C2.cpp"
+  },
+  {
+    "file": "codeforces/gym/101667/E.cpp",
+    "problemId": "101667E.cpp",
+    "contestId": 101667,
+    "index": "E.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101667/problem/E.cpp"
+  },
+  {
+    "file": "codeforces/gym/101667/I.cpp",
+    "problemId": "101667I.cpp",
+    "contestId": 101667,
+    "index": "I.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101667/problem/I.cpp"
+  },
+  {
+    "file": "codeforces/gym/101667/template.cpp",
+    "problemId": "101667template.cpp",
+    "contestId": 101667,
+    "index": "template.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101667/problem/template.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/C.cpp",
+    "problemId": "101873C.cpp",
+    "contestId": 101873,
+    "index": "C.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/C.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/D.cpp",
+    "problemId": "101873D.cpp",
+    "contestId": 101873,
+    "index": "D.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/D.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/D2.cpp",
+    "problemId": "101873D2.cpp",
+    "contestId": 101873,
+    "index": "D2.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/D2.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/D3.cpp",
+    "problemId": "101873D3.cpp",
+    "contestId": 101873,
+    "index": "D3.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/D3.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/F.cpp",
+    "problemId": "101873F.cpp",
+    "contestId": 101873,
+    "index": "F.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/F.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/G.cpp",
+    "problemId": "101873G.cpp",
+    "contestId": 101873,
+    "index": "G.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/G.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/G2.cpp",
+    "problemId": "101873G2.cpp",
+    "contestId": 101873,
+    "index": "G2.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/G2.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/I.cpp",
+    "problemId": "101873I.cpp",
+    "contestId": 101873,
+    "index": "I.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/I.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/K.cpp",
+    "problemId": "101873K.cpp",
+    "contestId": 101873,
+    "index": "K.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/K.cpp"
+  },
+  {
+    "file": "codeforces/gym/101873/sample.cpp",
+    "problemId": "101873sample.cpp",
+    "contestId": 101873,
+    "index": "sample.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/101873/problem/sample.cpp"
+  },
+  {
+    "file": "codeforces/gym/104308/a.cpp",
+    "problemId": "104308a.cpp",
+    "contestId": 104308,
+    "index": "a.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/104308/problem/a.cpp"
+  },
+  {
+    "file": "codeforces/gym/104308/b.cpp",
+    "problemId": "104308b.cpp",
+    "contestId": 104308,
+    "index": "b.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/104308/problem/b.cpp"
+  },
+  {
+    "file": "codeforces/gym/104308/c.cpp",
+    "problemId": "104308c.cpp",
+    "contestId": 104308,
+    "index": "c.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/104308/problem/c.cpp"
+  },
+  {
+    "file": "codeforces/gym/104308/d.cpp",
+    "problemId": "104308d.cpp",
+    "contestId": 104308,
+    "index": "d.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/104308/problem/d.cpp"
+  },
+  {
+    "file": "codeforces/gym/104308/h.cpp",
+    "problemId": "104308h.cpp",
+    "contestId": 104308,
+    "index": "h.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/104308/problem/h.cpp"
+  },
+  {
+    "file": "codeforces/gym/104308/i.cpp",
+    "problemId": "104308i.cpp",
+    "contestId": 104308,
+    "index": "i.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/104308/problem/i.cpp"
+  },
+  {
+    "file": "codeforces/gym/104308/i2.cpp",
+    "problemId": "104308i2.cpp",
+    "contestId": 104308,
+    "index": "i2.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/104308/problem/i2.cpp"
+  },
+  {
+    "file": "codeforces/gym/104308/j.cpp",
+    "problemId": "104308j.cpp",
+    "contestId": 104308,
+    "index": "j.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/104308/problem/j.cpp"
+  },
+  {
+    "file": "codeforces/gym/104308/sample.cpp",
+    "problemId": "104308sample.cpp",
+    "contestId": 104308,
+    "index": "sample.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/104308/problem/sample.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/A.cpp",
+    "problemId": "105168A.cpp",
+    "contestId": 105168,
+    "index": "A.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/A.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/C.cpp",
+    "problemId": "105168C.cpp",
+    "contestId": 105168,
+    "index": "C.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/C.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/D.cpp",
+    "problemId": "105168D.cpp",
+    "contestId": 105168,
+    "index": "D.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/D.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/D2.cpp",
+    "problemId": "105168D2.cpp",
+    "contestId": 105168,
+    "index": "D2.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/D2.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/F.cpp",
+    "problemId": "105168F.cpp",
+    "contestId": 105168,
+    "index": "F.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/F.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/G.cpp",
+    "problemId": "105168G.cpp",
+    "contestId": 105168,
+    "index": "G.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/G.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/G2.cpp",
+    "problemId": "105168G2.cpp",
+    "contestId": 105168,
+    "index": "G2.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/G2.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/I.cpp",
+    "problemId": "105168I.cpp",
+    "contestId": 105168,
+    "index": "I.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/I.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/J.cpp",
+    "problemId": "105168J.cpp",
+    "contestId": 105168,
+    "index": "J.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/J.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/K.cpp",
+    "problemId": "105168K.cpp",
+    "contestId": 105168,
+    "index": "K.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/K.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/L.cpp",
+    "problemId": "105168L.cpp",
+    "contestId": 105168,
+    "index": "L.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/L.cpp"
+  },
+  {
+    "file": "codeforces/gym/105168/sample.cpp",
+    "problemId": "105168sample.cpp",
+    "contestId": 105168,
+    "index": "sample.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105168/problem/sample.cpp"
+  },
+  {
+    "file": "codeforces/gym/105383/A.cpp",
+    "problemId": "105383A.cpp",
+    "contestId": 105383,
+    "index": "A.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105383/problem/A.cpp"
+  },
+  {
+    "file": "codeforces/gym/105383/C.cpp",
+    "problemId": "105383C.cpp",
+    "contestId": 105383,
+    "index": "C.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105383/problem/C.cpp"
+  },
+  {
+    "file": "codeforces/gym/105383/K.cpp",
+    "problemId": "105383K.cpp",
+    "contestId": 105383,
+    "index": "K.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105383/problem/K.cpp"
+  },
+  {
+    "file": "codeforces/gym/105383/template.cpp",
+    "problemId": "105383template.cpp",
+    "contestId": 105383,
+    "index": "template.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105383/problem/template.cpp"
+  },
+  {
+    "file": "codeforces/gym/105637/A.cpp",
+    "problemId": "105637A.cpp",
+    "contestId": 105637,
+    "index": "A.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105637/problem/A.cpp"
+  },
+  {
+    "file": "codeforces/gym/105637/B.cpp",
+    "problemId": "105637B.cpp",
+    "contestId": 105637,
+    "index": "B.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105637/problem/B.cpp"
+  },
+  {
+    "file": "codeforces/gym/105637/B3.cpp",
+    "problemId": "105637B3.cpp",
+    "contestId": 105637,
+    "index": "B3.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105637/problem/B3.cpp"
+  },
+  {
+    "file": "codeforces/gym/105637/E.cpp",
+    "problemId": "105637E.cpp",
+    "contestId": 105637,
+    "index": "E.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105637/problem/E.cpp"
+  },
+  {
+    "file": "codeforces/gym/105637/E2.cpp",
+    "problemId": "105637E2.cpp",
+    "contestId": 105637,
+    "index": "E2.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105637/problem/E2.cpp"
+  },
+  {
+    "file": "codeforces/gym/105637/H.cpp",
+    "problemId": "105637H.cpp",
+    "contestId": 105637,
+    "index": "H.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105637/problem/H.cpp"
+  },
+  {
+    "file": "codeforces/gym/105637/J.cpp",
+    "problemId": "105637J.cpp",
+    "contestId": 105637,
+    "index": "J.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105637/problem/J.cpp"
+  },
+  {
+    "file": "codeforces/gym/105637/sample.cpp",
+    "problemId": "105637sample.cpp",
+    "contestId": 105637,
+    "index": "sample.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/105637/problem/sample.cpp"
+  },
+  {
+    "file": "codeforces/gym/106059/C.cpp",
+    "problemId": "106059C.cpp",
+    "contestId": 106059,
+    "index": "C.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/106059/problem/C.cpp"
+  },
+  {
+    "file": "codeforces/gym/106059/D.cpp",
+    "problemId": "106059D.cpp",
+    "contestId": 106059,
+    "index": "D.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/106059/problem/D.cpp"
+  },
+  {
+    "file": "codeforces/gym/106059/E.cpp",
+    "problemId": "106059E.cpp",
+    "contestId": 106059,
+    "index": "E.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/106059/problem/E.cpp"
+  },
+  {
+    "file": "codeforces/gym/106059/L.cpp",
+    "problemId": "106059L.cpp",
+    "contestId": 106059,
+    "index": "L.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/106059/problem/L.cpp"
+  },
+  {
+    "file": "codeforces/gym/106059/template.cpp",
+    "problemId": "106059template.cpp",
+    "contestId": 106059,
+    "index": "template.cpp",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/106059/problem/template.cpp"
+  },
+  {
+    "file": "codeforces/gym/552550/A_Join_the_Team_Change_Your_Life.cpp",
+    "problemId": "552550A",
+    "contestId": 552550,
+    "index": "A",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/552550/problem/A"
+  },
+  {
+    "file": "codeforces/gym/552550/B_Right_Triangle.cpp",
+    "problemId": "552550B",
+    "contestId": 552550,
+    "index": "B",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/552550/problem/B"
+  },
+  {
+    "file": "codeforces/gym/552550/C_The_Quick_Brown_Fox_Jumps_Over_The_Lazy_Dog.cpp",
+    "problemId": "552550C",
+    "contestId": 552550,
+    "index": "C",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/552550/problem/C"
+  },
+  {
+    "file": "codeforces/gym/552550/D_Roller_Coaster.cpp",
+    "problemId": "552550D",
+    "contestId": 552550,
+    "index": "D",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/552550/problem/D"
+  },
+  {
+    "file": "codeforces/gym/552550/E_World_Conference.cpp",
+    "problemId": "552550E",
+    "contestId": 552550,
+    "index": "E",
+    "title": "Unknown",
+    "rating": null,
+    "tags": [],
+    "url": "https://codeforces.com/contest/552550/problem/E"
+  }
+]

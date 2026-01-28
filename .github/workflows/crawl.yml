@@ -1,0 +1,45 @@
+name: Crawl Problem Info
+
+on:
+  # Run daily at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'
+  # Manual trigger
+  workflow_dispatch:
+  # Also run on push to this branch
+  push:
+    branches:
+      - feature/problem-crawler
+    paths:
+      - 'scripts/crawlers/**'
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Run crawlers
+      run: node scripts/crawlers/index.js .
+
+    - name: Commit metadata
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        
+        # Check if there are changes
+        if git diff --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        
+        git add -A
+        git commit -m "🤖 Update problem metadata [$(date -u +%Y-%m-%d)]"
+        git push

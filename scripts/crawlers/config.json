@@ -1,0 +1,11 @@
+{
+  "handles": {
+    "atcoder": "chunchen",
+    "codeforces": "wuchunchen",
+    "cses": "lukewu",
+    "zerojudge": "chunchen",
+    "uva": ""
+  },
+  "headerStyle": "box",
+  "updateExisting": true
+}

@@ -1,16 +1,25 @@
 #!/usr/bin/env node
 /**
  * Codeforces Problem Crawler
- * Fetches problem info from Codeforces API
+ * Fetches problem info AND user submissions to inject headers into files
  */
 
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
+const CONFIG_PATH = path.join(__dirname, 'config.json');
+
+function loadConfig() {
+    if (fs.existsSync(CONFIG_PATH)) {
+        return JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf-8'));
+    }
+    return { handles: {} };
+}
+
 function fetch(url) {
     return new Promise((resolve, reject) => {
-        https.get(url, { headers: { 'User-Agent': 'cp-code-crawler' } }, (res) => {
+        https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; cp-code-crawler/1.0)' } }, (res) => {
             let data = '';
             res.on('data', chunk => data += chunk);
             res.on('end', () => {
@@ -28,6 +37,20 @@ async function fetchProblems() {
     return resp.result.problems;
 }
 
+async function fetchUserSubmissions(handle) {
+    if (!handle) return [];
+    console.log(`Fetching submissions for ${handle}...`);
+    try {
+        const resp = await fetch(`https://codeforces.com/api/user.status?handle=${handle}&from=1&count=10000`);
+        if (resp.status !== 'OK') return [];
+        // Filter to accepted only
+        return resp.result.filter(s => s.verdict === 'OK');
+    } catch (e) {
+        console.log(`  ⚠️ Could not fetch submissions: ${e.message}`);
+        return [];
+    }
+}
+
 function scanLocalProblems(baseDir) {
     const problems = [];
     const cfDir = path.join(baseDir, 'codeforces');
@@ -41,17 +64,16 @@ function scanLocalProblems(baseDir) {
             if (entry.isDirectory()) {
                 walk(fullPath);
             } else if (entry.name.endsWith('.cpp')) {
-                // Extract from path like "contest/2178/A_Yes_or_Yes.cpp"
                 const relPath = path.relative(cfDir, fullPath);
                 const parts = relPath.split(path.sep);
                 
                 if (parts.length >= 3) {
-                    const contestId = parts[1];
-                    const problemIndex = entry.name.split('_')[0]; // "A" from "A_Yes_or_Yes.cpp"
+                    const contestId = parseInt(parts[1]) || parts[1];
+                    const problemIndex = entry.name.split('_')[0];
                     
                     problems.push({
                         file: fullPath,
-                        contestId: parseInt(contestId) || contestId,
+                        contestId,
                         problemIndex,
                         problemId: `${contestId}${problemIndex}`,
                     });
@@ -63,29 +85,83 @@ function scanLocalProblems(baseDir) {
     return problems;
 }
 
+function generateHeader(info) {
+    const lines = [
+        '// ' + '='.repeat(50),
+        `// Problem   : ${info.contestId}${info.index} - ${info.title}`,
+    ];
+    
+    if (info.rating) {
+        lines.push(`// Rating    : ${info.rating}`);
+    }
+    if (info.tags && info.tags.length > 0) {
+        lines.push(`// Tags      : ${info.tags.join(', ')}`);
+    }
+    if (info.runtime !== undefined) {
+        lines.push(`// Runtime   : ${info.runtime} ms`);
+    }
+    if (info.memory !== undefined) {
+        lines.push(`// Memory    : ${Math.round(info.memory / 1024)} KB`);
+    }
+    
+    lines.push(`// URL       : ${info.url}`);
+    lines.push('// ' + '='.repeat(50));
+    
+    return lines.join('\n');
+}
+
+function updateFileHeader(filePath, header) {
+    let content = fs.readFileSync(filePath, 'utf-8');
+    
+    // Remove existing header if present (starts with // === and ends with // ===)
+    const headerPattern = /^\/\/ =+\n(\/\/ .+\n)+\/\/ =+\n*/;
+    content = content.replace(headerPattern, '');
+    
+    // Add new header
+    const newContent = header + '\n\n' + content.trimStart();
+    fs.writeFileSync(filePath, newContent);
+}
+
 async function main() {
     const baseDir = process.argv[2] || '.';
+    const config = loadConfig();
+    const handle = config.handles?.codeforces;
     
     // Fetch remote data
-    const problems = await fetchProblems();
+    const [problems, submissions] = await Promise.all([
+        fetchProblems(),
+        fetchUserSubmissions(handle),
+    ]);
 
-    // Create lookup map
+    // Create lookup maps
     const problemMap = {};
     for (const p of problems) {
-        const key = `${p.contestId}${p.index}`;
-        problemMap[key] = p;
+        problemMap[`${p.contestId}${p.index}`] = p;
     }
+    
+    // Submission map: best submission per problem
+    const submissionMap = {};
+    for (const s of submissions) {
+        const key = `${s.problem.contestId}${s.problem.index}`;
+        if (!submissionMap[key] || s.timeConsumedMillis < submissionMap[key].timeConsumedMillis) {
+            submissionMap[key] = s;
+        }
+    }
+    console.log(`Found ${Object.keys(submissionMap).length} accepted problems from submissions`);
 
     // Scan local problems
     const localProblems = scanLocalProblems(baseDir);
     console.log(`Found ${localProblems.length} local Codeforces solutions`);
 
-    // Generate metadata
+    // Update files
+    let updated = 0;
     const metadata = [];
+    
     for (const local of localProblems) {
         const remote = problemMap[local.problemId];
+        const submission = submissionMap[local.problemId];
         
-        metadata.push({
+        const info = {
             file: path.relative(baseDir, local.file),
             problemId: local.problemId,
             contestId: local.contestId,
@@ -93,8 +169,19 @@ async function main() {
             title: remote?.name || 'Unknown',
             rating: remote?.rating || null,
             tags: remote?.tags || [],
+            runtime: submission?.timeConsumedMillis,
+            memory: submission?.memoryConsumedBytes,
             url: `https://codeforces.com/contest/${local.contestId}/problem/${local.problemIndex}`,
-        });
+        };
+        
+        metadata.push(info);
+        
+        // Update file with header
+        if (config.updateExisting !== false) {
+            const header = generateHeader(info);
+            updateFileHeader(local.file, header);
+            updated++;
+        }
     }
 
     // Sort by rating
@@ -103,10 +190,9 @@ async function main() {
     // Save metadata
     const outPath = path.join(baseDir, 'codeforces', 'metadata.json');
     fs.writeFileSync(outPath, JSON.stringify(metadata, null, 2));
-    console.log(`Saved metadata to ${outPath}`);
-
-    // Print summary
-    console.log('\n📊 Codeforces Summary:');
+    
+    console.log(`\n📊 Codeforces Summary:`);
+    console.log(`  Files updated: ${updated}`);
     console.log(`  Total solutions: ${metadata.length}`);
     
     const withRating = metadata.filter(m => m.rating);
@@ -114,18 +200,6 @@ async function main() {
         const avgRating = withRating.reduce((s, m) => s + m.rating, 0) / withRating.length;
         console.log(`  Avg rating: ${Math.round(avgRating)}`);
         console.log(`  Hardest solved: ${withRating[withRating.length - 1].title} (${withRating[withRating.length - 1].rating})`);
-    }
-
-    // Tag distribution
-    const tagCounts = {};
-    for (const m of metadata) {
-        for (const tag of m.tags) {
-            tagCounts[tag] = (tagCounts[tag] || 0) + 1;
-        }
-    }
-    const topTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 5);
-    if (topTags.length > 0) {
-        console.log(`  Top tags: ${topTags.map(([t, c]) => `${t}(${c})`).join(', ')}`);
     }
 }
 

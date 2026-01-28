@@ -1,3 +1,11 @@
+// ==================================================
+// Problem   : 2184C - Huge Pile
+// Tags      : binary search, dfs and similar, dp, graphs, math
+// Runtime   : 46 ms
+// Memory    : 0 KB
+// URL       : https://codeforces.com/contest/2184/problem/C
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

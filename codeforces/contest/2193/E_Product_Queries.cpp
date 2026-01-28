@@ -1,3 +1,11 @@
+// ==================================================
+// Problem   : 2193E - Product Queries
+// Tags      : dp, math, number theory, shortest paths
+// Runtime   : 281 ms
+// Memory    : 20700 KB
+// URL       : https://codeforces.com/contest/2193/problem/E
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

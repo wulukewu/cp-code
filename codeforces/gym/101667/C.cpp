@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : 101667C.cpp - Unknown
+// URL       : https://codeforces.com/contest/101667/problem/C.cpp
+// ==================================================
+
 #include<bits/stdc++.h>
 using namespace std;
 

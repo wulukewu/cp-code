@@ -1,3 +1,11 @@
+// ==================================================
+// Problem   : 2184E - Exquisite Array
+// Tags      : combinatorics, data structures, dsu, sortings
+// Runtime   : 125 ms
+// Memory    : 4300 KB
+// URL       : https://codeforces.com/contest/2184/problem/E
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

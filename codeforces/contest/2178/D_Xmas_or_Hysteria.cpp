@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : 2178D - Xmas or Hysteria
+// Tags      : constructive algorithms, greedy, implementation, math
+// URL       : https://codeforces.com/contest/2178/problem/D
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : 105168sample.cpp - Unknown
+// URL       : https://codeforces.com/contest/105168/problem/sample.cpp
+// ==================================================
+
 #include<bits/stdc++.h>
 using namespace std;
 

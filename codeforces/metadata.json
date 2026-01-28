@@ -10,6 +10,8 @@
       "greedy",
       "strings"
     ],
+    "runtime": 46,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2178/problem/A"
   },
   {
@@ -25,6 +27,8 @@
       "implementation",
       "strings"
     ],
+    "runtime": 46,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2178/problem/B"
   },
   {
@@ -39,6 +43,8 @@
       "greedy",
       "implementation"
     ],
+    "runtime": 93,
+    "memory": 921600,
     "url": "https://codeforces.com/contest/2178/problem/C"
   },
   {
@@ -81,6 +87,8 @@
     "tags": [
       "brute force"
     ],
+    "runtime": 31,
+    "memory": 102400,
     "url": "https://codeforces.com/contest/2182/problem/B"
   },
   {
@@ -95,6 +103,8 @@
       "combinatorics",
       "dp"
     ],
+    "runtime": 421,
+    "memory": 102400,
     "url": "https://codeforces.com/contest/2182/problem/C"
   },
   {
@@ -110,6 +120,8 @@
       "greedy",
       "math"
     ],
+    "runtime": 78,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2182/problem/D"
   },
   {
@@ -138,6 +150,8 @@
     "tags": [
       "games"
     ],
+    "runtime": 31,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2183/problem/A"
   },
   {
@@ -151,6 +165,8 @@
       "constructive algorithms",
       "greedy"
     ],
+    "runtime": 78,
+    "memory": 102400,
     "url": "https://codeforces.com/contest/2183/problem/B"
   },
   {
@@ -166,6 +182,8 @@
       "math",
       "two pointers"
     ],
+    "runtime": 46,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2183/problem/C"
   },
   {
@@ -188,6 +206,8 @@
     "tags": [
       "math"
     ],
+    "runtime": 31,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2184/problem/A"
   },
   {
@@ -200,6 +220,8 @@
     "tags": [
       "math"
     ],
+    "runtime": 31,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2184/problem/B"
   },
   {
@@ -216,6 +238,8 @@
       "graphs",
       "math"
     ],
+    "runtime": 46,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2184/problem/C"
   },
   {
@@ -230,6 +254,8 @@
       "dp",
       "math"
     ],
+    "runtime": 250,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2184/problem/D"
   },
   {
@@ -245,6 +271,8 @@
       "dsu",
       "sortings"
     ],
+    "runtime": 125,
+    "memory": 4403200,
     "url": "https://codeforces.com/contest/2184/problem/E"
   },
   {
@@ -258,6 +286,8 @@
       "brute force",
       "math"
     ],
+    "runtime": 31,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2193/problem/A"
   },
   {
@@ -270,6 +300,8 @@
     "tags": [
       "greedy"
     ],
+    "runtime": 93,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2193/problem/B"
   },
   {
@@ -283,6 +315,8 @@
       "data structures",
       "greedy"
     ],
+    "runtime": 171,
+    "memory": 1024000,
     "url": "https://codeforces.com/contest/2193/problem/C"
   },
   {
@@ -297,6 +331,8 @@
       "sortings",
       "two pointers"
     ],
+    "runtime": 109,
+    "memory": 0,
     "url": "https://codeforces.com/contest/2193/problem/D"
   },
   {
@@ -312,6 +348,8 @@
       "number theory",
       "shortest paths"
     ],
+    "runtime": 281,
+    "memory": 21196800,
     "url": "https://codeforces.com/contest/2193/problem/E"
   },
   {

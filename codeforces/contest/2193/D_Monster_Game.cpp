@@ -1,3 +1,11 @@
+// ==================================================
+// Problem   : 2193D - Monster Game
+// Tags      : binary search, sortings, two pointers
+// Runtime   : 109 ms
+// Memory    : 0 KB
+// URL       : https://codeforces.com/contest/2193/problem/D
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

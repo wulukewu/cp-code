@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : 101667E.cpp - Unknown
+// URL       : https://codeforces.com/contest/101667/problem/E.cpp
+// ==================================================
+
 #include<bits/stdc++.h>
 using namespace std;
 #define FOR(i, a, b) for(int i = a; i < b; i++)

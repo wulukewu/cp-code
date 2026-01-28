@@ -1,3 +1,11 @@
+// ==================================================
+// Problem   : 2193C - Replace and Sum
+// Tags      : data structures, greedy
+// Runtime   : 171 ms
+// Memory    : 1000 KB
+// URL       : https://codeforces.com/contest/2193/problem/C
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : 105168G.cpp - Unknown
+// URL       : https://codeforces.com/contest/105168/problem/G.cpp
+// ==================================================
+
 #include<bits/stdc++.h>
 using namespace std;
 

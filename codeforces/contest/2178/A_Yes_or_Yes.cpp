@@ -1,3 +1,11 @@
+// ==================================================
+// Problem   : 2178A - Yes or Yes
+// Tags      : greedy, strings
+// Runtime   : 46 ms
+// Memory    : 0 KB
+// URL       : https://codeforces.com/contest/2178/problem/A
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

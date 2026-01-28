@@ -1,14 +1,22 @@
 #!/usr/bin/env node
 /**
  * AtCoder Problem Crawler
- * Fetches problem info (title, difficulty, tags) from AtCoder Problems API
+ * Fetches problem info AND user submissions to inject headers into files
  */
 
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
+const CONFIG_PATH = path.join(__dirname, 'config.json');
 const ATCODER_PROBLEMS_API = 'kenkoooo.com';
+
+function loadConfig() {
+    if (fs.existsSync(CONFIG_PATH)) {
+        return JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf-8'));
+    }
+    return { handles: {} };
+}
 
 function fetch(hostname, urlPath) {
     return new Promise((resolve, reject) => {
@@ -41,6 +49,20 @@ async function fetchDifficulties() {
     return await fetch(ATCODER_PROBLEMS_API, '/atcoder/resources/problem-models.json');
 }
 
+async function fetchUserSubmissions(handle) {
+    if (!handle) return [];
+    console.log(`Fetching submissions for ${handle}...`);
+    try {
+        // kenkoooo API for user submissions
+        const subs = await fetch(ATCODER_PROBLEMS_API, `/atcoder/atcoder-api/v3/user/submissions?user=${handle}&from_second=0`);
+        // Filter to accepted
+        return subs.filter(s => s.result === 'AC');
+    } catch (e) {
+        console.log(`  ⚠️ Could not fetch submissions: ${e.message}`);
+        return [];
+    }
+}
+
 function scanLocalProblems(baseDir) {
     const problems = [];
     const atcoderDir = path.join(baseDir, 'atcoder');
@@ -55,7 +77,7 @@ function scanLocalProblems(baseDir) {
                 walk(fullPath);
             } else if (entry.name.endsWith('.cpp')) {
                 // Extract problem ID from filename, e.g., "20250201 abc061c.cpp" -> "abc061_c"
-                const match = entry.name.match(/([a-z]+)(\d+)([a-z])\.cpp$/i);
+                const match = entry.name.match(/([a-z]+)(\d+)([a-z]\d?)\.cpp$/i);
                 if (match) {
                     const contest = match[1].toLowerCase() + match[2];
                     const problem = match[3].toLowerCase();
@@ -72,22 +94,59 @@ function scanLocalProblems(baseDir) {
     return problems;
 }
 
+function generateHeader(info) {
+    const lines = [
+        '// ' + '='.repeat(50),
+        `// Problem   : ${info.problemId.toUpperCase()} - ${info.title}`,
+    ];
+    
+    if (info.difficulty !== null && info.difficulty !== undefined) {
+        lines.push(`// Difficulty: ${info.difficulty}`);
+    }
+    if (info.runtime !== undefined) {
+        lines.push(`// Runtime   : ${info.runtime} ms`);
+    }
+    if (info.language) {
+        lines.push(`// Language  : ${info.language}`);
+    }
+    
+    lines.push(`// URL       : ${info.url}`);
+    lines.push('// ' + '='.repeat(50));
+    
+    return lines.join('\n');
+}
+
+function updateFileHeader(filePath, header) {
+    let content = fs.readFileSync(filePath, 'utf-8');
+    
+    // Remove existing header if present
+    const headerPattern = /^\/\/ =+\n(\/\/ .+\n)+\/\/ =+\n*/;
+    content = content.replace(headerPattern, '');
+    
+    // Add new header
+    const newContent = header + '\n\n' + content.trimStart();
+    fs.writeFileSync(filePath, newContent);
+}
+
 async function main() {
     const baseDir = process.argv[2] || '.';
+    const config = loadConfig();
+    const handle = config.handles?.atcoder;
     
     let problems = [];
     let difficulties = {};
+    let submissions = [];
 
-    // Try to fetch remote data (may fail in some environments)
+    // Try to fetch remote data
     try {
-        [problems, difficulties] = await Promise.all([
+        [problems, difficulties, submissions] = await Promise.all([
             fetchProblems(),
             fetchDifficulties(),
+            fetchUserSubmissions(handle),
         ]);
     } catch (e) {
         console.log(`⚠️  Could not fetch from AtCoder Problems API: ${e.message}`);
         console.log('   (This usually works on GitHub Actions, may fail locally due to Cloudflare)');
-        console.log('   Continuing with local scan only...\n');
     }
 
     // Create lookup maps
@@ -95,45 +154,69 @@ async function main() {
     for (const p of problems) {
         problemMap[p.id] = p;
     }
+    
+    // Submission map: best submission per problem
+    const submissionMap = {};
+    for (const s of submissions) {
+        const key = s.problem_id;
+        if (!submissionMap[key] || s.execution_time < submissionMap[key].execution_time) {
+            submissionMap[key] = s;
+        }
+    }
+    if (submissions.length > 0) {
+        console.log(`Found ${Object.keys(submissionMap).length} accepted problems from submissions`);
+    }
 
     // Scan local problems
     const localProblems = scanLocalProblems(baseDir);
     console.log(`Found ${localProblems.length} local AtCoder solutions`);
 
-    // Generate metadata
+    // Update files
+    let updated = 0;
     const metadata = [];
+
     for (const local of localProblems) {
         const remote = problemMap[local.problemId];
         const difficulty = difficulties[local.problemId];
+        const submission = submissionMap[local.problemId];
         
-        metadata.push({
+        const info = {
             file: path.relative(baseDir, local.file),
             problemId: local.problemId,
             contestId: local.contestId,
             title: remote?.title || 'Unknown',
-            difficulty: difficulty?.difficulty || null,
-            rating: difficulty?.difficulty ? Math.round(difficulty.difficulty) : null,
+            difficulty: difficulty?.difficulty ? Math.round(difficulty.difficulty) : null,
+            runtime: submission?.execution_time,
+            language: submission?.language,
             url: `https://atcoder.jp/contests/${local.contestId}/tasks/${local.problemId}`,
-        });
+        };
+        
+        metadata.push(info);
+        
+        // Update file with header
+        if (config.updateExisting !== false && (info.title !== 'Unknown' || submission)) {
+            const header = generateHeader(info);
+            updateFileHeader(local.file, header);
+            updated++;
+        }
     }
 
     // Sort by difficulty
-    metadata.sort((a, b) => (a.rating || 0) - (b.rating || 0));
+    metadata.sort((a, b) => (a.difficulty || 0) - (b.difficulty || 0));
 
     // Save metadata
     const outPath = path.join(baseDir, 'atcoder', 'metadata.json');
     fs.writeFileSync(outPath, JSON.stringify(metadata, null, 2));
-    console.log(`Saved metadata to ${outPath}`);
-
-    // Print summary
-    console.log('\n📊 AtCoder Summary:');
+    
+    console.log(`\n📊 AtCoder Summary:`);
+    console.log(`  Files updated: ${updated}`);
     console.log(`  Total solutions: ${metadata.length}`);
     
-    const withRating = metadata.filter(m => m.rating);
+    const withRating = metadata.filter(m => m.difficulty);
     if (withRating.length > 0) {
-        const avgRating = withRating.reduce((s, m) => s + m.rating, 0) / withRating.length;
+        const avgRating = withRating.reduce((s, m) => s + m.difficulty, 0) / withRating.length;
         console.log(`  Avg difficulty: ${Math.round(avgRating)}`);
-        console.log(`  Hardest solved: ${withRating[withRating.length - 1].title} (${withRating[withRating.length - 1].rating})`);
+        console.log(`  Hardest solved: ${withRating[withRating.length - 1].title} (${withRating[withRating.length - 1].difficulty})`);
     }
 }
 

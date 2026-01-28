@@ -1,3 +1,11 @@
+// ==================================================
+// Problem   : 2184D - Unfair Game
+// Tags      : combinatorics, dp, math
+// Runtime   : 250 ms
+// Memory    : 0 KB
+// URL       : https://codeforces.com/contest/2184/problem/D
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

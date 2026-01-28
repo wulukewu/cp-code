@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : 2182E - New Year's Gifts
+// Tags      : binary search, data structures, greedy, sortings, two pointers
+// URL       : https://codeforces.com/contest/2182/problem/E
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

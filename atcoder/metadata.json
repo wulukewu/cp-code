@@ -5,7 +5,6 @@
     "contestId": "abc061",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc061/tasks/abc061_c"
   },
   {
@@ -14,7 +13,6 @@
     "contestId": "abc073",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc073/tasks/abc073_a"
   },
   {
@@ -23,7 +21,6 @@
     "contestId": "abc073",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc073/tasks/abc073_b"
   },
   {
@@ -32,7 +29,6 @@
     "contestId": "abc073",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc073/tasks/abc073_c"
   },
   {
@@ -41,7 +37,6 @@
     "contestId": "abc083",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc083/tasks/abc083_d"
   },
   {
@@ -50,8 +45,15 @@
     "contestId": "abc089",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc089/tasks/abc089_d"
+  },
+  {
+    "file": "atcoder/abc/abc089/20250104 abc089d2.cpp",
+    "problemId": "abc089_d2",
+    "contestId": "abc089",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc089/tasks/abc089_d2"
   },
   {
     "file": "atcoder/abc/abc157/20250125 abc157d.cpp",
@@ -59,7 +61,6 @@
     "contestId": "abc157",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc157/tasks/abc157_d"
   },
   {
@@ -68,7 +69,6 @@
     "contestId": "abc172",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc172/tasks/abc172_e"
   },
   {
@@ -77,8 +77,15 @@
     "contestId": "abc309",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc309/tasks/abc309_e"
+  },
+  {
+    "file": "atcoder/abc/abc309/20250301 abc309e2.cpp",
+    "problemId": "abc309_e2",
+    "contestId": "abc309",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc309/tasks/abc309_e2"
   },
   {
     "file": "atcoder/abc/abc313/20250201 abc313a.cpp",
@@ -86,7 +93,6 @@
     "contestId": "abc313",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_a"
   },
   {
@@ -95,7 +101,6 @@
     "contestId": "abc313",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_b"
   },
   {
@@ -104,8 +109,31 @@
     "contestId": "abc313",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_c"
+  },
+  {
+    "file": "atcoder/abc/abc313/20250201 abc313d1.cpp",
+    "problemId": "abc313_d1",
+    "contestId": "abc313",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc313/tasks/abc313_d1"
+  },
+  {
+    "file": "atcoder/abc/abc313/20250201 abc313d2.cpp",
+    "problemId": "abc313_d2",
+    "contestId": "abc313",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc313/tasks/abc313_d2"
+  },
+  {
+    "file": "atcoder/abc/abc313/20250201 abc313d3.cpp",
+    "problemId": "abc313_d3",
+    "contestId": "abc313",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc313/tasks/abc313_d3"
   },
   {
     "file": "atcoder/abc/abc313/20250201 abc313e.cpp",
@@ -113,7 +141,6 @@
     "contestId": "abc313",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_e"
   },
   {
@@ -122,7 +149,6 @@
     "contestId": "abc321",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc321/tasks/abc321_a"
   },
   {
@@ -131,7 +157,6 @@
     "contestId": "abc328",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc328/tasks/abc328_d"
   },
   {
@@ -140,7 +165,6 @@
     "contestId": "abc330",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc330/tasks/abc330_d"
   },
   {
@@ -149,7 +173,6 @@
     "contestId": "abc360",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc360/tasks/abc360_a"
   },
   {
@@ -158,7 +181,6 @@
     "contestId": "abc360",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc360/tasks/abc360_b"
   },
   {
@@ -167,7 +189,6 @@
     "contestId": "abc360",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc360/tasks/abc360_c"
   },
   {
@@ -176,7 +197,6 @@
     "contestId": "abc360",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc360/tasks/abc360_b"
   },
   {
@@ -185,7 +205,6 @@
     "contestId": "abc362",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc362/tasks/abc362_a"
   },
   {
@@ -194,7 +213,6 @@
     "contestId": "abc362",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc362/tasks/abc362_b"
   },
   {
@@ -203,7 +221,6 @@
     "contestId": "abc364",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc364/tasks/abc364_a"
   },
   {
@@ -212,7 +229,6 @@
     "contestId": "abc364",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc364/tasks/abc364_b"
   },
   {
@@ -221,8 +237,15 @@
     "contestId": "abc364",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc364/tasks/abc364_c"
+  },
+  {
+    "file": "atcoder/abc/abc364/20240727 abc364c2.cpp",
+    "problemId": "abc364_c2",
+    "contestId": "abc364",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc364/tasks/abc364_c2"
   },
   {
     "file": "atcoder/abc/abc365/20240803 abc365a.cpp",
@@ -230,7 +253,6 @@
     "contestId": "abc365",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc365/tasks/abc365_a"
   },
   {
@@ -239,7 +261,6 @@
     "contestId": "abc365",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc365/tasks/abc365_b"
   },
   {
@@ -248,8 +269,15 @@
     "contestId": "abc365",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc365/tasks/abc365_c"
+  },
+  {
+    "file": "atcoder/abc/abc365/20240803 abc365c2.cpp",
+    "problemId": "abc365_c2",
+    "contestId": "abc365",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc365/tasks/abc365_c2"
   },
   {
     "file": "atcoder/abc/abc366/20240810 abc366a.cpp",
@@ -257,7 +285,6 @@
     "contestId": "abc366",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc366/tasks/abc366_a"
   },
   {
@@ -266,7 +293,6 @@
     "contestId": "abc366",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc366/tasks/abc366_b"
   },
   {
@@ -275,7 +301,6 @@
     "contestId": "abc366",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc366/tasks/abc366_c"
   },
   {
@@ -284,7 +309,6 @@
     "contestId": "abc366",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc366/tasks/abc366_d"
   },
   {
@@ -293,7 +317,6 @@
     "contestId": "abc367",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc367/tasks/abc367_a"
   },
   {
@@ -302,7 +325,6 @@
     "contestId": "abc368",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_a"
   },
   {
@@ -311,7 +333,6 @@
     "contestId": "abc368",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_b"
   },
   {
@@ -320,7 +341,6 @@
     "contestId": "abc368",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_c"
   },
   {
@@ -329,8 +349,31 @@
     "contestId": "abc368",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_d"
+  },
+  {
+    "file": "atcoder/abc/abc368/20240824 abc368d2.cpp",
+    "problemId": "abc368_d2",
+    "contestId": "abc368",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc368/tasks/abc368_d2"
+  },
+  {
+    "file": "atcoder/abc/abc369/20240928 abc369c1.cpp",
+    "problemId": "abc369_c1",
+    "contestId": "abc369",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc369/tasks/abc369_c1"
+  },
+  {
+    "file": "atcoder/abc/abc369/20240928 abc369c2.cpp",
+    "problemId": "abc369_c2",
+    "contestId": "abc369",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc369/tasks/abc369_c2"
   },
   {
     "file": "atcoder/abc/abc370/20240907 abc370a.cpp",
@@ -338,7 +381,6 @@
     "contestId": "abc370",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc370/tasks/abc370_a"
   },
   {
@@ -347,7 +389,6 @@
     "contestId": "abc370",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc370/tasks/abc370_b"
   },
   {
@@ -356,7 +397,6 @@
     "contestId": "abc370",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc370/tasks/abc370_c"
   },
   {
@@ -365,7 +405,6 @@
     "contestId": "abc370",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc370/tasks/abc370_d"
   },
   {
@@ -374,7 +413,6 @@
     "contestId": "abc372",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc372/tasks/abc372_a"
   },
   {
@@ -383,7 +421,6 @@
     "contestId": "abc372",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc372/tasks/abc372_b"
   },
   {
@@ -392,7 +429,6 @@
     "contestId": "abc372",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc372/tasks/abc372_c"
   },
   {
@@ -401,7 +437,6 @@
     "contestId": "abc372",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc372/tasks/abc372_d"
   },
   {
@@ -410,7 +445,6 @@
     "contestId": "abc373",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc373/tasks/abc373_a"
   },
   {
@@ -419,7 +453,6 @@
     "contestId": "abc373",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc373/tasks/abc373_b"
   },
   {
@@ -428,7 +461,6 @@
     "contestId": "abc373",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc373/tasks/abc373_c"
   },
   {
@@ -437,7 +469,6 @@
     "contestId": "abc373",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc373/tasks/abc373_d"
   },
   {
@@ -446,7 +477,6 @@
     "contestId": "abc374",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc374/tasks/abc374_a"
   },
   {
@@ -455,7 +485,6 @@
     "contestId": "abc374",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc374/tasks/abc374_b"
   },
   {
@@ -464,7 +493,6 @@
     "contestId": "abc374",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc374/tasks/abc374_c"
   },
   {
@@ -473,7 +501,6 @@
     "contestId": "abc374",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc374/tasks/abc374_d"
   },
   {
@@ -482,7 +509,6 @@
     "contestId": "abc375",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc375/tasks/abc375_a"
   },
   {
@@ -491,7 +517,6 @@
     "contestId": "abc375",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc375/tasks/abc375_b"
   },
   {
@@ -500,8 +525,15 @@
     "contestId": "abc375",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc375/tasks/abc375_c"
+  },
+  {
+    "file": "atcoder/abc/abc375/20241012 abc375c2.cpp",
+    "problemId": "abc375_c2",
+    "contestId": "abc375",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc375/tasks/abc375_c2"
   },
   {
     "file": "atcoder/abc/abc375/20241012 abc375d.cpp",
@@ -509,7 +541,6 @@
     "contestId": "abc375",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc375/tasks/abc375_d"
   },
   {
@@ -518,8 +549,15 @@
     "contestId": "abc376",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc376/tasks/abc376_c"
+  },
+  {
+    "file": "atcoder/abc/abc376/20241026 abc376c2.cpp",
+    "problemId": "abc376_c2",
+    "contestId": "abc376",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc376/tasks/abc376_c2"
   },
   {
     "file": "atcoder/abc/abc376/20241102 abc376a.cpp",
@@ -527,7 +565,6 @@
     "contestId": "abc376",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc376/tasks/abc376_a"
   },
   {
@@ -536,7 +573,6 @@
     "contestId": "abc376",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc376/tasks/abc376_b"
   },
   {
@@ -545,7 +581,6 @@
     "contestId": "abc377",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc377/tasks/abc377_a"
   },
   {
@@ -554,7 +589,6 @@
     "contestId": "abc377",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc377/tasks/abc377_b"
   },
   {
@@ -563,7 +597,6 @@
     "contestId": "abc377",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc377/tasks/abc377_c"
   },
   {
@@ -572,7 +605,6 @@
     "contestId": "abc377",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc377/tasks/abc377_d"
   },
   {
@@ -581,7 +613,6 @@
     "contestId": "abc378",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_a"
   },
   {
@@ -590,7 +621,6 @@
     "contestId": "abc378",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_b"
   },
   {
@@ -599,8 +629,23 @@
     "contestId": "abc378",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_c"
+  },
+  {
+    "file": "atcoder/abc/abc378/20241102 abc378c2.cpp",
+    "problemId": "abc378_c2",
+    "contestId": "abc378",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc378/tasks/abc378_c2"
+  },
+  {
+    "file": "atcoder/abc/abc378/20241102 abc378c3.cpp",
+    "problemId": "abc378_c3",
+    "contestId": "abc378",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc378/tasks/abc378_c3"
   },
   {
     "file": "atcoder/abc/abc379/20241109 abc379a.cpp",
@@ -608,7 +653,6 @@
     "contestId": "abc379",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc379/tasks/abc379_a"
   },
   {
@@ -617,7 +661,6 @@
     "contestId": "abc379",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc379/tasks/abc379_b"
   },
   {
@@ -626,8 +669,15 @@
     "contestId": "abc379",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc379/tasks/abc379_c"
+  },
+  {
+    "file": "atcoder/abc/abc379/20241109 abc379c2.cpp",
+    "problemId": "abc379_c2",
+    "contestId": "abc379",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc379/tasks/abc379_c2"
   },
   {
     "file": "atcoder/abc/abc380/20241116 abc380a.cpp",
@@ -635,7 +685,6 @@
     "contestId": "abc380",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc380/tasks/abc380_a"
   },
   {
@@ -644,7 +693,6 @@
     "contestId": "abc380",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc380/tasks/abc380_b"
   },
   {
@@ -653,8 +701,15 @@
     "contestId": "abc380",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc380/tasks/abc380_c"
+  },
+  {
+    "file": "atcoder/abc/abc380/20241116 abc380c2.cpp",
+    "problemId": "abc380_c2",
+    "contestId": "abc380",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc380/tasks/abc380_c2"
   },
   {
     "file": "atcoder/abc/abc380/20241116 abc380d.cpp",
@@ -662,7 +717,6 @@
     "contestId": "abc380",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc380/tasks/abc380_d"
   },
   {
@@ -671,7 +725,6 @@
     "contestId": "abc382",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc382/tasks/abc382_a"
   },
   {
@@ -680,7 +733,6 @@
     "contestId": "abc382",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc382/tasks/abc382_b"
   },
   {
@@ -689,7 +741,6 @@
     "contestId": "abc382",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc382/tasks/abc382_c"
   },
   {
@@ -698,7 +749,6 @@
     "contestId": "abc382",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc382/tasks/abc382_d"
   },
   {
@@ -707,7 +757,6 @@
     "contestId": "abc383",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc383/tasks/abc383_a"
   },
   {
@@ -716,7 +765,6 @@
     "contestId": "abc383",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc383/tasks/abc383_b"
   },
   {
@@ -725,8 +773,31 @@
     "contestId": "abc383",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c"
+  },
+  {
+    "file": "atcoder/abc/abc383/20241207 abc383c2.cpp",
+    "problemId": "abc383_c2",
+    "contestId": "abc383",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c2"
+  },
+  {
+    "file": "atcoder/abc/abc383/20241207 abc383c3.cpp",
+    "problemId": "abc383_c3",
+    "contestId": "abc383",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c3"
+  },
+  {
+    "file": "atcoder/abc/abc383/20241207 abc383c4.cpp",
+    "problemId": "abc383_c4",
+    "contestId": "abc383",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c4"
   },
   {
     "file": "atcoder/abc/abc384/20241214 abc384a.cpp",
@@ -734,7 +805,6 @@
     "contestId": "abc384",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc384/tasks/abc384_a"
   },
   {
@@ -743,7 +813,6 @@
     "contestId": "abc384",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc384/tasks/abc384_b"
   },
   {
@@ -752,7 +821,6 @@
     "contestId": "abc384",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc384/tasks/abc384_c"
   },
   {
@@ -761,7 +829,6 @@
     "contestId": "abc384",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc384/tasks/abc384_d"
   },
   {
@@ -770,7 +837,6 @@
     "contestId": "abc386",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_a"
   },
   {
@@ -779,7 +845,6 @@
     "contestId": "abc386",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_b"
   },
   {
@@ -788,7 +853,6 @@
     "contestId": "abc386",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_c"
   },
   {
@@ -797,7 +861,6 @@
     "contestId": "abc386",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_d"
   },
   {
@@ -806,7 +869,6 @@
     "contestId": "abc386",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_f"
   },
   {
@@ -815,7 +877,6 @@
     "contestId": "abc387",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_a"
   },
   {
@@ -824,7 +885,6 @@
     "contestId": "abc387",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_b"
   },
   {
@@ -833,8 +893,15 @@
     "contestId": "abc387",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_c"
+  },
+  {
+    "file": "atcoder/abc/abc387/20250104 abc387c2.cpp",
+    "problemId": "abc387_c2",
+    "contestId": "abc387",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc387/tasks/abc387_c2"
   },
   {
     "file": "atcoder/abc/abc387/20250104 abc387d.cpp",
@@ -842,7 +909,6 @@
     "contestId": "abc387",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_d"
   },
   {
@@ -851,7 +917,6 @@
     "contestId": "abc388",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc388/tasks/abc388_a"
   },
   {
@@ -860,7 +925,6 @@
     "contestId": "abc388",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc388/tasks/abc388_b"
   },
   {
@@ -869,8 +933,15 @@
     "contestId": "abc388",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc388/tasks/abc388_c"
+  },
+  {
+    "file": "atcoder/abc/abc388/20250111 abc388c2.cpp",
+    "problemId": "abc388_c2",
+    "contestId": "abc388",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc388/tasks/abc388_c2"
   },
   {
     "file": "atcoder/abc/abc389/20250118 abc389a.cpp",
@@ -878,7 +949,6 @@
     "contestId": "abc389",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_a"
   },
   {
@@ -887,7 +957,6 @@
     "contestId": "abc389",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_b"
   },
   {
@@ -896,7 +965,6 @@
     "contestId": "abc389",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_c"
   },
   {
@@ -905,7 +973,6 @@
     "contestId": "abc389",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_d"
   },
   {
@@ -914,7 +981,6 @@
     "contestId": "abc389",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_f"
   },
   {
@@ -923,7 +989,6 @@
     "contestId": "abc390",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc390/tasks/abc390_a"
   },
   {
@@ -932,7 +997,6 @@
     "contestId": "abc390",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc390/tasks/abc390_b"
   },
   {
@@ -941,7 +1005,6 @@
     "contestId": "abc390",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc390/tasks/abc390_c"
   },
   {
@@ -950,7 +1013,6 @@
     "contestId": "abc390",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc390/tasks/abc390_d"
   },
   {
@@ -959,7 +1021,6 @@
     "contestId": "abc391",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc391/tasks/abc391_e"
   },
   {
@@ -968,7 +1029,6 @@
     "contestId": "abc391",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc391/tasks/abc391_f"
   },
   {
@@ -977,7 +1037,6 @@
     "contestId": "abc392",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_a"
   },
   {
@@ -986,7 +1045,6 @@
     "contestId": "abc392",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_b"
   },
   {
@@ -995,7 +1053,6 @@
     "contestId": "abc392",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_c"
   },
   {
@@ -1004,8 +1061,15 @@
     "contestId": "abc392",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_d"
+  },
+  {
+    "file": "atcoder/abc/abc392/20250208 abc392d2.cpp",
+    "problemId": "abc392_d2",
+    "contestId": "abc392",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc392/tasks/abc392_d2"
   },
   {
     "file": "atcoder/abc/abc392/20250208 abc392e.cpp",
@@ -1013,7 +1077,6 @@
     "contestId": "abc392",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_e"
   },
   {
@@ -1022,7 +1085,6 @@
     "contestId": "abc393",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc393/tasks/abc393_a"
   },
   {
@@ -1031,7 +1093,6 @@
     "contestId": "abc393",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc393/tasks/abc393_b"
   },
   {
@@ -1040,7 +1101,6 @@
     "contestId": "abc393",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc393/tasks/abc393_c"
   },
   {
@@ -1049,7 +1109,6 @@
     "contestId": "abc393",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc393/tasks/abc393_d"
   },
   {
@@ -1058,7 +1117,6 @@
     "contestId": "abc394",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_a"
   },
   {
@@ -1067,7 +1125,6 @@
     "contestId": "abc394",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_b"
   },
   {
@@ -1076,7 +1133,6 @@
     "contestId": "abc394",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_c"
   },
   {
@@ -1085,7 +1141,6 @@
     "contestId": "abc394",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_d"
   },
   {
@@ -1094,7 +1149,6 @@
     "contestId": "abc394",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_f"
   },
   {
@@ -1103,7 +1157,6 @@
     "contestId": "abc395",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc395/tasks/abc395_a"
   },
   {
@@ -1112,7 +1165,6 @@
     "contestId": "abc395",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc395/tasks/abc395_b"
   },
   {
@@ -1121,7 +1173,6 @@
     "contestId": "abc395",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc395/tasks/abc395_c"
   },
   {
@@ -1130,8 +1181,15 @@
     "contestId": "abc395",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc395/tasks/abc395_d"
+  },
+  {
+    "file": "atcoder/abc/abc395/20250301 abc395d2.cpp",
+    "problemId": "abc395_d2",
+    "contestId": "abc395",
+    "title": "Unknown",
+    "difficulty": null,
+    "url": "https://atcoder.jp/contests/abc395/tasks/abc395_d2"
   },
   {
     "file": "atcoder/abc/abc396/20250315 abc396a.cpp",
@@ -1139,7 +1197,6 @@
     "contestId": "abc396",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc396/tasks/abc396_a"
   },
   {
@@ -1148,7 +1205,6 @@
     "contestId": "abc396",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc396/tasks/abc396_b"
   },
   {
@@ -1157,7 +1213,6 @@
     "contestId": "abc396",
     "title": "Unknown",
     "difficulty": null,
-    "rating": null,
     "url": "https://atcoder.jp/contests/abc396/tasks/abc396_c"
   }
 ]

@@ -9,7 +9,6 @@ const path = require('path');
 const https = require('https');
 
 const CONFIG_PATH = path.join(__dirname, 'config.json');
-const ATCODER_PROBLEMS_API = 'kenkoooo.com';
 
 function loadConfig() {
     if (fs.existsSync(CONFIG_PATH)) {
@@ -18,44 +17,63 @@ function loadConfig() {
     return { handles: {} };
 }
 
-function fetch(hostname, urlPath) {
+function fetchWithRetry(url, retries = 3) {
     return new Promise((resolve, reject) => {
+        const urlObj = new URL(url);
         const options = {
-            hostname,
-            path: urlPath,
+            hostname: urlObj.hostname,
+            path: urlObj.pathname + urlObj.search,
             headers: {
-                'User-Agent': 'Mozilla/5.0 (compatible; cp-code-crawler/1.0)',
-                'Accept': 'application/json',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Accept': 'application/json, text/plain, */*',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Cache-Control': 'no-cache',
             },
         };
-        https.get(options, (res) => {
-            let data = '';
-            res.on('data', chunk => data += chunk);
-            res.on('end', () => {
-                if (res.statusCode >= 400) reject(new Error(`HTTP ${res.statusCode}`));
-                else resolve(JSON.parse(data));
+        
+        const attempt = (n) => {
+            https.get(options, (res) => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => {
+                    if (res.statusCode >= 400) {
+                        if (n > 1) {
+                            console.log(`  Retry ${retries - n + 1}/${retries - 1}...`);
+                            setTimeout(() => attempt(n - 1), 1000);
+                        } else {
+                            reject(new Error(`HTTP ${res.statusCode}`));
+                        }
+                    } else {
+                        resolve(JSON.parse(data));
+                    }
+                });
+            }).on('error', (e) => {
+                if (n > 1) {
+                    setTimeout(() => attempt(n - 1), 1000);
+                } else {
+                    reject(e);
+                }
             });
-        }).on('error', reject);
+        };
+        attempt(retries);
     });
 }
 
 async function fetchProblems() {
-    console.log('Fetching AtCoder problems...');
-    return await fetch(ATCODER_PROBLEMS_API, '/atcoder/resources/problems.json');
+    console.log('Fetching AtCoder problems from kenkoooo...');
+    return await fetchWithRetry('https://kenkoooo.com/atcoder/resources/problems.json');
 }
 
 async function fetchDifficulties() {
     console.log('Fetching difficulty ratings...');
-    return await fetch(ATCODER_PROBLEMS_API, '/atcoder/resources/problem-models.json');
+    return await fetchWithRetry('https://kenkoooo.com/atcoder/resources/problem-models.json');
 }
 
 async function fetchUserSubmissions(handle) {
     if (!handle) return [];
     console.log(`Fetching submissions for ${handle}...`);
     try {
-        // kenkoooo API for user submissions
-        const subs = await fetch(ATCODER_PROBLEMS_API, `/atcoder/atcoder-api/v3/user/submissions?user=${handle}&from_second=0`);
-        // Filter to accepted
+        const subs = await fetchWithRetry(`https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user=${handle}&from_second=0`);
         return subs.filter(s => s.result === 'AC');
     } catch (e) {
         console.log(`  ⚠️ Could not fetch submissions: ${e.message}`);
@@ -76,8 +94,9 @@ function scanLocalProblems(baseDir) {
             if (entry.isDirectory()) {
                 walk(fullPath);
             } else if (entry.name.endsWith('.cpp')) {
-                // Extract problem ID from filename, e.g., "20250201 abc061c.cpp" -> "abc061_c"
-                const match = entry.name.match(/([a-z]+)(\d+)([a-z]\d?)\.cpp$/i);
+                // Extract problem ID from filename
+                // Patterns: "20250201 abc061c.cpp", "abc061c.cpp", "abc061_c.cpp"
+                const match = entry.name.match(/([a-z]+)(\d+)[_]?([a-z])(?:\d)?\.cpp$/i);
                 if (match) {
                     const contest = match[1].toLowerCase() + match[2];
                     const problem = match[3].toLowerCase();
@@ -136,17 +155,17 @@ async function main() {
     let problems = [];
     let difficulties = {};
     let submissions = [];
+    let apiSuccess = false;
 
     // Try to fetch remote data
     try {
-        [problems, difficulties, submissions] = await Promise.all([
-            fetchProblems(),
-            fetchDifficulties(),
-            fetchUserSubmissions(handle),
-        ]);
+        problems = await fetchProblems();
+        difficulties = await fetchDifficulties();
+        submissions = await fetchUserSubmissions(handle);
+        apiSuccess = true;
     } catch (e) {
         console.log(`⚠️  Could not fetch from AtCoder Problems API: ${e.message}`);
-        console.log('   (This usually works on GitHub Actions, may fail locally due to Cloudflare)');
+        console.log('   Will still update files with available info (URL only)');
     }
 
     // Create lookup maps
@@ -193,8 +212,9 @@ async function main() {
         
         metadata.push(info);
         
-        // Update file with header
-        if (config.updateExisting !== false && (info.title !== 'Unknown' || submission)) {
+        // Update file with header if we have ANY useful info
+        // Always update if API succeeded, or if we have submission data
+        if (config.updateExisting !== false && (apiSuccess || submission || info.title !== 'Unknown')) {
             const header = generateHeader(info);
             updateFileHeader(local.file, header);
             updated++;
@@ -211,6 +231,7 @@ async function main() {
     console.log(`\n📊 AtCoder Summary:`);
     console.log(`  Files updated: ${updated}`);
     console.log(`  Total solutions: ${metadata.length}`);
+    console.log(`  API success: ${apiSuccess ? 'Yes' : 'No (will retry on next run)'}`);
     
     const withRating = metadata.filter(m => m.difficulty);
     if (withRating.length > 0) {
@@ -218,6 +239,14 @@ async function main() {
         console.log(`  Avg difficulty: ${Math.round(avgRating)}`);
         console.log(`  Hardest solved: ${withRating[withRating.length - 1].title} (${withRating[withRating.length - 1].difficulty})`);
     }
+    
+    // Exit with error if API failed so GitHub Actions knows to retry
+    if (!apiSuccess && problems.length === 0) {
+        process.exit(1);
+    }
 }
 
-main().catch(console.error);
+main().catch(e => {
+    console.error(e);
+    process.exit(1);
+});

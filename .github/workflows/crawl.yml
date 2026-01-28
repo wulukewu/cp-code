@@ -26,20 +26,49 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Run crawlers
-      run: node scripts/crawlers/index.js .
+    - name: Run AtCoder crawler
+      run: node scripts/crawlers/atcoder.js .
+      continue-on-error: true
+
+    - name: Run Codeforces crawler  
+      run: node scripts/crawlers/codeforces.js .
+
+    - name: Run master script (for stats.json)
+      run: |
+        # Generate combined stats without re-running crawlers
+        node -e "
+        const fs = require('fs');
+        const stats = { generatedAt: new Date().toISOString(), sites: {} };
+        const sites = ['atcoder', 'codeforces', 'cses', 'zerojudge', 'luogu'];
+        for (const site of sites) {
+          const metaPath = './' + site + '/metadata.json';
+          if (fs.existsSync(metaPath)) {
+            const meta = JSON.parse(fs.readFileSync(metaPath, 'utf-8'));
+            stats.sites[site] = {
+              count: meta.length,
+              withRating: meta.filter(m => m.rating || m.difficulty).length,
+            };
+          }
+        }
+        fs.writeFileSync('./stats.json', JSON.stringify(stats, null, 2));
+        console.log('Stats:', stats);
+        "
+
+    - name: Check for changes
+      id: check
+      run: |
+        if git diff --quiet; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --stat
+        fi
 
     - name: Commit metadata
+      if: steps.check.outputs.changed == 'true'
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        
-        # Check if there are changes
-        if git diff --quiet; then
-          echo "No changes to commit"
-          exit 0
-        fi
-        
         git add -A
         git commit -m "🤖 Update problem metadata [$(date -u +%Y-%m-%d)]"
         git push

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC420_C - Sum of Min Query
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc420/tasks/abc420_c
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

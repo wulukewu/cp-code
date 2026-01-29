@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC419_B - Get Min
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc419/tasks/abc419_b
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

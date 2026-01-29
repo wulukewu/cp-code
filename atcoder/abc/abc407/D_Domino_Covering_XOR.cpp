@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC407_D - Domino Covering XOR
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc407/tasks/abc407_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

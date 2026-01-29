@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC397_D - Cubes
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc397/tasks/abc397_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC436_B - Magic Square
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc436/tasks/abc436_b
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

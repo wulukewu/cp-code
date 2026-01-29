@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC442_E - Laser Takahashi
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc442/tasks/abc442_e
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

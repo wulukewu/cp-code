@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC402_B - Restaurant Queue
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc402/tasks/abc402_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

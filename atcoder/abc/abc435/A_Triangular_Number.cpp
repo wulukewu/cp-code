@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC435_A - Triangular Number
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc435/tasks/abc435_a
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

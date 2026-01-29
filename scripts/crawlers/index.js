@@ -10,9 +10,9 @@ const fs = require('fs');
 const CRAWLERS = [
     { name: 'AtCoder', script: 'atcoder.js' },
     { name: 'Codeforces', script: 'codeforces.js' },
-    // Add more crawlers here as needed:
-    // { name: 'CSES', script: 'cses.js' },
-    // { name: 'ZeroJudge', script: 'zerojudge.js' },
+    { name: 'ZeroJudge', script: 'zerojudge.js' },
+    { name: 'CSES', script: 'cses.js' },
+    { name: 'CPE', script: 'cpe.js' },
 ];
 
 const baseDir = process.argv[2] || path.join(__dirname, '..', '..');
@@ -60,7 +60,7 @@ const stats = {
     sites: {},
 };
 
-const sites = ['atcoder', 'codeforces', 'cses', 'zerojudge', 'luogu'];
+const sites = ['atcoder', 'codeforces', 'cses', 'zerojudge', 'cpe', 'luogu'];
 for (const site of sites) {
     const metaPath = path.join(baseDir, site, 'metadata.json');
     if (fs.existsSync(metaPath)) {

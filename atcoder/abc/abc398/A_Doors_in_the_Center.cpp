@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC398_A - Doors in the Center
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc398/tasks/abc398_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

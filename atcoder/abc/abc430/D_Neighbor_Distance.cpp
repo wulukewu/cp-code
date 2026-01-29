@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC430_D - Neighbor Distance
+// Limits    : 4 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc430/tasks/abc430_d
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

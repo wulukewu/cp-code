@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC401_A - Status Code
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc401/tasks/abc401_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

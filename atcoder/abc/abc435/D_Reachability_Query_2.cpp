@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC435_D - Reachability Query 2
+// Limits    : 3 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc435/tasks/abc435_d
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

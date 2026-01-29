@@ -1,8 +1,6 @@
 // ==================================================
 // Problem   : 2184B - Hourglass
 // Tags      : math
-// Runtime   : 31 ms
-// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2184/problem/B
 // ==================================================
 

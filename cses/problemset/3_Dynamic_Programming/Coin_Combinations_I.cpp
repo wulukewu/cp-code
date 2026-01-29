@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CSES - Coin Combinations I
+// URL       : https://cses.fi/problemset/task/1635
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

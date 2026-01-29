@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CSES - Minimizing Coins
+// URL       : https://cses.fi/problemset/task/1634
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

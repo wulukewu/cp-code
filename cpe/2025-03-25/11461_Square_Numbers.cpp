@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CPE 11461 - Square Numbers
+// URL       : https://onlinejudge.org/external/114/11461.pdf
+// ==================================================
+
 #include <iostream>
 #include <cmath>
 

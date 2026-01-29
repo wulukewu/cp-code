@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC409_C - Equilateral Triangle
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc409/tasks/abc409_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

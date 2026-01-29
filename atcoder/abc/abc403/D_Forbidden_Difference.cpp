@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC403_D - Forbidden Difference
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc403/tasks/abc403_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

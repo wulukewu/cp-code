@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC417_D - Takahashi&#39;s Expectation
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc417/tasks/abc417_d
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

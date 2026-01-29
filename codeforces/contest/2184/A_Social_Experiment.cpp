@@ -1,8 +1,6 @@
 // ==================================================
 // Problem   : 2184A - Social Experiment
 // Tags      : math
-// Runtime   : 31 ms
-// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2184/problem/A
 // ==================================================
 

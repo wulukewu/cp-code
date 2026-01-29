@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC439_B - Happy Number
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc439/tasks/abc439_b
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

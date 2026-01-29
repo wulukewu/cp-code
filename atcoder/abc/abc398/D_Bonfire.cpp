@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC398_D - Bonfire
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc398/tasks/abc398_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC426_B - The Odd One Out
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc426/tasks/abc426_b
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

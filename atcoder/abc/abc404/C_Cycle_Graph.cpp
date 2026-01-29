@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC404_C - Cycle Graph?
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc404/tasks/abc404_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

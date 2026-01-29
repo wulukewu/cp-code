@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC429_C - Odd One Subsequence
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc429/tasks/abc429_c
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

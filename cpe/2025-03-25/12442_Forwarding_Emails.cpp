@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CPE 12442 - Forwarding Emails
+// URL       : https://onlinejudge.org/external/124/12442.pdf
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <map>

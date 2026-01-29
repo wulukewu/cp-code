@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CPE 382 - Perfection
+// URL       : https://onlinejudge.org/external/3/382.pdf
+// ==================================================
+
 #include <iostream>
 
 using namespace std;

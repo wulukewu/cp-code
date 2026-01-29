@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC397_C - Variety Split Easy
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc397/tasks/abc397_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

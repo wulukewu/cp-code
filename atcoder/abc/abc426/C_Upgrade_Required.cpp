@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC426_C - Upgrade Required
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc426/tasks/abc426_c
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

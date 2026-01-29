@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ZeroJudge B116 - TOI2008 3. 加減問題
+// URL       : https://zerojudge.tw/ShowProblem?problemid=b116
+// ==================================================
+
 #include <iostream>
 #include <vector>
 

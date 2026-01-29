@@ -1,0 +1,67 @@
+[
+  {
+    "file": "cses/problemset/1_Introductory_Problems/Permutations.cpp",
+    "title": "Permutations",
+    "url": "https://cses.fi/problemset/task/1070"
+  },
+  {
+    "file": "cses/problemset/1_Introductory_Problems/Trailing_Zeros.cpp",
+    "title": "Trailing Zeros",
+    "url": "https://cses.fi/problemset/task/1618"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Array_Description.cpp",
+    "title": "Array Description",
+    "url": "https://cses.fi/problemset/task/1746"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Book_Shop.cpp",
+    "title": "Book Shop",
+    "url": "https://cses.fi/problemset/task/1158"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Coin_Combinations_I.cpp",
+    "title": "Coin Combinations I",
+    "url": "https://cses.fi/problemset/task/1635"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Coin_Combinations_II.cpp",
+    "title": "Coin Combinations II",
+    "url": "https://cses.fi/problemset/task/1636"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Dice_Combinations.cpp",
+    "title": "Dice Combinations",
+    "url": "https://cses.fi/problemset/task/1633"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Edit_Distance.cpp",
+    "title": "Edit Distance",
+    "url": "https://cses.fi/problemset/task/1639"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Grid_Paths_I.cpp",
+    "title": "Grid Paths I",
+    "url": "https://cses.fi/problemset/task/1638"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Longest_Common_Subsequence.cpp",
+    "title": "Longest Common Subsequence",
+    "url": "https://cses.fi/problemset/task/3403"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Minimizing_Coins.cpp",
+    "title": "Minimizing Coins",
+    "url": "https://cses.fi/problemset/task/1634"
+  },
+  {
+    "file": "cses/problemset/3_Dynamic_Programming/Removing_Digits.cpp",
+    "title": "Removing Digits",
+    "url": "https://cses.fi/problemset/task/1637"
+  },
+  {
+    "file": "cses/problemset/4_Graph_Algorithms/Planets_Queries_I.cpp",
+    "title": "Planets Queries I",
+    "url": "https://cses.fi/problemset/task/1750"
+  }
+]

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC442_D - Swap and Range Sum
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc442/tasks/abc442_d
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

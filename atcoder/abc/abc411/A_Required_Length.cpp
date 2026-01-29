@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC411_A - Required Length
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc411/tasks/abc411_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

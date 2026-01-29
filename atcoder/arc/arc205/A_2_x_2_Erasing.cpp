@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ARC205_A - 2x2 Erasing
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/arc205/tasks/arc205_a
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

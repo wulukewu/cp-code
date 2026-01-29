@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC414_C - Palindromic in Both Bases
+// Limits    : 3 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc414/tasks/abc414_c
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

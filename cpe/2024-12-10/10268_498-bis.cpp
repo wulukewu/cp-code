@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CPE 10268 - 498-bis
+// URL       : https://onlinejudge.org/external/102/10268.pdf
+// ==================================================
+
 #include <iostream>
 #include <sstream>
 #include <vector>

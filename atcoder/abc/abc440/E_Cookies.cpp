@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC440_E - Cookies
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc440/tasks/abc440_e
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

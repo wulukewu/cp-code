@@ -1,6 +1,6 @@
 // ==================================================
-// Problem   : 101873D3.cpp - Unknown
-// URL       : https://codeforces.com/contest/101873/problem/D3.cpp
+// Problem   : 101873D3 - Unknown
+// URL       : https://codeforces.com/contest/101873/problem/D3
 // ==================================================
 
 #include<bits/stdc++.h>

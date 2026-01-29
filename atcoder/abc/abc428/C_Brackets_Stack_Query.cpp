@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC428_C - Brackets Stack Query
+// Limits    : 3 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc428/tasks/abc428_c
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

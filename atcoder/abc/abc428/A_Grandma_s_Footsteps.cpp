@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC428_A - Grandma&#39;s Footsteps
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc428/tasks/abc428_a
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

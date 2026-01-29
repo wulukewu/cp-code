@@ -4,7 +4,8 @@
     "problemId": "abc061_c",
     "contestId": "abc061",
     "title": "Big Array",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc061/tasks/abc061_c"
   },
   {
@@ -12,7 +13,8 @@
     "problemId": "abc073_a",
     "contestId": "abc073",
     "title": "September 9",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc073/tasks/abc073_a"
   },
   {
@@ -20,7 +22,8 @@
     "problemId": "abc073_b",
     "contestId": "abc073",
     "title": "Theater",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc073/tasks/abc073_b"
   },
   {
@@ -28,7 +31,8 @@
     "problemId": "abc073_c",
     "contestId": "abc073",
     "title": "Write and Erase",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc073/tasks/abc073_c"
   },
   {
@@ -36,7 +40,8 @@
     "problemId": "abc083_d",
     "contestId": "abc083",
     "title": "Unknown",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc083/tasks/abc083_d"
   },
   {
@@ -44,7 +49,8 @@
     "problemId": "abc089_d",
     "contestId": "abc089",
     "title": "Practical Skill Test",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc089/tasks/abc089_d"
   },
   {
@@ -52,7 +58,8 @@
     "problemId": "abc089_d",
     "contestId": "abc089",
     "title": "Practical Skill Test",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc089/tasks/abc089_d"
   },
   {
@@ -60,7 +67,8 @@
     "problemId": "abc157_d",
     "contestId": "abc157",
     "title": "Friend Suggestions",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc157/tasks/abc157_d"
   },
   {
@@ -68,7 +76,8 @@
     "problemId": "abc172_e",
     "contestId": "abc172",
     "title": "NEQ",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc172/tasks/abc172_e"
   },
   {
@@ -76,7 +85,8 @@
     "problemId": "abc309_e",
     "contestId": "abc309",
     "title": "Family and Insurance",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc309/tasks/abc309_e"
   },
   {
@@ -84,7 +94,8 @@
     "problemId": "abc309_e",
     "contestId": "abc309",
     "title": "Family and Insurance",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc309/tasks/abc309_e"
   },
   {
@@ -92,7 +103,8 @@
     "problemId": "abc313_a",
     "contestId": "abc313",
     "title": "To Be Saikyo",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_a"
   },
   {
@@ -100,7 +112,8 @@
     "problemId": "abc313_b",
     "contestId": "abc313",
     "title": "Who is Saikyo?",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_b"
   },
   {
@@ -108,7 +121,8 @@
     "problemId": "abc313_c",
     "contestId": "abc313",
     "title": "Approximate Equalization 2",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_c"
   },
   {
@@ -116,7 +130,8 @@
     "problemId": "abc313_d",
     "contestId": "abc313",
     "title": "Odd or Even",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_d"
   },
   {
@@ -124,7 +139,8 @@
     "problemId": "abc313_d",
     "contestId": "abc313",
     "title": "Odd or Even",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_d"
   },
   {
@@ -132,7 +148,8 @@
     "problemId": "abc313_d",
     "contestId": "abc313",
     "title": "Odd or Even",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_d"
   },
   {
@@ -140,7 +157,8 @@
     "problemId": "abc313_e",
     "contestId": "abc313",
     "title": "Duplicate",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc313/tasks/abc313_e"
   },
   {
@@ -148,7 +166,8 @@
     "problemId": "abc321_a",
     "contestId": "abc321",
     "title": "321-like Checker",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc321/tasks/abc321_a"
   },
   {
@@ -156,7 +175,8 @@
     "problemId": "abc328_d",
     "contestId": "abc328",
     "title": "Take ABC",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc328/tasks/abc328_d"
   },
   {
@@ -164,7 +184,8 @@
     "problemId": "abc330_d",
     "contestId": "abc330",
     "title": "Counting Ls",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc330/tasks/abc330_d"
   },
   {
@@ -172,7 +193,8 @@
     "problemId": "abc360_a",
     "contestId": "abc360",
     "title": "A Healthy Breakfast",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc360/tasks/abc360_a"
   },
   {
@@ -180,7 +202,8 @@
     "problemId": "abc360_b",
     "contestId": "abc360",
     "title": "Vertical Reading",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc360/tasks/abc360_b"
   },
   {
@@ -188,7 +211,8 @@
     "problemId": "abc360_c",
     "contestId": "abc360",
     "title": "Move It",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc360/tasks/abc360_c"
   },
   {
@@ -196,7 +220,8 @@
     "problemId": "abc360_b",
     "contestId": "abc360",
     "title": "Vertical Reading",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc360/tasks/abc360_b"
   },
   {
@@ -204,7 +229,8 @@
     "problemId": "abc362_a",
     "contestId": "abc362",
     "title": "Buy a Pen",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc362/tasks/abc362_a"
   },
   {
@@ -212,7 +238,8 @@
     "problemId": "abc362_b",
     "contestId": "abc362",
     "title": "Right Triangle",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc362/tasks/abc362_b"
   },
   {
@@ -220,7 +247,8 @@
     "problemId": "abc364_a",
     "contestId": "abc364",
     "title": "Glutton Takahashi",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc364/tasks/abc364_a"
   },
   {
@@ -228,7 +256,8 @@
     "problemId": "abc364_b",
     "contestId": "abc364",
     "title": "Grid Walk",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc364/tasks/abc364_b"
   },
   {
@@ -236,7 +265,8 @@
     "problemId": "abc364_c",
     "contestId": "abc364",
     "title": "Minimum Glutton",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc364/tasks/abc364_c"
   },
   {
@@ -244,7 +274,8 @@
     "problemId": "abc364_c",
     "contestId": "abc364",
     "title": "Minimum Glutton",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc364/tasks/abc364_c"
   },
   {
@@ -252,7 +283,8 @@
     "problemId": "abc365_a",
     "contestId": "abc365",
     "title": "Leap Year",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc365/tasks/abc365_a"
   },
   {
@@ -260,7 +292,8 @@
     "problemId": "abc365_b",
     "contestId": "abc365",
     "title": "Second Best",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc365/tasks/abc365_b"
   },
   {
@@ -268,7 +301,8 @@
     "problemId": "abc365_c",
     "contestId": "abc365",
     "title": "Transportation Expenses",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc365/tasks/abc365_c"
   },
   {
@@ -276,7 +310,8 @@
     "problemId": "abc365_c",
     "contestId": "abc365",
     "title": "Transportation Expenses",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc365/tasks/abc365_c"
   },
   {
@@ -284,7 +319,8 @@
     "problemId": "abc366_a",
     "contestId": "abc366",
     "title": "Election 2",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc366/tasks/abc366_a"
   },
   {
@@ -292,7 +328,8 @@
     "problemId": "abc366_b",
     "contestId": "abc366",
     "title": "Vertical Writing",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc366/tasks/abc366_b"
   },
   {
@@ -300,7 +337,8 @@
     "problemId": "abc366_c",
     "contestId": "abc366",
     "title": "Balls and Bag Query",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc366/tasks/abc366_c"
   },
   {
@@ -308,7 +346,8 @@
     "problemId": "abc366_d",
     "contestId": "abc366",
     "title": "Cuboid Sum Query",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc366/tasks/abc366_d"
   },
   {
@@ -316,7 +355,8 @@
     "problemId": "abc367_a",
     "contestId": "abc367",
     "title": "Shout Everyday",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc367/tasks/abc367_a"
   },
   {
@@ -324,7 +364,8 @@
     "problemId": "abc368_a",
     "contestId": "abc368",
     "title": "Cut",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_a"
   },
   {
@@ -332,7 +373,8 @@
     "problemId": "abc368_b",
     "contestId": "abc368",
     "title": "Decrease 2 max elements",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_b"
   },
   {
@@ -340,7 +382,8 @@
     "problemId": "abc368_c",
     "contestId": "abc368",
     "title": "Triple Attack",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_c"
   },
   {
@@ -348,7 +391,8 @@
     "problemId": "abc368_d",
     "contestId": "abc368",
     "title": "Minimum Steiner Tree",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_d"
   },
   {
@@ -356,7 +400,8 @@
     "problemId": "abc368_d",
     "contestId": "abc368",
     "title": "Minimum Steiner Tree",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc368/tasks/abc368_d"
   },
   {
@@ -364,7 +409,8 @@
     "problemId": "abc369_c",
     "contestId": "abc369",
     "title": "Count Arithmetic Subarrays",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc369/tasks/abc369_c"
   },
   {
@@ -372,7 +418,8 @@
     "problemId": "abc369_c",
     "contestId": "abc369",
     "title": "Count Arithmetic Subarrays",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc369/tasks/abc369_c"
   },
   {
@@ -380,7 +427,8 @@
     "problemId": "abc370_a",
     "contestId": "abc370",
     "title": "Raise Both Hands",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc370/tasks/abc370_a"
   },
   {
@@ -388,7 +436,8 @@
     "problemId": "abc370_b",
     "contestId": "abc370",
     "title": "Binary Alchemy",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc370/tasks/abc370_b"
   },
   {
@@ -396,7 +445,8 @@
     "problemId": "abc370_c",
     "contestId": "abc370",
     "title": "Word Ladder",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc370/tasks/abc370_c"
   },
   {
@@ -404,7 +454,8 @@
     "problemId": "abc370_d",
     "contestId": "abc370",
     "title": "Cross Explosion",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc370/tasks/abc370_d"
   },
   {
@@ -412,7 +463,8 @@
     "problemId": "abc372_a",
     "contestId": "abc372",
     "title": "delete .",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc372/tasks/abc372_a"
   },
   {
@@ -420,7 +472,8 @@
     "problemId": "abc372_b",
     "contestId": "abc372",
     "title": "3^A",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc372/tasks/abc372_b"
   },
   {
@@ -428,7 +481,8 @@
     "problemId": "abc372_c",
     "contestId": "abc372",
     "title": "Count ABC Again",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc372/tasks/abc372_c"
   },
   {
@@ -436,7 +490,8 @@
     "problemId": "abc372_d",
     "contestId": "abc372",
     "title": "Buildings",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc372/tasks/abc372_d"
   },
   {
@@ -444,7 +499,8 @@
     "problemId": "abc373_a",
     "contestId": "abc373",
     "title": "September",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc373/tasks/abc373_a"
   },
   {
@@ -452,7 +508,8 @@
     "problemId": "abc373_b",
     "contestId": "abc373",
     "title": "1D Keyboard",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc373/tasks/abc373_b"
   },
   {
@@ -460,7 +517,8 @@
     "problemId": "abc373_c",
     "contestId": "abc373",
     "title": "Max Ai&#43;Bj",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc373/tasks/abc373_c"
   },
   {
@@ -468,7 +526,8 @@
     "problemId": "abc373_d",
     "contestId": "abc373",
     "title": "Hidden Weights",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc373/tasks/abc373_d"
   },
   {
@@ -476,7 +535,8 @@
     "problemId": "abc374_a",
     "contestId": "abc374",
     "title": "Takahashi san 2",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc374/tasks/abc374_a"
   },
   {
@@ -484,7 +544,8 @@
     "problemId": "abc374_b",
     "contestId": "abc374",
     "title": "Unvarnished Report",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc374/tasks/abc374_b"
   },
   {
@@ -492,7 +553,8 @@
     "problemId": "abc374_c",
     "contestId": "abc374",
     "title": "Separated Lunch",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc374/tasks/abc374_c"
   },
   {
@@ -500,7 +562,8 @@
     "problemId": "abc374_d",
     "contestId": "abc374",
     "title": "Laser Marking",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc374/tasks/abc374_d"
   },
   {
@@ -508,7 +571,8 @@
     "problemId": "abc375_a",
     "contestId": "abc375",
     "title": "Seats",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc375/tasks/abc375_a"
   },
   {
@@ -516,7 +580,8 @@
     "problemId": "abc375_b",
     "contestId": "abc375",
     "title": "Traveling Takahashi Problem",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc375/tasks/abc375_b"
   },
   {
@@ -524,7 +589,8 @@
     "problemId": "abc375_c",
     "contestId": "abc375",
     "title": "Spiral Rotation",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc375/tasks/abc375_c"
   },
   {
@@ -532,7 +598,8 @@
     "problemId": "abc375_c",
     "contestId": "abc375",
     "title": "Spiral Rotation",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc375/tasks/abc375_c"
   },
   {
@@ -540,7 +607,8 @@
     "problemId": "abc375_d",
     "contestId": "abc375",
     "title": "ABA",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc375/tasks/abc375_d"
   },
   {
@@ -548,7 +616,8 @@
     "problemId": "abc376_c",
     "contestId": "abc376",
     "title": "Prepare Another Box",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc376/tasks/abc376_c"
   },
   {
@@ -556,7 +625,8 @@
     "problemId": "abc376_c",
     "contestId": "abc376",
     "title": "Prepare Another Box",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc376/tasks/abc376_c"
   },
   {
@@ -564,7 +634,8 @@
     "problemId": "abc376_a",
     "contestId": "abc376",
     "title": "Candy Button",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc376/tasks/abc376_a"
   },
   {
@@ -572,7 +643,8 @@
     "problemId": "abc376_b",
     "contestId": "abc376",
     "title": "Hands on Ring (Easy)",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc376/tasks/abc376_b"
   },
   {
@@ -580,7 +652,8 @@
     "problemId": "abc377_a",
     "contestId": "abc377",
     "title": "Rearranging ABC",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc377/tasks/abc377_a"
   },
   {
@@ -588,7 +661,8 @@
     "problemId": "abc377_b",
     "contestId": "abc377",
     "title": "Avoid Rook Attack",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc377/tasks/abc377_b"
   },
   {
@@ -596,7 +670,8 @@
     "problemId": "abc377_c",
     "contestId": "abc377",
     "title": "Avoid Knight Attack",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc377/tasks/abc377_c"
   },
   {
@@ -604,7 +679,8 @@
     "problemId": "abc377_d",
     "contestId": "abc377",
     "title": "Many Segments 2",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc377/tasks/abc377_d"
   },
   {
@@ -612,7 +688,8 @@
     "problemId": "abc378_a",
     "contestId": "abc378",
     "title": "Pairing",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_a"
   },
   {
@@ -620,7 +697,8 @@
     "problemId": "abc378_b",
     "contestId": "abc378",
     "title": "Garbage Collection",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_b"
   },
   {
@@ -628,7 +706,8 @@
     "problemId": "abc378_c",
     "contestId": "abc378",
     "title": "Repeating",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_c"
   },
   {
@@ -636,7 +715,8 @@
     "problemId": "abc378_c",
     "contestId": "abc378",
     "title": "Repeating",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_c"
   },
   {
@@ -644,7 +724,8 @@
     "problemId": "abc378_c",
     "contestId": "abc378",
     "title": "Repeating",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc378/tasks/abc378_c"
   },
   {
@@ -652,7 +733,8 @@
     "problemId": "abc379_a",
     "contestId": "abc379",
     "title": "Cyclic",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc379/tasks/abc379_a"
   },
   {
@@ -660,7 +742,8 @@
     "problemId": "abc379_b",
     "contestId": "abc379",
     "title": "Strawberries",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc379/tasks/abc379_b"
   },
   {
@@ -668,7 +751,8 @@
     "problemId": "abc379_c",
     "contestId": "abc379",
     "title": "Sowing Stones",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc379/tasks/abc379_c"
   },
   {
@@ -676,7 +760,8 @@
     "problemId": "abc379_c",
     "contestId": "abc379",
     "title": "Sowing Stones",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc379/tasks/abc379_c"
   },
   {
@@ -684,7 +769,8 @@
     "problemId": "abc380_a",
     "contestId": "abc380",
     "title": "123233",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc380/tasks/abc380_a"
   },
   {
@@ -692,7 +778,8 @@
     "problemId": "abc380_b",
     "contestId": "abc380",
     "title": "Hurdle Parsing",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc380/tasks/abc380_b"
   },
   {
@@ -700,7 +787,8 @@
     "problemId": "abc380_c",
     "contestId": "abc380",
     "title": "Move Segment",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc380/tasks/abc380_c"
   },
   {
@@ -708,7 +796,8 @@
     "problemId": "abc380_c",
     "contestId": "abc380",
     "title": "Move Segment",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc380/tasks/abc380_c"
   },
   {
@@ -716,7 +805,8 @@
     "problemId": "abc380_d",
     "contestId": "abc380",
     "title": "Strange Mirroring",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc380/tasks/abc380_d"
   },
   {
@@ -724,7 +814,8 @@
     "problemId": "abc382_a",
     "contestId": "abc382",
     "title": "Daily Cookie",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc382/tasks/abc382_a"
   },
   {
@@ -732,7 +823,8 @@
     "problemId": "abc382_b",
     "contestId": "abc382",
     "title": "Daily Cookie 2",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc382/tasks/abc382_b"
   },
   {
@@ -740,7 +832,8 @@
     "problemId": "abc382_c",
     "contestId": "abc382",
     "title": "Kaiten Sushi",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc382/tasks/abc382_c"
   },
   {
@@ -748,7 +841,8 @@
     "problemId": "abc382_d",
     "contestId": "abc382",
     "title": "Keep Distance",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc382/tasks/abc382_d"
   },
   {
@@ -756,7 +850,8 @@
     "problemId": "abc383_a",
     "contestId": "abc383",
     "title": "Humidifier 1",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc383/tasks/abc383_a"
   },
   {
@@ -764,7 +859,8 @@
     "problemId": "abc383_b",
     "contestId": "abc383",
     "title": "Humidifier 2",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc383/tasks/abc383_b"
   },
   {
@@ -772,7 +868,8 @@
     "problemId": "abc383_c",
     "contestId": "abc383",
     "title": "Humidifier 3",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c"
   },
   {
@@ -780,7 +877,8 @@
     "problemId": "abc383_c",
     "contestId": "abc383",
     "title": "Humidifier 3",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c"
   },
   {
@@ -788,7 +886,8 @@
     "problemId": "abc383_c",
     "contestId": "abc383",
     "title": "Humidifier 3",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c"
   },
   {
@@ -796,7 +895,8 @@
     "problemId": "abc383_c",
     "contestId": "abc383",
     "title": "Humidifier 3",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c"
   },
   {
@@ -804,7 +904,8 @@
     "problemId": "abc384_a",
     "contestId": "abc384",
     "title": "aaaadaa",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc384/tasks/abc384_a"
   },
   {
@@ -812,7 +913,8 @@
     "problemId": "abc384_b",
     "contestId": "abc384",
     "title": "ARC Division",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc384/tasks/abc384_b"
   },
   {
@@ -820,7 +922,8 @@
     "problemId": "abc384_c",
     "contestId": "abc384",
     "title": "Perfect Standings",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc384/tasks/abc384_c"
   },
   {
@@ -828,7 +931,8 @@
     "problemId": "abc384_d",
     "contestId": "abc384",
     "title": "Repeated Sequence",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc384/tasks/abc384_d"
   },
   {
@@ -836,7 +940,8 @@
     "problemId": "abc386_a",
     "contestId": "abc386",
     "title": "Full House 2",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_a"
   },
   {
@@ -844,7 +949,8 @@
     "problemId": "abc386_b",
     "contestId": "abc386",
     "title": "Calculator",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_b"
   },
   {
@@ -852,7 +958,8 @@
     "problemId": "abc386_c",
     "contestId": "abc386",
     "title": "Operate 1",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_c"
   },
   {
@@ -860,7 +967,8 @@
     "problemId": "abc386_d",
     "contestId": "abc386",
     "title": "Diagonal Separation",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_d"
   },
   {
@@ -868,7 +976,8 @@
     "problemId": "abc386_f",
     "contestId": "abc386",
     "title": "Operate K",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc386/tasks/abc386_f"
   },
   {
@@ -876,7 +985,8 @@
     "problemId": "abc387_a",
     "contestId": "abc387",
     "title": "Happy New Year 2025",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_a"
   },
   {
@@ -884,7 +994,8 @@
     "problemId": "abc387_b",
     "contestId": "abc387",
     "title": "9x9 Sum",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_b"
   },
   {
@@ -892,7 +1003,8 @@
     "problemId": "abc387_c",
     "contestId": "abc387",
     "title": "Snake Numbers",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_c"
   },
   {
@@ -900,7 +1012,8 @@
     "problemId": "abc387_c",
     "contestId": "abc387",
     "title": "Snake Numbers",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_c"
   },
   {
@@ -908,7 +1021,8 @@
     "problemId": "abc387_d",
     "contestId": "abc387",
     "title": "Snaky Walk",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc387/tasks/abc387_d"
   },
   {
@@ -916,7 +1030,8 @@
     "problemId": "abc388_a",
     "contestId": "abc388",
     "title": "?UPC",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc388/tasks/abc388_a"
   },
   {
@@ -924,7 +1039,8 @@
     "problemId": "abc388_b",
     "contestId": "abc388",
     "title": "Heavy Snake",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc388/tasks/abc388_b"
   },
   {
@@ -932,7 +1048,8 @@
     "problemId": "abc388_c",
     "contestId": "abc388",
     "title": "Various Kagamimochi",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc388/tasks/abc388_c"
   },
   {
@@ -940,7 +1057,8 @@
     "problemId": "abc388_c",
     "contestId": "abc388",
     "title": "Various Kagamimochi",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc388/tasks/abc388_c"
   },
   {
@@ -948,7 +1066,8 @@
     "problemId": "abc389_a",
     "contestId": "abc389",
     "title": "9x9",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_a"
   },
   {
@@ -956,7 +1075,8 @@
     "problemId": "abc389_b",
     "contestId": "abc389",
     "title": "tcaF",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_b"
   },
   {
@@ -964,7 +1084,8 @@
     "problemId": "abc389_c",
     "contestId": "abc389",
     "title": "Snake Queue",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_c"
   },
   {
@@ -972,7 +1093,8 @@
     "problemId": "abc389_d",
     "contestId": "abc389",
     "title": "Squares in Circle",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_d"
   },
   {
@@ -980,7 +1102,8 @@
     "problemId": "abc389_f",
     "contestId": "abc389",
     "title": "Rated Range",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc389/tasks/abc389_f"
   },
   {
@@ -988,7 +1111,8 @@
     "problemId": "abc390_a",
     "contestId": "abc390",
     "title": "12435",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc390/tasks/abc390_a"
   },
   {
@@ -996,7 +1120,8 @@
     "problemId": "abc390_b",
     "contestId": "abc390",
     "title": "Geometric Sequence",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc390/tasks/abc390_b"
   },
   {
@@ -1004,7 +1129,8 @@
     "problemId": "abc390_c",
     "contestId": "abc390",
     "title": "Paint to make a rectangle",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc390/tasks/abc390_c"
   },
   {
@@ -1012,7 +1138,8 @@
     "problemId": "abc390_d",
     "contestId": "abc390",
     "title": "Stone XOR",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc390/tasks/abc390_d"
   },
   {
@@ -1020,7 +1147,8 @@
     "problemId": "abc391_e",
     "contestId": "abc391",
     "title": "Hierarchical Majority Vote",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc391/tasks/abc391_e"
   },
   {
@@ -1028,7 +1156,8 @@
     "problemId": "abc391_f",
     "contestId": "abc391",
     "title": "K-th Largest Triplet",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc391/tasks/abc391_f"
   },
   {
@@ -1036,7 +1165,8 @@
     "problemId": "abc392_a",
     "contestId": "abc392",
     "title": "Shuffled Equation",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_a"
   },
   {
@@ -1044,7 +1174,8 @@
     "problemId": "abc392_b",
     "contestId": "abc392",
     "title": "Who is Missing?",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_b"
   },
   {
@@ -1052,7 +1183,8 @@
     "problemId": "abc392_c",
     "contestId": "abc392",
     "title": "Bib",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_c"
   },
   {
@@ -1060,7 +1192,8 @@
     "problemId": "abc392_d",
     "contestId": "abc392",
     "title": "Doubles",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_d"
   },
   {
@@ -1068,7 +1201,8 @@
     "problemId": "abc392_d",
     "contestId": "abc392",
     "title": "Doubles",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_d"
   },
   {
@@ -1076,7 +1210,8 @@
     "problemId": "abc392_e",
     "contestId": "abc392",
     "title": "Cables and Servers",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc392/tasks/abc392_e"
   },
   {
@@ -1084,7 +1219,8 @@
     "problemId": "abc393_a",
     "contestId": "abc393",
     "title": "Poisonous Oyster",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc393/tasks/abc393_a"
   },
   {
@@ -1092,7 +1228,8 @@
     "problemId": "abc393_b",
     "contestId": "abc393",
     "title": "A..B..C",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc393/tasks/abc393_b"
   },
   {
@@ -1100,7 +1237,8 @@
     "problemId": "abc393_c",
     "contestId": "abc393",
     "title": "Make it Simple",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc393/tasks/abc393_c"
   },
   {
@@ -1108,7 +1246,8 @@
     "problemId": "abc393_d",
     "contestId": "abc393",
     "title": "Swap to Gather",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc393/tasks/abc393_d"
   },
   {
@@ -1116,7 +1255,8 @@
     "problemId": "abc394_a",
     "contestId": "abc394",
     "title": "22222",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_a"
   },
   {
@@ -1124,7 +1264,8 @@
     "problemId": "abc394_b",
     "contestId": "abc394",
     "title": "cat",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_b"
   },
   {
@@ -1132,7 +1273,8 @@
     "problemId": "abc394_c",
     "contestId": "abc394",
     "title": "Debug",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_c"
   },
   {
@@ -1140,7 +1282,8 @@
     "problemId": "abc394_d",
     "contestId": "abc394",
     "title": "Colorful Bracket Sequence",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_d"
   },
   {
@@ -1148,7 +1291,8 @@
     "problemId": "abc394_f",
     "contestId": "abc394",
     "title": "Alkane",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc394/tasks/abc394_f"
   },
   {
@@ -1156,7 +1300,8 @@
     "problemId": "abc395_a",
     "contestId": "abc395",
     "title": "Strictly Increasing?",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc395/tasks/abc395_a"
   },
   {
@@ -1164,7 +1309,8 @@
     "problemId": "abc395_b",
     "contestId": "abc395",
     "title": "Make Target",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc395/tasks/abc395_b"
   },
   {
@@ -1172,7 +1318,8 @@
     "problemId": "abc395_c",
     "contestId": "abc395",
     "title": "Shortest Duplicate Subarray",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc395/tasks/abc395_c"
   },
   {
@@ -1180,7 +1327,8 @@
     "problemId": "abc395_d",
     "contestId": "abc395",
     "title": "Pigeon Swap",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc395/tasks/abc395_d"
   },
   {
@@ -1188,7 +1336,8 @@
     "problemId": "abc395_d",
     "contestId": "abc395",
     "title": "Pigeon Swap",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc395/tasks/abc395_d"
   },
   {
@@ -1196,7 +1345,8 @@
     "problemId": "abc396_a",
     "contestId": "abc396",
     "title": "Triple Four",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc396/tasks/abc396_a"
   },
   {
@@ -1204,7 +1354,8 @@
     "problemId": "abc396_b",
     "contestId": "abc396",
     "title": "Card Pile",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc396/tasks/abc396_b"
   },
   {
@@ -1212,7 +1363,1484 @@
     "problemId": "abc396_c",
     "contestId": "abc396",
     "title": "Buy Balls",
-    "difficulty": null,
+    "timeLimit": null,
+    "memLimit": null,
     "url": "https://atcoder.jp/contests/abc396/tasks/abc396_c"
+  },
+  {
+    "file": "atcoder/abc/abc397/A_Thermometer.cpp",
+    "problemId": "abc397_a",
+    "contestId": "abc397",
+    "title": "Thermometer",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc397/tasks/abc397_a"
+  },
+  {
+    "file": "atcoder/abc/abc397/B_Ticket_Gate_Log.cpp",
+    "problemId": "abc397_b",
+    "contestId": "abc397",
+    "title": "Ticket Gate Log",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc397/tasks/abc397_b"
+  },
+  {
+    "file": "atcoder/abc/abc397/C_Variety_Split_Easy.cpp",
+    "problemId": "abc397_c",
+    "contestId": "abc397",
+    "title": "Variety Split Easy",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc397/tasks/abc397_c"
+  },
+  {
+    "file": "atcoder/abc/abc397/D_Cubes.cpp",
+    "problemId": "abc397_d",
+    "contestId": "abc397",
+    "title": "Cubes",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc397/tasks/abc397_d"
+  },
+  {
+    "file": "atcoder/abc/abc398/A_Doors_in_the_Center.cpp",
+    "problemId": "abc398_a",
+    "contestId": "abc398",
+    "title": "Doors in the Center",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc398/tasks/abc398_a"
+  },
+  {
+    "file": "atcoder/abc/abc398/B_Full_House_3.cpp",
+    "problemId": "abc398_b",
+    "contestId": "abc398",
+    "title": "Full House 3",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc398/tasks/abc398_b"
+  },
+  {
+    "file": "atcoder/abc/abc398/C_Uniqueness.cpp",
+    "problemId": "abc398_c",
+    "contestId": "abc398",
+    "title": "Uniqueness",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc398/tasks/abc398_c"
+  },
+  {
+    "file": "atcoder/abc/abc398/D_Bonfire.cpp",
+    "problemId": "abc398_d",
+    "contestId": "abc398",
+    "title": "Bonfire",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc398/tasks/abc398_d"
+  },
+  {
+    "file": "atcoder/abc/abc399/A_Hamming_Distance.cpp",
+    "problemId": "abc399_a",
+    "contestId": "abc399",
+    "title": "Hamming Distance",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc399/tasks/abc399_a"
+  },
+  {
+    "file": "atcoder/abc/abc399/B_Ranking_with_Ties.cpp",
+    "problemId": "abc399_b",
+    "contestId": "abc399",
+    "title": "Ranking with Ties",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc399/tasks/abc399_b"
+  },
+  {
+    "file": "atcoder/abc/abc399/C_Make_it_Forest.cpp",
+    "problemId": "abc399_c",
+    "contestId": "abc399",
+    "title": "Make it Forest",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc399/tasks/abc399_c"
+  },
+  {
+    "file": "atcoder/abc/abc399/D_Switch_Seats.cpp",
+    "problemId": "abc399_d",
+    "contestId": "abc399",
+    "title": "Switch Seats",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc399/tasks/abc399_d"
+  },
+  {
+    "file": "atcoder/abc/abc400/A_ABC_400_Party.cpp",
+    "problemId": "abc400_a",
+    "contestId": "abc400",
+    "title": "ABC400 Party",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc400/tasks/abc400_a"
+  },
+  {
+    "file": "atcoder/abc/abc400/B_Sum_of_Geometric_Series.cpp",
+    "problemId": "abc400_b",
+    "contestId": "abc400",
+    "title": "Sum of Geometric Series",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc400/tasks/abc400_b"
+  },
+  {
+    "file": "atcoder/abc/abc400/C_2_a_b_2.cpp",
+    "problemId": "abc400_c",
+    "contestId": "abc400",
+    "title": "2^a b^2",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc400/tasks/abc400_c"
+  },
+  {
+    "file": "atcoder/abc/abc400/D_Takahashi_the_Wall_Breaker.cpp",
+    "problemId": "abc400_d",
+    "contestId": "abc400",
+    "title": "Takahashi the Wall Breaker",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc400/tasks/abc400_d"
+  },
+  {
+    "file": "atcoder/abc/abc401/A_Status_Code.cpp",
+    "problemId": "abc401_a",
+    "contestId": "abc401",
+    "title": "Status Code",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc401/tasks/abc401_a"
+  },
+  {
+    "file": "atcoder/abc/abc401/B_Unauthorized.cpp",
+    "problemId": "abc401_b",
+    "contestId": "abc401",
+    "title": "Unauthorized",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc401/tasks/abc401_b"
+  },
+  {
+    "file": "atcoder/abc/abc401/C_K_bonacci.cpp",
+    "problemId": "abc401_c",
+    "contestId": "abc401",
+    "title": "K-bonacci",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc401/tasks/abc401_c"
+  },
+  {
+    "file": "atcoder/abc/abc402/A_CBC.cpp",
+    "problemId": "abc402_a",
+    "contestId": "abc402",
+    "title": "CBC",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc402/tasks/abc402_a"
+  },
+  {
+    "file": "atcoder/abc/abc402/B_Restaurant_Queue.cpp",
+    "problemId": "abc402_b",
+    "contestId": "abc402",
+    "title": "Restaurant Queue",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc402/tasks/abc402_b"
+  },
+  {
+    "file": "atcoder/abc/abc402/C_Dislike_Foods.cpp",
+    "problemId": "abc402_c",
+    "contestId": "abc402",
+    "title": "Dislike Foods",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc402/tasks/abc402_c"
+  },
+  {
+    "file": "atcoder/abc/abc402/D_Line_Crossing.cpp",
+    "problemId": "abc402_d",
+    "contestId": "abc402",
+    "title": "Line Crossing",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc402/tasks/abc402_d"
+  },
+  {
+    "file": "atcoder/abc/abc402/E_Payment_Required.cpp",
+    "problemId": "abc402_e",
+    "contestId": "abc402",
+    "title": "Payment Required",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc402/tasks/abc402_e"
+  },
+  {
+    "file": "atcoder/abc/abc403/A_Odd_Position_Sum.cpp",
+    "problemId": "abc403_a",
+    "contestId": "abc403",
+    "title": "Odd Position Sum",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc403/tasks/abc403_a"
+  },
+  {
+    "file": "atcoder/abc/abc403/B_Four_Hidden.cpp",
+    "problemId": "abc403_b",
+    "contestId": "abc403",
+    "title": "Four Hidden",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc403/tasks/abc403_b"
+  },
+  {
+    "file": "atcoder/abc/abc403/C_403_Forbidden.cpp",
+    "problemId": "abc403_c",
+    "contestId": "abc403",
+    "title": "403 Forbidden",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc403/tasks/abc403_c"
+  },
+  {
+    "file": "atcoder/abc/abc403/D_Forbidden_Difference.cpp",
+    "problemId": "abc403_d",
+    "contestId": "abc403",
+    "title": "Forbidden Difference",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc403/tasks/abc403_d"
+  },
+  {
+    "file": "atcoder/abc/abc404/A_Not_Found.cpp",
+    "problemId": "abc404_a",
+    "contestId": "abc404",
+    "title": "Not Found",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc404/tasks/abc404_a"
+  },
+  {
+    "file": "atcoder/abc/abc404/B_Grid_Rotation.cpp",
+    "problemId": "abc404_b",
+    "contestId": "abc404",
+    "title": "Grid Rotation",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc404/tasks/abc404_b"
+  },
+  {
+    "file": "atcoder/abc/abc404/C_Cycle_Graph.cpp",
+    "problemId": "abc404_c",
+    "contestId": "abc404",
+    "title": "Cycle Graph?",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc404/tasks/abc404_c"
+  },
+  {
+    "file": "atcoder/abc/abc404/D_Goin_to_the_Zoo.cpp",
+    "problemId": "abc404_d",
+    "contestId": "abc404",
+    "title": "Goin&#39; to the Zoo",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc404/tasks/abc404_d"
+  },
+  {
+    "file": "atcoder/abc/abc405/A_Is_it_rated.cpp",
+    "problemId": "abc405_a",
+    "contestId": "abc405",
+    "title": "Is it rated?",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc405/tasks/abc405_a"
+  },
+  {
+    "file": "atcoder/abc/abc405/B_Not_All.cpp",
+    "problemId": "abc405_b",
+    "contestId": "abc405",
+    "title": "Not All",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc405/tasks/abc405_b"
+  },
+  {
+    "file": "atcoder/abc/abc405/C_Sum_of_Product.cpp",
+    "problemId": "abc405_c",
+    "contestId": "abc405",
+    "title": "Sum of Product",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc405/tasks/abc405_c"
+  },
+  {
+    "file": "atcoder/abc/abc405/D_Escape_Route.cpp",
+    "problemId": "abc405_d",
+    "contestId": "abc405",
+    "title": "Escape Route",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc405/tasks/abc405_d"
+  },
+  {
+    "file": "atcoder/abc/abc405/E_Fruit_Lineup.cpp",
+    "problemId": "abc405_e",
+    "contestId": "abc405",
+    "title": "Fruit Lineup",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc405/tasks/abc405_e"
+  },
+  {
+    "file": "atcoder/abc/abc406/A_Not_Acceptable.cpp",
+    "problemId": "abc406_a",
+    "contestId": "abc406",
+    "title": "Not Acceptable",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc406/tasks/abc406_a"
+  },
+  {
+    "file": "atcoder/abc/abc406/B_Product_Calculator.cpp",
+    "problemId": "abc406_b",
+    "contestId": "abc406",
+    "title": "Product Calculator",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc406/tasks/abc406_b"
+  },
+  {
+    "file": "atcoder/abc/abc407/A_Approximation.cpp",
+    "problemId": "abc407_a",
+    "contestId": "abc407",
+    "title": "Approximation",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc407/tasks/abc407_a"
+  },
+  {
+    "file": "atcoder/abc/abc407/B_P_X_or_Y.cpp",
+    "problemId": "abc407_b",
+    "contestId": "abc407",
+    "title": "P(X or Y)",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc407/tasks/abc407_b"
+  },
+  {
+    "file": "atcoder/abc/abc407/C_Security_2.cpp",
+    "problemId": "abc407_c",
+    "contestId": "abc407",
+    "title": "Security 2",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc407/tasks/abc407_c"
+  },
+  {
+    "file": "atcoder/abc/abc407/D_Domino_Covering_XOR.cpp",
+    "problemId": "abc407_d",
+    "contestId": "abc407",
+    "title": "Domino Covering XOR",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc407/tasks/abc407_d"
+  },
+  {
+    "file": "atcoder/abc/abc408/A_Timeout.cpp",
+    "problemId": "abc408_a",
+    "contestId": "abc408",
+    "title": "Timeout",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc408/tasks/abc408_a"
+  },
+  {
+    "file": "atcoder/abc/abc408/B_Compression.cpp",
+    "problemId": "abc408_b",
+    "contestId": "abc408",
+    "title": "Compression",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc408/tasks/abc408_b"
+  },
+  {
+    "file": "atcoder/abc/abc408/C_Not_All_Covered.cpp",
+    "problemId": "abc408_c",
+    "contestId": "abc408",
+    "title": "Not All Covered",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc408/tasks/abc408_c"
+  },
+  {
+    "file": "atcoder/abc/abc408/D_Flip_to_Gather.cpp",
+    "problemId": "abc408_d",
+    "contestId": "abc408",
+    "title": "Flip to Gather",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc408/tasks/abc408_d"
+  },
+  {
+    "file": "atcoder/abc/abc409/A_Conflict.cpp",
+    "problemId": "abc409_a",
+    "contestId": "abc409",
+    "title": "Conflict",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc409/tasks/abc409_a"
+  },
+  {
+    "file": "atcoder/abc/abc409/B_Citation.cpp",
+    "problemId": "abc409_b",
+    "contestId": "abc409",
+    "title": "Citation",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc409/tasks/abc409_b"
+  },
+  {
+    "file": "atcoder/abc/abc409/C_Equilateral_Triangle.cpp",
+    "problemId": "abc409_c",
+    "contestId": "abc409",
+    "title": "Equilateral Triangle",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc409/tasks/abc409_c"
+  },
+  {
+    "file": "atcoder/abc/abc409/D_String_Rotation.cpp",
+    "problemId": "abc409_d",
+    "contestId": "abc409",
+    "title": "String Rotation",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc409/tasks/abc409_d"
+  },
+  {
+    "file": "atcoder/abc/abc410/A_G_1.cpp",
+    "problemId": "abc410_a",
+    "contestId": "abc410",
+    "title": "G1",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc410/tasks/abc410_a"
+  },
+  {
+    "file": "atcoder/abc/abc410/B_Reverse_Proxy.cpp",
+    "problemId": "abc410_b",
+    "contestId": "abc410",
+    "title": "Reverse Proxy",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc410/tasks/abc410_b"
+  },
+  {
+    "file": "atcoder/abc/abc410/C_Rotatable_Array.cpp",
+    "problemId": "abc410_c",
+    "contestId": "abc410",
+    "title": "Rotatable Array",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc410/tasks/abc410_c"
+  },
+  {
+    "file": "atcoder/abc/abc410/D_XOR_Shortest_Walk.cpp",
+    "problemId": "abc410_d",
+    "contestId": "abc410",
+    "title": "XOR Shortest Walk",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc410/tasks/abc410_d"
+  },
+  {
+    "file": "atcoder/abc/abc411/A_Required_Length.cpp",
+    "problemId": "abc411_a",
+    "contestId": "abc411",
+    "title": "Required Length",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc411/tasks/abc411_a"
+  },
+  {
+    "file": "atcoder/abc/abc411/B_Distance_Table.cpp",
+    "problemId": "abc411_b",
+    "contestId": "abc411",
+    "title": "Distance Table",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc411/tasks/abc411_b"
+  },
+  {
+    "file": "atcoder/abc/abc411/C_Black_Intervals.cpp",
+    "problemId": "abc411_c",
+    "contestId": "abc411",
+    "title": "Black Intervals",
+    "timeLimit": 3,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc411/tasks/abc411_c"
+  },
+  {
+    "file": "atcoder/abc/abc411/D_Conflict_2.cpp",
+    "problemId": "abc411_d",
+    "contestId": "abc411",
+    "title": "Conflict 2",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc411/tasks/abc411_d"
+  },
+  {
+    "file": "atcoder/abc/abc412/A_Task_Failed_Successfully.cpp",
+    "problemId": "abc412_a",
+    "contestId": "abc412",
+    "title": "Task Failed Successfully",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc412/tasks/abc412_a"
+  },
+  {
+    "file": "atcoder/abc/abc412/B_Precondition.cpp",
+    "problemId": "abc412_b",
+    "contestId": "abc412",
+    "title": "Precondition",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc412/tasks/abc412_b"
+  },
+  {
+    "file": "atcoder/abc/abc412/C_Giant_Domino.cpp",
+    "problemId": "abc412_c",
+    "contestId": "abc412",
+    "title": "Giant Domino",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc412/tasks/abc412_c"
+  },
+  {
+    "file": "atcoder/abc/abc413/A_Content_Too_Large.cpp",
+    "problemId": "abc413_a",
+    "contestId": "abc413",
+    "title": "Content Too Large",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc413/tasks/abc413_a"
+  },
+  {
+    "file": "atcoder/abc/abc413/B_cat_2.cpp",
+    "problemId": "abc413_b",
+    "contestId": "abc413",
+    "title": "cat 2",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc413/tasks/abc413_b"
+  },
+  {
+    "file": "atcoder/abc/abc413/C_Large_Queue.cpp",
+    "problemId": "abc413_c",
+    "contestId": "abc413",
+    "title": "Large Queue",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc413/tasks/abc413_c"
+  },
+  {
+    "file": "atcoder/abc/abc413/D_Make_Geometric_Sequence.cpp",
+    "problemId": "abc413_d",
+    "contestId": "abc413",
+    "title": "Make Geometric Sequence",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc413/tasks/abc413_d"
+  },
+  {
+    "file": "atcoder/abc/abc413/E_Reverse_2_i.cpp",
+    "problemId": "abc413_e",
+    "contestId": "abc413",
+    "title": "Reverse 2^i",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc413/tasks/abc413_e"
+  },
+  {
+    "file": "atcoder/abc/abc413/G_Big_Banned_Grid.cpp",
+    "problemId": "abc413_g",
+    "contestId": "abc413",
+    "title": "Big Banned Grid",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc413/tasks/abc413_g"
+  },
+  {
+    "file": "atcoder/abc/abc414/A_Streamer_Takahashi.cpp",
+    "problemId": "abc414_a",
+    "contestId": "abc414",
+    "title": "Streamer Takahashi",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc414/tasks/abc414_a"
+  },
+  {
+    "file": "atcoder/abc/abc414/B_String_Too_Long.cpp",
+    "problemId": "abc414_b",
+    "contestId": "abc414",
+    "title": "String Too Long",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc414/tasks/abc414_b"
+  },
+  {
+    "file": "atcoder/abc/abc414/C_Palindromic_in_Both_Bases.cpp",
+    "problemId": "abc414_c",
+    "contestId": "abc414",
+    "title": "Palindromic in Both Bases",
+    "timeLimit": 3,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc414/tasks/abc414_c"
+  },
+  {
+    "file": "atcoder/abc/abc415/A_Unsupported_Type.cpp",
+    "problemId": "abc415_a",
+    "contestId": "abc415",
+    "title": "Unsupported Type",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc415/tasks/abc415_a"
+  },
+  {
+    "file": "atcoder/abc/abc415/B_Pick_Two.cpp",
+    "problemId": "abc415_b",
+    "contestId": "abc415",
+    "title": "Pick Two",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc415/tasks/abc415_b"
+  },
+  {
+    "file": "atcoder/abc/abc415/D_Get_Many_Stickers.cpp",
+    "problemId": "abc415_d",
+    "contestId": "abc415",
+    "title": "Get Many Stickers",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc415/tasks/abc415_d"
+  },
+  {
+    "file": "atcoder/abc/abc415/E_Hungry_Takahashi.cpp",
+    "problemId": "abc415_e",
+    "contestId": "abc415",
+    "title": "Hungry Takahashi",
+    "timeLimit": 3,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc415/tasks/abc415_e"
+  },
+  {
+    "file": "atcoder/abc/abc416/A_Vacation_Validation.cpp",
+    "problemId": "abc416_a",
+    "contestId": "abc416",
+    "title": "Vacation Validation",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc416/tasks/abc416_a"
+  },
+  {
+    "file": "atcoder/abc/abc416/B_1_D_Akari.cpp",
+    "problemId": "abc416_b",
+    "contestId": "abc416",
+    "title": "1D Akari",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc416/tasks/abc416_b"
+  },
+  {
+    "file": "atcoder/abc/abc416/C_Concat_X_th.cpp",
+    "problemId": "abc416_c",
+    "contestId": "abc416",
+    "title": "Concat (X-th)",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc416/tasks/abc416_c"
+  },
+  {
+    "file": "atcoder/abc/abc417/A_A_Substring.cpp",
+    "problemId": "abc417_a",
+    "contestId": "abc417",
+    "title": "A Substring",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc417/tasks/abc417_a"
+  },
+  {
+    "file": "atcoder/abc/abc417/B_Search_and_Delete.cpp",
+    "problemId": "abc417_b",
+    "contestId": "abc417",
+    "title": "Search and Delete",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc417/tasks/abc417_b"
+  },
+  {
+    "file": "atcoder/abc/abc417/C_Distance_Indicators.cpp",
+    "problemId": "abc417_c",
+    "contestId": "abc417",
+    "title": "Distance Indicators",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc417/tasks/abc417_c"
+  },
+  {
+    "file": "atcoder/abc/abc417/D_Takahashi_s_Expectation.cpp",
+    "problemId": "abc417_d",
+    "contestId": "abc417",
+    "title": "Takahashi&#39;s Expectation",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc417/tasks/abc417_d"
+  },
+  {
+    "file": "atcoder/abc/abc418/A_I_m_a_teapot.cpp",
+    "problemId": "abc418_a",
+    "contestId": "abc418",
+    "title": "I&#39;m a teapot",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc418/tasks/abc418_a"
+  },
+  {
+    "file": "atcoder/abc/abc418/B_You_re_a_teapot.cpp",
+    "problemId": "abc418_b",
+    "contestId": "abc418",
+    "title": "You&#39;re a teapot",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc418/tasks/abc418_b"
+  },
+  {
+    "file": "atcoder/abc/abc418/C_Flush.cpp",
+    "problemId": "abc418_c",
+    "contestId": "abc418",
+    "title": "Flush",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc418/tasks/abc418_c"
+  },
+  {
+    "file": "atcoder/abc/abc418/D_XNOR_Operation.cpp",
+    "problemId": "abc418_d",
+    "contestId": "abc418",
+    "title": "XNOR Operation",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc418/tasks/abc418_d"
+  },
+  {
+    "file": "atcoder/abc/abc419/A_AtCoder_Language.cpp",
+    "problemId": "abc419_a",
+    "contestId": "abc419",
+    "title": "AtCoder Language",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc419/tasks/abc419_a"
+  },
+  {
+    "file": "atcoder/abc/abc419/B_Get_Min.cpp",
+    "problemId": "abc419_b",
+    "contestId": "abc419",
+    "title": "Get Min",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc419/tasks/abc419_b"
+  },
+  {
+    "file": "atcoder/abc/abc419/C_King_s_Summit.cpp",
+    "problemId": "abc419_c",
+    "contestId": "abc419",
+    "title": "King&#39;s Summit",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc419/tasks/abc419_c"
+  },
+  {
+    "file": "atcoder/abc/abc419/D_Substr_Swap.cpp",
+    "problemId": "abc419_d",
+    "contestId": "abc419",
+    "title": "Substr Swap",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc419/tasks/abc419_d"
+  },
+  {
+    "file": "atcoder/abc/abc419/E_Subarray_Sum_Divisibility.cpp",
+    "problemId": "abc419_e",
+    "contestId": "abc419",
+    "title": "Subarray Sum Divisibility",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc419/tasks/abc419_e"
+  },
+  {
+    "file": "atcoder/abc/abc420/A_What_month_is_it.cpp",
+    "problemId": "abc420_a",
+    "contestId": "abc420",
+    "title": "What month is it?",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc420/tasks/abc420_a"
+  },
+  {
+    "file": "atcoder/abc/abc420/B_Most_Minority.cpp",
+    "problemId": "abc420_b",
+    "contestId": "abc420",
+    "title": "Most Minority",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc420/tasks/abc420_b"
+  },
+  {
+    "file": "atcoder/abc/abc420/C_Sum_of_Min_Query.cpp",
+    "problemId": "abc420_c",
+    "contestId": "abc420",
+    "title": "Sum of Min Query",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc420/tasks/abc420_c"
+  },
+  {
+    "file": "atcoder/abc/abc420/D_Toggle_Maze.cpp",
+    "problemId": "abc420_d",
+    "contestId": "abc420",
+    "title": "Toggle Maze",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc420/tasks/abc420_d"
+  },
+  {
+    "file": "atcoder/abc/abc420/E_Reachability_Query.cpp",
+    "problemId": "abc420_e",
+    "contestId": "abc420",
+    "title": "Reachability Query",
+    "timeLimit": 3,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc420/tasks/abc420_e"
+  },
+  {
+    "file": "atcoder/abc/abc426/A_OS_Versions.cpp",
+    "problemId": "abc426_a",
+    "contestId": "abc426",
+    "title": "OS Versions",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc426/tasks/abc426_a"
+  },
+  {
+    "file": "atcoder/abc/abc426/B_The_Odd_One_Out.cpp",
+    "problemId": "abc426_b",
+    "contestId": "abc426",
+    "title": "The Odd One Out",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc426/tasks/abc426_b"
+  },
+  {
+    "file": "atcoder/abc/abc426/C_Upgrade_Required.cpp",
+    "problemId": "abc426_c",
+    "contestId": "abc426",
+    "title": "Upgrade Required",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc426/tasks/abc426_c"
+  },
+  {
+    "file": "atcoder/abc/abc426/D_Pop_and_Insert.cpp",
+    "problemId": "abc426_d",
+    "contestId": "abc426",
+    "title": "Pop and Insert",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc426/tasks/abc426_d"
+  },
+  {
+    "file": "atcoder/abc/abc427/A_ABC_AC.cpp",
+    "problemId": "abc427_a",
+    "contestId": "abc427",
+    "title": "ABC -&gt; AC",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc427/tasks/abc427_a"
+  },
+  {
+    "file": "atcoder/abc/abc427/B_Sum_of_Digits_Sequence.cpp",
+    "problemId": "abc427_b",
+    "contestId": "abc427",
+    "title": "Sum of Digits Sequence",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc427/tasks/abc427_b"
+  },
+  {
+    "file": "atcoder/abc/abc427/C_Bipartize.cpp",
+    "problemId": "abc427_c",
+    "contestId": "abc427",
+    "title": "Bipartize",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc427/tasks/abc427_c"
+  },
+  {
+    "file": "atcoder/abc/abc427/D_The_Simple_Game.cpp",
+    "problemId": "abc427_d",
+    "contestId": "abc427",
+    "title": "The Simple Game",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc427/tasks/abc427_d"
+  },
+  {
+    "file": "atcoder/abc/abc427/E_Wind_Cleaning.cpp",
+    "problemId": "abc427_e",
+    "contestId": "abc427",
+    "title": "Wind Cleaning",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc427/tasks/abc427_e"
+  },
+  {
+    "file": "atcoder/abc/abc428/A_Grandma_s_Footsteps.cpp",
+    "problemId": "abc428_a",
+    "contestId": "abc428",
+    "title": "Grandma&#39;s Footsteps",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc428/tasks/abc428_a"
+  },
+  {
+    "file": "atcoder/abc/abc428/B_Most_Frequent_Substrings.cpp",
+    "problemId": "abc428_b",
+    "contestId": "abc428",
+    "title": "Most Frequent Substrings",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc428/tasks/abc428_b"
+  },
+  {
+    "file": "atcoder/abc/abc428/C_Brackets_Stack_Query.cpp",
+    "problemId": "abc428_c",
+    "contestId": "abc428",
+    "title": "Brackets Stack Query",
+    "timeLimit": 3,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc428/tasks/abc428_c"
+  },
+  {
+    "file": "atcoder/abc/abc429/A_Too_Many_Requests.cpp",
+    "problemId": "abc429_a",
+    "contestId": "abc429",
+    "title": "Too Many Requests",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc429/tasks/abc429_a"
+  },
+  {
+    "file": "atcoder/abc/abc429/B_N_1.cpp",
+    "problemId": "abc429_b",
+    "contestId": "abc429",
+    "title": "N - 1",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc429/tasks/abc429_b"
+  },
+  {
+    "file": "atcoder/abc/abc429/C_Odd_One_Subsequence.cpp",
+    "problemId": "abc429_c",
+    "contestId": "abc429",
+    "title": "Odd One Subsequence",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc429/tasks/abc429_c"
+  },
+  {
+    "file": "atcoder/abc/abc429/D_On_AtCoder_Conference.cpp",
+    "problemId": "abc429_d",
+    "contestId": "abc429",
+    "title": "On AtCoder Conference",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc429/tasks/abc429_d"
+  },
+  {
+    "file": "atcoder/abc/abc429/E_Hit_and_Away.cpp",
+    "problemId": "abc429_e",
+    "contestId": "abc429",
+    "title": "Hit and Away",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc429/tasks/abc429_e"
+  },
+  {
+    "file": "atcoder/abc/abc430/A_Candy_Cookie_Law.cpp",
+    "problemId": "abc430_a",
+    "contestId": "abc430",
+    "title": "Candy Cookie Law",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc430/tasks/abc430_a"
+  },
+  {
+    "file": "atcoder/abc/abc430/B_Count_Subgrid.cpp",
+    "problemId": "abc430_b",
+    "contestId": "abc430",
+    "title": "Count Subgrid",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc430/tasks/abc430_b"
+  },
+  {
+    "file": "atcoder/abc/abc430/C_Truck_Driver.cpp",
+    "problemId": "abc430_c",
+    "contestId": "abc430",
+    "title": "Truck Driver",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc430/tasks/abc430_c"
+  },
+  {
+    "file": "atcoder/abc/abc430/D_Neighbor_Distance.cpp",
+    "problemId": "abc430_d",
+    "contestId": "abc430",
+    "title": "Neighbor Distance",
+    "timeLimit": 4,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc430/tasks/abc430_d"
+  },
+  {
+    "file": "atcoder/abc/abc431/A_Robot_Balance.cpp",
+    "problemId": "abc431_a",
+    "contestId": "abc431",
+    "title": "Robot Balance",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc431/tasks/abc431_a"
+  },
+  {
+    "file": "atcoder/abc/abc431/B_Robot_Weight.cpp",
+    "problemId": "abc431_b",
+    "contestId": "abc431",
+    "title": "Robot Weight",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc431/tasks/abc431_b"
+  },
+  {
+    "file": "atcoder/abc/abc431/C_Robot_Factory.cpp",
+    "problemId": "abc431_c",
+    "contestId": "abc431",
+    "title": "Robot Factory",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc431/tasks/abc431_c"
+  },
+  {
+    "file": "atcoder/abc/abc431/D_Robot_Customize.cpp",
+    "problemId": "abc431_d",
+    "contestId": "abc431",
+    "title": "Robot Customize",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc431/tasks/abc431_d"
+  },
+  {
+    "file": "atcoder/abc/abc432/A_Permute_to_Maximize.cpp",
+    "problemId": "abc432_a",
+    "contestId": "abc432",
+    "title": "Permute to Maximize",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc432/tasks/abc432_a"
+  },
+  {
+    "file": "atcoder/abc/abc432/B_Permute_to_Minimize.cpp",
+    "problemId": "abc432_b",
+    "contestId": "abc432",
+    "title": "Permute to Minimize",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc432/tasks/abc432_b"
+  },
+  {
+    "file": "atcoder/abc/abc432/C_Candy_Tribulation.cpp",
+    "problemId": "abc432_c",
+    "contestId": "abc432",
+    "title": "Candy Tribulation",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc432/tasks/abc432_c"
+  },
+  {
+    "file": "atcoder/abc/abc432/D_Suddenly_A_Tempest.cpp",
+    "problemId": "abc432_d",
+    "contestId": "abc432",
+    "title": "Suddenly, A Tempest",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc432/tasks/abc432_d"
+  },
+  {
+    "file": "atcoder/abc/abc434/A_Balloon_Trip.cpp",
+    "problemId": "abc434_a",
+    "contestId": "abc434",
+    "title": "Balloon Trip",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc434/tasks/abc434_a"
+  },
+  {
+    "file": "atcoder/abc/abc434/B_Bird_Watching.cpp",
+    "problemId": "abc434_b",
+    "contestId": "abc434",
+    "title": "Bird Watching",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc434/tasks/abc434_b"
+  },
+  {
+    "file": "atcoder/abc/abc434/C_Flapping_Takahashi.cpp",
+    "problemId": "abc434_c",
+    "contestId": "abc434",
+    "title": "Flapping Takahashi",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc434/tasks/abc434_c"
+  },
+  {
+    "file": "atcoder/abc/abc434/D_Clouds.cpp",
+    "problemId": "abc434_d",
+    "contestId": "abc434",
+    "title": "Clouds",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc434/tasks/abc434_d"
+  },
+  {
+    "file": "atcoder/abc/abc435/A_Triangular_Number.cpp",
+    "problemId": "abc435_a",
+    "contestId": "abc435",
+    "title": "Triangular Number",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc435/tasks/abc435_a"
+  },
+  {
+    "file": "atcoder/abc/abc435/B_No_Divisible_Range.cpp",
+    "problemId": "abc435_b",
+    "contestId": "abc435",
+    "title": "No-Divisible Range",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc435/tasks/abc435_b"
+  },
+  {
+    "file": "atcoder/abc/abc435/C_Domino.cpp",
+    "problemId": "abc435_c",
+    "contestId": "abc435",
+    "title": "Domino",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc435/tasks/abc435_c"
+  },
+  {
+    "file": "atcoder/abc/abc435/D_Reachability_Query_2.cpp",
+    "problemId": "abc435_d",
+    "contestId": "abc435",
+    "title": "Reachability Query 2",
+    "timeLimit": 3,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc435/tasks/abc435_d"
+  },
+  {
+    "file": "atcoder/abc/abc435/E_Cover_query.cpp",
+    "problemId": "abc435_e",
+    "contestId": "abc435",
+    "title": "Cover query",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc435/tasks/abc435_e"
+  },
+  {
+    "file": "atcoder/abc/abc436/A_o_padding.cpp",
+    "problemId": "abc436_a",
+    "contestId": "abc436",
+    "title": "o-padding",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc436/tasks/abc436_a"
+  },
+  {
+    "file": "atcoder/abc/abc436/B_Magic_Square.cpp",
+    "problemId": "abc436_b",
+    "contestId": "abc436",
+    "title": "Magic Square",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc436/tasks/abc436_b"
+  },
+  {
+    "file": "atcoder/abc/abc436/C_2_x_2_Placing.cpp",
+    "problemId": "abc436_c",
+    "contestId": "abc436",
+    "title": "2x2 Placing",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc436/tasks/abc436_c"
+  },
+  {
+    "file": "atcoder/abc/abc436/D_Teleport_Maze.cpp",
+    "problemId": "abc436_d",
+    "contestId": "abc436",
+    "title": "Teleport Maze",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc436/tasks/abc436_d"
+  },
+  {
+    "file": "atcoder/abc/abc436/E_Minimum_Swap.cpp",
+    "problemId": "abc436_e",
+    "contestId": "abc436",
+    "title": "Minimum Swap",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc436/tasks/abc436_e"
+  },
+  {
+    "file": "atcoder/abc/abc438/A_First_Contest_of_the_Year.cpp",
+    "problemId": "abc438_a",
+    "contestId": "abc438",
+    "title": "First Contest of the Year",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc438/tasks/abc438_a"
+  },
+  {
+    "file": "atcoder/abc/abc438/B_Substring_2.cpp",
+    "problemId": "abc438_b",
+    "contestId": "abc438",
+    "title": "Substring 2",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc438/tasks/abc438_b"
+  },
+  {
+    "file": "atcoder/abc/abc438/C_1_D_puyopuyo.cpp",
+    "problemId": "abc438_c",
+    "contestId": "abc438",
+    "title": "1D puyopuyo",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc438/tasks/abc438_c"
+  },
+  {
+    "file": "atcoder/abc/abc438/D_Tail_of_Snake.cpp",
+    "problemId": "abc438_d",
+    "contestId": "abc438",
+    "title": "Tail of Snake",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc438/tasks/abc438_d"
+  },
+  {
+    "file": "atcoder/abc/abc438/E_Heavy_Buckets.cpp",
+    "problemId": "abc438_e",
+    "contestId": "abc438",
+    "title": "Heavy Buckets",
+    "timeLimit": 3,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc438/tasks/abc438_e"
+  },
+  {
+    "file": "atcoder/abc/abc439/A_2_n_2_n.cpp",
+    "problemId": "abc439_a",
+    "contestId": "abc439",
+    "title": "2^n - 2*n",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc439/tasks/abc439_a"
+  },
+  {
+    "file": "atcoder/abc/abc439/B_Happy_Number.cpp",
+    "problemId": "abc439_b",
+    "contestId": "abc439",
+    "title": "Happy Number",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc439/tasks/abc439_b"
+  },
+  {
+    "file": "atcoder/abc/abc439/C_2026.cpp",
+    "problemId": "abc439_c",
+    "contestId": "abc439",
+    "title": "2026",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc439/tasks/abc439_c"
+  },
+  {
+    "file": "atcoder/abc/abc439/D_Kadomatsu_Subsequence.cpp",
+    "problemId": "abc439_d",
+    "contestId": "abc439",
+    "title": "Kadomatsu Subsequence",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc439/tasks/abc439_d"
+  },
+  {
+    "file": "atcoder/abc/abc439/E_Kite.cpp",
+    "problemId": "abc439_e",
+    "contestId": "abc439",
+    "title": "Kite",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc439/tasks/abc439_e"
+  },
+  {
+    "file": "atcoder/abc/abc440/A_Octave.cpp",
+    "problemId": "abc440_a",
+    "contestId": "abc440",
+    "title": "Octave",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc440/tasks/abc440_a"
+  },
+  {
+    "file": "atcoder/abc/abc440/B_Trifecta.cpp",
+    "problemId": "abc440_b",
+    "contestId": "abc440",
+    "title": "Trifecta",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc440/tasks/abc440_b"
+  },
+  {
+    "file": "atcoder/abc/abc440/C_Striped_Horse.cpp",
+    "problemId": "abc440_c",
+    "contestId": "abc440",
+    "title": "Striped Horse",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc440/tasks/abc440_c"
+  },
+  {
+    "file": "atcoder/abc/abc440/D_Forbidden_List_2.cpp",
+    "problemId": "abc440_d",
+    "contestId": "abc440",
+    "title": "Forbidden List 2",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc440/tasks/abc440_d"
+  },
+  {
+    "file": "atcoder/abc/abc440/E_Cookies.cpp",
+    "problemId": "abc440_e",
+    "contestId": "abc440",
+    "title": "Cookies",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc440/tasks/abc440_e"
+  },
+  {
+    "file": "atcoder/abc/abc441/A_Black_Square.cpp",
+    "problemId": "abc441_a",
+    "contestId": "abc441",
+    "title": "Black Square",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc441/tasks/abc441_a"
+  },
+  {
+    "file": "atcoder/abc/abc441/B_Two_Languages.cpp",
+    "problemId": "abc441_b",
+    "contestId": "abc441",
+    "title": "Two Languages",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc441/tasks/abc441_b"
+  },
+  {
+    "file": "atcoder/abc/abc441/C_Sake_or_Water.cpp",
+    "problemId": "abc441_c",
+    "contestId": "abc441",
+    "title": "Sake or Water",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc441/tasks/abc441_c"
+  },
+  {
+    "file": "atcoder/abc/abc441/D_Paid_Walk.cpp",
+    "problemId": "abc441_d",
+    "contestId": "abc441",
+    "title": "Paid Walk",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc441/tasks/abc441_d"
+  },
+  {
+    "file": "atcoder/abc/abc442/A_Count.cpp",
+    "problemId": "abc442_a",
+    "contestId": "abc442",
+    "title": "Count .",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc442/tasks/abc442_a"
+  },
+  {
+    "file": "atcoder/abc/abc442/B_Music_Player.cpp",
+    "problemId": "abc442_b",
+    "contestId": "abc442",
+    "title": "Music Player",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc442/tasks/abc442_b"
+  },
+  {
+    "file": "atcoder/abc/abc442/C_Peer_Review.cpp",
+    "problemId": "abc442_c",
+    "contestId": "abc442",
+    "title": "Peer Review",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc442/tasks/abc442_c"
+  },
+  {
+    "file": "atcoder/abc/abc442/D_Swap_and_Range_Sum.cpp",
+    "problemId": "abc442_d",
+    "contestId": "abc442",
+    "title": "Swap and Range Sum",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc442/tasks/abc442_d"
+  },
+  {
+    "file": "atcoder/abc/abc442/E_Laser_Takahashi.cpp",
+    "problemId": "abc442_e",
+    "contestId": "abc442",
+    "title": "Laser Takahashi",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/abc442/tasks/abc442_e"
+  },
+  {
+    "file": "atcoder/arc/arc205/A_2_x_2_Erasing.cpp",
+    "problemId": "arc205_a",
+    "contestId": "arc205",
+    "title": "2x2 Erasing",
+    "timeLimit": 2,
+    "memLimit": 1024,
+    "url": "https://atcoder.jp/contests/arc205/tasks/arc205_a"
   }
 ]

@@ -67,9 +67,10 @@ function scanLocalProblems(baseDir) {
                 const relPath = path.relative(cfDir, fullPath);
                 const parts = relPath.split(path.sep);
                 
-                if (parts.length >= 3) {
-                    const contestId = parseInt(parts[1]) || parts[1];
-                    const problemIndex = entry.name.split('_')[0];
+                if (parts.length >= 2) {
+                    const parentDir = parts[parts.length - 2];
+                    const contestId = parseInt(parentDir) || parentDir;
+                    let problemIndex = entry.name.split('_')[0].split('.')[0].toUpperCase();
                     
                     problems.push({
                         file: fullPath,
@@ -90,6 +91,13 @@ function generateHeader(info) {
         '// ' + '='.repeat(50),
         `// Problem   : ${info.contestId}${info.index} - ${info.title}`,
     ];
+    
+    if (info.timeLimit || info.memLimit) {
+        const limits = [];
+        if (info.timeLimit) limits.push(`${info.timeLimit / 1000} sec`);
+        if (info.memLimit) limits.push(`${info.memLimit / 1024 / 1024} MB`);
+        lines.push(`// Limits    : ${limits.join(' / ')}`);
+    }
     
     if (info.rating) {
         lines.push(`// Rating    : ${info.rating}`);
@@ -167,6 +175,8 @@ async function main() {
             contestId: local.contestId,
             index: local.problemIndex,
             title: remote?.name || 'Unknown',
+            timeLimit: remote?.timeLimit,
+            memLimit: remote?.memoryLimit,
             rating: remote?.rating || null,
             tags: remote?.tags || [],
             runtime: submission?.timeConsumedMillis,

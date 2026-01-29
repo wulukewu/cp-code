@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC419_C - King&#39;s Summit
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc419/tasks/abc419_c
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

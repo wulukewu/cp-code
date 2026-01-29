@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC402_E - Payment Required
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc402/tasks/abc402_e
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

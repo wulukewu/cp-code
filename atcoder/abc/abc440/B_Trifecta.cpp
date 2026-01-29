@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC440_B - Trifecta
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc440/tasks/abc440_b
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

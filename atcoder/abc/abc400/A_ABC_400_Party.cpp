@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC400_A - ABC400 Party
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc400/tasks/abc400_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

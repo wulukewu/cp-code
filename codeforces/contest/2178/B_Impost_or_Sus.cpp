@@ -1,8 +1,6 @@
 // ==================================================
 // Problem   : 2178B - Impost or Sus
 // Tags      : dp, greedy, implementation, strings
-// Runtime   : 46 ms
-// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2178/problem/B
 // ==================================================
 

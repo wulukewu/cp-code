@@ -1,6 +1,6 @@
 // ==================================================
-// Problem   : 105383template.cpp - Unknown
-// URL       : https://codeforces.com/contest/105383/problem/template.cpp
+// Problem   : 105383TEMPLATE - Unknown
+// URL       : https://codeforces.com/contest/105383/problem/TEMPLATE
 // ==================================================
 
 #include <bits/stdc++.h>

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC400_C - 2^a b^2
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc400/tasks/abc400_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

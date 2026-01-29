@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC404_D - Goin&#39; to the Zoo
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc404/tasks/abc404_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

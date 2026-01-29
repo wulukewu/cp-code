@@ -1,6 +1,6 @@
 // ==================================================
-// Problem   : 101873G.cpp - Unknown
-// URL       : https://codeforces.com/contest/101873/problem/G.cpp
+// Problem   : 101873G - Unknown
+// URL       : https://codeforces.com/contest/101873/problem/G
 // ==================================================
 
 #include<bits/stdc++.h>

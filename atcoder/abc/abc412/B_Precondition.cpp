@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC412_B - Precondition
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc412/tasks/abc412_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

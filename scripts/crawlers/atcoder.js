@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 /**
  * AtCoder Problem Crawler
- * Scrapes problem titles directly from AtCoder (more reliable than kenkoooo)
- * Also fetches user submissions for runtime info
+ * Scrapes problem info directly from AtCoder, including:
+ * - Problem title
+ * - Time/memory limits
+ * - User's best submission runtime
  */
 
 const fs = require('fs');
@@ -45,49 +47,76 @@ function fetchUrl(url) {
     });
 }
 
-// Scrape problem title from AtCoder contest page
-async function fetchProblemTitle(contestId, problemId) {
+// Scrape problem info from AtCoder
+async function fetchProblemInfo(contestId, problemId) {
     try {
         const url = `https://atcoder.jp/contests/${contestId}/tasks/${problemId}`;
         const html = await fetchUrl(url);
         
-        // Extract title from <title> tag: "A - Problem Name"
+        // Extract title from <title> tag
         const titleMatch = html.match(/<title>([A-Z]\d*)\s*-\s*(.+?)<\/title>/);
-        if (titleMatch) {
-            return titleMatch[2].trim();
-        }
-        return null;
+        const title = titleMatch ? titleMatch[2].trim() : null;
+        
+        // Extract time limit: "Time Limit: 2 sec"
+        const timeLimitMatch = html.match(/Time Limit:\s*(\d+)\s*sec/i);
+        const timeLimit = timeLimitMatch ? parseInt(timeLimitMatch[1]) : null;
+        
+        // Extract memory limit: "Memory Limit: 1024 MB"
+        const memLimitMatch = html.match(/Memory Limit:\s*(\d+)\s*(MB|MiB)/i);
+        const memLimit = memLimitMatch ? parseInt(memLimitMatch[1]) : null;
+        
+        return { title, timeLimit, memLimit };
     } catch (e) {
-        return null;
+        return { title: null, timeLimit: null, memLimit: null };
     }
 }
 
-// Fetch user submissions from AtCoder directly
+// Fetch user's AC submissions for a contest
 async function fetchUserSubmissions(handle, contestId) {
     if (!handle) return [];
     try {
         const url = `https://atcoder.jp/contests/${contestId}/submissions?f.User=${handle}&f.Status=AC`;
         const html = await fetchUrl(url);
         
-        // Parse submission table - extract problem and execution time
         const submissions = [];
-        const rows = html.match(/<tr[^>]*>[\s\S]*?<\/tr>/g) || [];
         
-        for (const row of rows) {
-            // Extract problem ID from link
-            const problemMatch = row.match(/\/tasks\/([a-z]+\d+_[a-z]\d?)/);
-            // Extract execution time
-            const timeMatch = row.match(/(\d+)\s*ms/);
-            
-            if (problemMatch && timeMatch) {
-                submissions.push({
-                    problem_id: problemMatch[1],
-                    execution_time: parseInt(timeMatch[1]),
-                });
+        // Find all table rows in submission table
+        // Pattern: problem link, result, runtime, memory
+        const regex = /href="\/contests\/[^"]+\/tasks\/([a-z]+\d+_[a-z]\d?)"[^>]*>.*?<td[^>]*>AC<\/td>\s*<td[^>]*>(\d+)\s*ms<\/td>\s*<td[^>]*>(\d+)\s*(KB|MB)/gi;
+        
+        let match;
+        while ((match = regex.exec(html)) !== null) {
+            submissions.push({
+                problem_id: match[1],
+                runtime: parseInt(match[2]),
+                memory: match[4] === 'MB' ? parseInt(match[3]) * 1024 : parseInt(match[3]),
+            });
+        }
+        
+        // If no match with the complex regex, try simpler extraction
+        if (submissions.length === 0) {
+            // Look for submission rows
+            const rows = html.split(/<tr[^>]*>/);
+            for (const row of rows) {
+                const problemMatch = row.match(/\/tasks\/([a-z]+\d+_[a-z]\d?)/);
+                const runtimeMatch = row.match(/>(\d+)\s*ms</);
+                const memoryMatch = row.match(/>(\d+)\s*(KB|MB)</);
+                const acMatch = row.includes('>AC<');
+                
+                if (problemMatch && runtimeMatch && acMatch) {
+                    const mem = memoryMatch ? (memoryMatch[2] === 'MB' ? parseInt(memoryMatch[1]) * 1024 : parseInt(memoryMatch[1])) : null;
+                    submissions.push({
+                        problem_id: problemMatch[1],
+                        runtime: parseInt(runtimeMatch[1]),
+                        memory: mem,
+                    });
+                }
             }
         }
+        
         return submissions;
     } catch (e) {
+        console.log(`  ⚠️ Could not fetch submissions for ${contestId}: ${e.message}`);
         return [];
     }
 }
@@ -105,17 +134,34 @@ function scanLocalProblems(baseDir) {
             if (entry.isDirectory()) {
                 walk(fullPath);
             } else if (entry.name.endsWith('.cpp')) {
-                // Extract problem ID from filename
-                // Patterns: "20250201 abc061c.cpp", "abc061c.cpp"
-                const match = entry.name.match(/([a-z]+)(\d+)[_]?([a-z])(?:\d)?\.cpp$/i);
-                if (match) {
-                    const contest = match[1].toLowerCase() + match[2];
-                    const problem = match[3].toLowerCase();
+                // Try old convention: 20240706 abc360a.cpp
+                const oldMatch = entry.name.match(/([a-z]+)(\d+)[_]?([a-z])(?:\d)?\.cpp$/i);
+                if (oldMatch) {
+                    const contest = oldMatch[1].toLowerCase() + oldMatch[2];
+                    const problem = oldMatch[3].toLowerCase();
                     problems.push({
                         file: fullPath,
                         contestId: contest,
                         problemId: `${contest}_${problem}`,
                     });
+                    continue;
+                }
+
+                // Try new convention: atcoder/abc/abc397/A_Thermometer.cpp
+                const relPath = path.relative(atcoderDir, fullPath);
+                const parts = relPath.split(path.sep);
+                // parts could be ['abc', 'abc397', 'A_Thermometer.cpp']
+                if (parts.length >= 3) {
+                    const contest = parts[1].toLowerCase();
+                    const problemMatch = entry.name.match(/^([a-z])(?:\d)?_/i);
+                    if (problemMatch) {
+                        const problem = problemMatch[1].toLowerCase();
+                        problems.push({
+                            file: fullPath,
+                            contestId: contest,
+                            problemId: `${contest}_${problem}`,
+                        });
+                    }
                 }
             }
         }
@@ -130,11 +176,18 @@ function generateHeader(info) {
         `// Problem   : ${info.problemId.toUpperCase()} - ${info.title}`,
     ];
     
-    if (info.difficulty !== null && info.difficulty !== undefined) {
-        lines.push(`// Difficulty: ${info.difficulty}`);
+    if (info.timeLimit || info.memLimit) {
+        const limits = [];
+        if (info.timeLimit) limits.push(`${info.timeLimit} sec`);
+        if (info.memLimit) limits.push(`${info.memLimit} MB`);
+        lines.push(`// Limits    : ${limits.join(' / ')}`);
     }
-    if (info.runtime !== undefined) {
+    
+    if (info.runtime !== undefined && info.runtime !== null) {
         lines.push(`// Runtime   : ${info.runtime} ms`);
+    }
+    if (info.memory !== undefined && info.memory !== null) {
+        lines.push(`// Memory    : ${info.memory} KB`);
     }
     
     lines.push(`// URL       : ${info.url}`);
@@ -174,6 +227,8 @@ async function main() {
     const config = loadConfig();
     const handle = config.handles?.atcoder;
     
+    console.log(`AtCoder handle: ${handle || '(not set)'}`);
+    
     // Load cache
     const cache = loadCache(baseDir);
     
@@ -189,81 +244,80 @@ async function main() {
     }
     
     const contests = Object.keys(byContest);
-    console.log(`Spanning ${contests.length} contests`);
+    console.log(`Spanning ${contests.length} contests\n`);
     
-    // Fetch missing titles and submissions
+    // Fetch missing data
     let fetched = 0;
     for (const contestId of contests) {
         const problems = byContest[contestId];
         
-        // Fetch submissions for this contest
-        if (handle && !cache.submissions[contestId]) {
-            console.log(`  Fetching submissions for ${contestId}...`);
+        // Fetch submissions for this contest (always refresh to get latest)
+        if (handle) {
+            console.log(`Fetching submissions for ${contestId}...`);
             const subs = await fetchUserSubmissions(handle, contestId);
             if (subs.length > 0) {
                 cache.submissions[contestId] = subs;
-                fetched++;
+                console.log(`  Found ${subs.length} AC submissions`);
             }
-            // Rate limiting
-            await new Promise(r => setTimeout(r, 200));
+            await new Promise(r => setTimeout(r, 300));
         }
         
-        // Fetch missing problem titles
+        // Fetch missing problem info
         for (const p of problems) {
-            if (!cache.problems[p.problemId]) {
-                console.log(`  Fetching title for ${p.problemId}...`);
-                const title = await fetchProblemTitle(p.contestId, p.problemId);
-                if (title) {
-                    cache.problems[p.problemId] = { title };
+            if (!cache.problems[p.problemId] || !cache.problems[p.problemId].title) {
+                console.log(`Fetching info for ${p.problemId}...`);
+                const info = await fetchProblemInfo(p.contestId, p.problemId);
+                if (info.title) {
+                    cache.problems[p.problemId] = info;
                     fetched++;
                 }
-                // Rate limiting
                 await new Promise(r => setTimeout(r, 200));
             }
         }
     }
     
     if (fetched > 0) {
-        console.log(`Fetched ${fetched} new items, saving cache...`);
-        saveCache(baseDir, cache);
+        console.log(`\nFetched ${fetched} new items, saving cache...`);
     }
+    saveCache(baseDir, cache);
     
     // Build submission map (best time per problem)
     const submissionMap = {};
     for (const contestId in cache.submissions) {
         for (const s of cache.submissions[contestId]) {
-            if (!submissionMap[s.problem_id] || s.execution_time < submissionMap[s.problem_id]) {
-                submissionMap[s.problem_id] = s.execution_time;
+            if (!submissionMap[s.problem_id] || s.runtime < submissionMap[s.problem_id].runtime) {
+                submissionMap[s.problem_id] = s;
             }
         }
     }
+    console.log(`Submission data for ${Object.keys(submissionMap).length} problems`);
     
-    // Update files
+    // Update ALL files
     let updated = 0;
     const metadata = [];
 
     for (const local of localProblems) {
-        const cached = cache.problems[local.problemId];
-        const runtime = submissionMap[local.problemId];
+        const cached = cache.problems[local.problemId] || {};
+        const submission = submissionMap[local.problemId];
         
         const info = {
             file: path.relative(baseDir, local.file),
             problemId: local.problemId,
             contestId: local.contestId,
-            title: cached?.title || 'Unknown',
-            difficulty: null, // Would need kenkoooo for this
-            runtime: runtime,
+            title: cached.title || 'Unknown',
+            timeLimit: cached.timeLimit || null,
+            memLimit: cached.memLimit || null,
+            runtime: submission?.runtime,
+            memory: submission?.memory,
             url: `https://atcoder.jp/contests/${local.contestId}/tasks/${local.problemId}`,
         };
         
         metadata.push(info);
         
-        // Update file with header if we have a title
-        if (config.updateExisting !== false && info.title !== 'Unknown') {
-            const header = generateHeader(info);
-            updateFileHeader(local.file, header);
-            updated++;
-        }
+        // Update file with header (ALWAYS update)
+        const header = generateHeader(info);
+        updateFileHeader(local.file, header);
+        updated++;
     }
 
     // Save metadata

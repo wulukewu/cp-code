@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC413_C - Large Queue
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc413/tasks/abc413_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

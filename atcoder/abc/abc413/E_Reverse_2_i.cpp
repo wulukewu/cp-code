@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC413_E - Reverse 2^i
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc413/tasks/abc413_e
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

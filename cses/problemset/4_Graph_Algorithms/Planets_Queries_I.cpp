@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CSES - Planets Queries I
+// URL       : https://cses.fi/problemset/task/1750
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

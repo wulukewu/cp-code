@@ -1,0 +1,68 @@
+[
+  {
+    "file": "cpe/2024-10-15/10008_Whats_Cryptanalysis.cpp",
+    "problemNum": "10008",
+    "title": "What's Cryptanalysis?",
+    "url": "https://onlinejudge.org/external/100/10008.pdf"
+  },
+  {
+    "file": "cpe/2024-12-10/10268_498-bis.cpp",
+    "problemNum": "10268",
+    "title": "498-bis",
+    "url": "https://onlinejudge.org/external/102/10268.pdf"
+  },
+  {
+    "file": "cpe/2024-12-10/10273_Eat_or_Not_to_Eat.cpp",
+    "problemNum": "10273",
+    "title": "Eat or Not to Eat?",
+    "url": "https://onlinejudge.org/external/102/10273.pdf"
+  },
+  {
+    "file": "cpe/2024-12-10/12250_Language_Detection.cpp",
+    "problemNum": "12250",
+    "title": "Language Detection",
+    "url": "https://onlinejudge.org/external/122/12250.pdf"
+  },
+  {
+    "file": "cpe/2024-12-10/382_Perfection.cpp",
+    "problemNum": "382",
+    "title": "Perfection",
+    "url": "https://onlinejudge.org/external/3/382.pdf"
+  },
+  {
+    "file": "cpe/2025-03-25/10327_Flip_Sort.cpp",
+    "problemNum": "10327",
+    "title": "Flip Sort",
+    "url": "https://onlinejudge.org/external/103/10327.pdf"
+  },
+  {
+    "file": "cpe/2025-03-25/10815_Andy’s_First_Dictionary.cpp",
+    "problemNum": "10815",
+    "title": "Andy's First Dictionary",
+    "url": "https://onlinejudge.org/external/108/10815.pdf"
+  },
+  {
+    "file": "cpe/2025-03-25/11461_Square_Numbers.cpp",
+    "problemNum": "11461",
+    "title": "Square Numbers",
+    "url": "https://onlinejudge.org/external/114/11461.pdf"
+  },
+  {
+    "file": "cpe/2025-03-25/12442_Forwarding_Emails.cpp",
+    "problemNum": "12442",
+    "title": "Forwarding Emails",
+    "url": "https://onlinejudge.org/external/124/12442.pdf"
+  },
+  {
+    "file": "cpe/2025-03-25/13242_Pool_Filling.cpp",
+    "problemNum": "13242",
+    "title": "Pool Filling",
+    "url": "https://onlinejudge.org/external/132/13242.pdf"
+  },
+  {
+    "file": "cpe/2025-05-20/357_Let_Me_Count_The_Ways.cpp",
+    "problemNum": "357",
+    "title": "Let Me Count The Ways",
+    "url": "https://onlinejudge.org/external/3/357.pdf"
+  }
+]

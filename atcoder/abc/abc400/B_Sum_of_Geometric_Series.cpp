@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC400_B - Sum of Geometric Series
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc400/tasks/abc400_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

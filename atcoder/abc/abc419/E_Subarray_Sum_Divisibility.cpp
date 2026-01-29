@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC419_E - Subarray Sum Divisibility
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc419/tasks/abc419_e
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC430_A - Candy Cookie Law
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc430/tasks/abc430_a
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC399_A - Hamming Distance
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc399/tasks/abc399_a
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

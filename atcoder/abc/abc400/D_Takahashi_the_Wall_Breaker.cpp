@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC400_D - Takahashi the Wall Breaker
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc400/tasks/abc400_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC431_A - Robot Balance
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc431/tasks/abc431_a
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

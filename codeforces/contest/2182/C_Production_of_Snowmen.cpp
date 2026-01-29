@@ -1,8 +1,6 @@
 // ==================================================
 // Problem   : 2182C - Production of Snowmen
 // Tags      : brute force, combinatorics, dp
-// Runtime   : 421 ms
-// Memory    : 100 KB
 // URL       : https://codeforces.com/contest/2182/problem/C
 // ==================================================
 

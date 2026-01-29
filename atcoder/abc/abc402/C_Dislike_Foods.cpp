@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC402_C - Dislike Foods
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc402/tasks/abc402_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

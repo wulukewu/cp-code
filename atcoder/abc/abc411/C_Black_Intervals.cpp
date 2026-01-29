@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC411_C - Black Intervals
+// Limits    : 3 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc411/tasks/abc411_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

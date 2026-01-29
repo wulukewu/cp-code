@@ -1,6 +1,6 @@
 // ==================================================
-// Problem   : 105383C.cpp - Unknown
-// URL       : https://codeforces.com/contest/105383/problem/C.cpp
+// Problem   : 105383C - Unknown
+// URL       : https://codeforces.com/contest/105383/problem/C
 // ==================================================
 
 #include <bits/stdc++.h>

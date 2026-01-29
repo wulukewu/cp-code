@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CPE 10008 - What's Cryptanalysis?
+// URL       : https://onlinejudge.org/external/100/10008.pdf
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <map>

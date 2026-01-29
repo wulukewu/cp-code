@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC406_B - Product Calculator
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc406/tasks/abc406_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

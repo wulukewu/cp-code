@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC410_D - XOR Shortest Walk
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc410/tasks/abc410_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

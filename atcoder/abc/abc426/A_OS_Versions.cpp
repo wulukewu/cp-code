@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC426_A - OS Versions
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc426/tasks/abc426_a
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

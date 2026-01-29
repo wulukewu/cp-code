@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC415_D - Get Many Stickers
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc415/tasks/abc415_d
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

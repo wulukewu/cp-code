@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC398_C - Uniqueness
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc398/tasks/abc398_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

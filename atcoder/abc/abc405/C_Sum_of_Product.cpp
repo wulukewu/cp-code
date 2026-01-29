@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC405_C - Sum of Product
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc405/tasks/abc405_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

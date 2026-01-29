@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC410_C - Rotatable Array
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc410/tasks/abc410_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

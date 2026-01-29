@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC436_A - o-padding
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc436/tasks/abc436_a
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

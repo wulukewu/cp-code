@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CPE 10327 - Flip Sort
+// URL       : https://onlinejudge.org/external/103/10327.pdf
+// ==================================================
+
 #include <iostream>
 #include <vector>
 

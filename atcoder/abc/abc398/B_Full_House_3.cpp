@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC398_B - Full House 3
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc398/tasks/abc398_b
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

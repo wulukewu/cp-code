@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CPE 10815 - Andy's First Dictionary
+// URL       : https://onlinejudge.org/external/108/10815.pdf
+// ==================================================
+
 #include <iostream>
 #include <sstream>
 #include <set>

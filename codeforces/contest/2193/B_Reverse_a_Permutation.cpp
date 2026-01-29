@@ -1,8 +1,6 @@
 // ==================================================
 // Problem   : 2193B - Reverse a Permutation
 // Tags      : greedy
-// Runtime   : 93 ms
-// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2193/problem/B
 // ==================================================
 

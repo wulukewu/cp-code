@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC412_C - Giant Domino
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc412/tasks/abc412_c
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

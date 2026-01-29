@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC416_B - 1D Akari
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc416/tasks/abc416_b
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CPE 10273 - Eat or Not to Eat?
+// URL       : https://onlinejudge.org/external/102/10273.pdf
+// ==================================================
+
 #include <iostream>
 #include <vector>
 

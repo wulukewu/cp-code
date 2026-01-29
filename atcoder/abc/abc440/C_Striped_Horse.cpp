@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC440_C - Striped Horse
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc440/tasks/abc440_c
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

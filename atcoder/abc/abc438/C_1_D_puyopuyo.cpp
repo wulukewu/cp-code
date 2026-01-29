@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC438_C - 1D puyopuyo
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc438/tasks/abc438_c
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

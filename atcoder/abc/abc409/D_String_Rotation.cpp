@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC409_D - String Rotation
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc409/tasks/abc409_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

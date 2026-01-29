@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC414_B - String Too Long
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc414/tasks/abc414_b
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC413_G - Big Banned Grid
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc413/tasks/abc413_g
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

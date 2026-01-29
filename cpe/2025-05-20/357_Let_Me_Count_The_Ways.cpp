@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CPE 357 - Let Me Count The Ways
+// URL       : https://onlinejudge.org/external/3/357.pdf
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #define int long long

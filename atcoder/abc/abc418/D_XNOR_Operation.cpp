@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC418_D - XNOR Operation
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc418/tasks/abc418_d
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC415_E - Hungry Takahashi
+// Limits    : 3 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc415/tasks/abc415_e
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

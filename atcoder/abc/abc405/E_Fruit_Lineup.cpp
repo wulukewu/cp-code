@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC405_E - Fruit Lineup
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc405/tasks/abc405_e
+// ==================================================
+
 #include <iostream>
 #include <vector>
 #include <string>

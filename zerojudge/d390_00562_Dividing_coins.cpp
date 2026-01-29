@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : ZeroJudge D390 - 00562 - Dividing coins
+// URL       : https://zerojudge.tw/ShowProblem?problemid=d390
+// ==================================================
+
 #include <iostream>
 #include <vector>
 

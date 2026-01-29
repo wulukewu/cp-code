@@ -1,74 +1,30 @@
-name: Crawl Problem Info
+name: Update Problem Metadata
 
 on:
-  # Run daily at midnight UTC
   schedule:
-    - cron: '0 0 * * *'
-  # Manual trigger
-  workflow_dispatch:
-  # Also run on push to this branch
-  push:
-    branches:
-      - feature/problem-crawler
-    paths:
-      - 'scripts/crawlers/**'
+    - cron: '0 0 * * *' # Run daily at midnight
+  workflow_dispatch: # Allow manual run
 
 jobs:
-  crawl:
+  update-metadata:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-    - name: Run AtCoder crawler
-      run: node scripts/crawlers/atcoder.js .
-      continue-on-error: true
+      - name: Run crawlers
+        run: node scripts/crawlers/index.js .
 
-    - name: Run Codeforces crawler  
-      run: node scripts/crawlers/codeforces.js .
-
-    - name: Run master script (for stats.json)
-      run: |
-        # Generate combined stats without re-running crawlers
-        node -e "
-        const fs = require('fs');
-        const stats = { generatedAt: new Date().toISOString(), sites: {} };
-        const sites = ['atcoder', 'codeforces', 'cses', 'zerojudge', 'luogu'];
-        for (const site of sites) {
-          const metaPath = './' + site + '/metadata.json';
-          if (fs.existsSync(metaPath)) {
-            const meta = JSON.parse(fs.readFileSync(metaPath, 'utf-8'));
-            stats.sites[site] = {
-              count: meta.length,
-              withRating: meta.filter(m => m.rating || m.difficulty).length,
-            };
-          }
-        }
-        fs.writeFileSync('./stats.json', JSON.stringify(stats, null, 2));
-        console.log('Stats:', stats);
-        "
-
-    - name: Check for changes
-      id: check
-      run: |
-        if git diff --quiet; then
-          echo "changed=false" >> $GITHUB_OUTPUT
-        else
-          echo "changed=true" >> $GITHUB_OUTPUT
-          git diff --stat
-        fi
-
-    - name: Commit metadata
-      if: steps.check.outputs.changed == 'true'
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add -A
-        git commit -m "🤖 Update problem metadata [$(date -u +%Y-%m-%d)]"
-        git push
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update problem metadata [skip ci]"
+          branch: feat/crawler
+          file_pattern: '**/metadata.json **/*.cpp stats.json scripts/crawlers/*_cache.json'

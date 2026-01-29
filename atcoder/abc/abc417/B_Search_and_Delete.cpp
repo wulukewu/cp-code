@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC417_B - Search and Delete
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc417/tasks/abc417_b
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

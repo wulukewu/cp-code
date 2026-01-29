@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC408_D - Flip to Gather
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc408/tasks/abc408_d
+// ==================================================
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

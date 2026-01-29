@@ -1,8 +1,6 @@
 // ==================================================
 // Problem   : 2183A - Binary Array Game
 // Tags      : games
-// Runtime   : 31 ms
-// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2183/problem/A
 // ==================================================
 

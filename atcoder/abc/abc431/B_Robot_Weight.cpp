@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC431_B - Robot Weight
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc431/tasks/abc431_b
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

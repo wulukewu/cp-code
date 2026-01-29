@@ -1,3 +1,9 @@
+// ==================================================
+// Problem   : ABC434_C - Flapping Takahashi
+// Limits    : 2 sec / 1024 MB
+// URL       : https://atcoder.jp/contests/abc434/tasks/abc434_c
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

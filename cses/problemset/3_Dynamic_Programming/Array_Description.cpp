@@ -1,3 +1,8 @@
+// ==================================================
+// Problem   : CSES - Array Description
+// URL       : https://cses.fi/problemset/task/1746
+// ==================================================
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,12 +1,24 @@
 {
-  "generatedAt": "2026-01-28T11:15:07.923Z",
+  "generatedAt": "2026-01-29T16:25:03.422Z",
   "sites": {
     "atcoder": {
-      "count": 152,
+      "count": 316,
       "withRating": 0
     },
     "codeforces": {
       "count": 143,
+      "withRating": 0
+    },
+    "cses": {
+      "count": 13,
+      "withRating": 0
+    },
+    "zerojudge": {
+      "count": 8,
+      "withRating": 0
+    },
+    "cpe": {
+      "count": 11,
       "withRating": 0
     }
   }

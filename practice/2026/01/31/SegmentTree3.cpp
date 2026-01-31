@@ -49,7 +49,7 @@ void printPQ(priority_queue < T > pq){
     cout << endl;
 }
 template<typename T>
-class BIT{
+class fenwick{
 public:
     vector<T>bit;
     int size;
@@ -133,7 +133,21 @@ public:
 };
 
 void solve(){
-    
+    int n = 5;
+    vector<int>arr(n+1);
+    // [1, 3, 5, 7, 9]
+    arr[1]=1; arr[2]=3; arr[3]=5; arr[4]=7; arr[5]=9;
+
+    SegTree st(n);
+    st.init(arr);
+
+    cout << "Sum [2, 4]: " << st.query(2, 4) << endl;
+
+    st.modify(3, 6);
+    cout << "After point add 6 to idx 3, Sum [2, 4]: " << st.query(2, 4) << endl;
+
+    st.modify(2, 4, 10);
+    cout << "After range add 10 to [2, 4], Sum [2, 4]: " << st.query(2, 4) << endl;
 }
 
 signed main(){

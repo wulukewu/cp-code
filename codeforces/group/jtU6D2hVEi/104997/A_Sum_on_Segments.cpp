@@ -1,6 +1,6 @@
 // ==================================================
-// Problem   : jtU6D2hVEiA - Unknown
-// URL       : https://codeforces.com/contest/jtU6D2hVEi/problem/A
+// Problem   : 104997A - Unknown
+// URL       : https://codeforces.com/contest/104997/problem/A
 // ==================================================
 
 #include <iostream>

@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2183C - War Strategy
 // Tags      : binary search, greedy, math, two pointers
+// Submission Result: Runtime of 46 ms and Memory usage of 0 KB
+// Runtime   : 46 ms
+// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2183/problem/C
 // ==================================================
 

@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2193D - Monster Game
 // Tags      : binary search, sortings, two pointers
+// Submission Result: Runtime of 109 ms and Memory usage of 0 KB
+// Runtime   : 109 ms
+// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2193/problem/D
 // ==================================================
 

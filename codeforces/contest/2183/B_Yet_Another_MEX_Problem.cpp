@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2183B - Yet Another MEX Problem
 // Tags      : constructive algorithms, greedy
+// Submission Result: Runtime of 78 ms and Memory usage of 100 KB
+// Runtime   : 78 ms
+// Memory    : 100 KB
 // URL       : https://codeforces.com/contest/2183/problem/B
 // ==================================================
 

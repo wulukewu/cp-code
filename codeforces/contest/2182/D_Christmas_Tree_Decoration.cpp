@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2182D - Christmas Tree Decoration
 // Tags      : combinatorics, dp, greedy, math
+// Submission Result: Runtime of 78 ms and Memory usage of 0 KB
+// Runtime   : 78 ms
+// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2182/problem/D
 // ==================================================
 

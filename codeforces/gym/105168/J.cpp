@@ -1,5 +1,8 @@
 // ==================================================
 // Problem   : 105168J - Unknown
+// Submission Result: Runtime of 296 ms and Memory usage of 100 KB
+// Runtime   : 296 ms
+// Memory    : 100 KB
 // URL       : https://codeforces.com/contest/105168/problem/J
 // ==================================================
 

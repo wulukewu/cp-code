@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2182B - New Year Cake
 // Tags      : brute force
+// Submission Result: Runtime of 31 ms and Memory usage of 100 KB
+// Runtime   : 31 ms
+// Memory    : 100 KB
 // URL       : https://codeforces.com/contest/2182/problem/B
 // ==================================================
 

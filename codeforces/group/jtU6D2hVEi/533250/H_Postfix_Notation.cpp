@@ -1,6 +1,6 @@
 // ==================================================
-// Problem   : jtU6D2hVEiH - Unknown
-// URL       : https://codeforces.com/contest/jtU6D2hVEi/problem/H
+// Problem   : 533250H - Unknown
+// URL       : https://codeforces.com/contest/533250/problem/H
 // ==================================================
 
 #include <bits/stdc++.h>

@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2178C - First or Second
 // Tags      : dp, greedy, implementation
+// Submission Result: Runtime of 93 ms and Memory usage of 900 KB
+// Runtime   : 93 ms
+// Memory    : 900 KB
 // URL       : https://codeforces.com/contest/2178/problem/C
 // ==================================================
 

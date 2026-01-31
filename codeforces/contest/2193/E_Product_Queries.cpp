@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2193E - Product Queries
 // Tags      : dp, math, number theory, shortest paths
+// Submission Result: Runtime of 281 ms and Memory usage of 20700 KB
+// Runtime   : 281 ms
+// Memory    : 20700 KB
 // URL       : https://codeforces.com/contest/2193/problem/E
 // ==================================================
 

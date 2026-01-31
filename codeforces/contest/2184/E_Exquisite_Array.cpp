@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2184E - Exquisite Array
 // Tags      : combinatorics, data structures, dsu, sortings
+// Submission Result: Runtime of 125 ms and Memory usage of 4300 KB
+// Runtime   : 125 ms
+// Memory    : 4300 KB
 // URL       : https://codeforces.com/contest/2184/problem/E
 // ==================================================
 

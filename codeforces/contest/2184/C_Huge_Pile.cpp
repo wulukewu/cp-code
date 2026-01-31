@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2184C - Huge Pile
 // Tags      : binary search, dfs and similar, dp, graphs, math
+// Submission Result: Runtime of 46 ms and Memory usage of 0 KB
+// Runtime   : 46 ms
+// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2184/problem/C
 // ==================================================
 

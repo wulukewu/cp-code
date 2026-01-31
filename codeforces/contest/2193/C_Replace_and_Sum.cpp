@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2193C - Replace and Sum
 // Tags      : data structures, greedy
+// Submission Result: Runtime of 171 ms and Memory usage of 1000 KB
+// Runtime   : 171 ms
+// Memory    : 1000 KB
 // URL       : https://codeforces.com/contest/2193/problem/C
 // ==================================================
 

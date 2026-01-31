@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2184D - Unfair Game
 // Tags      : combinatorics, dp, math
+// Submission Result: Runtime of 250 ms and Memory usage of 0 KB
+// Runtime   : 250 ms
+// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2184/problem/D
 // ==================================================
 

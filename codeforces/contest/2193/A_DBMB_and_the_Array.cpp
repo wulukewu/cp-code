@@ -1,6 +1,9 @@
 // ==================================================
 // Problem   : 2193A - DBMB and the Array
 // Tags      : brute force, math
+// Submission Result: Runtime of 31 ms and Memory usage of 0 KB
+// Runtime   : 31 ms
+// Memory    : 0 KB
 // URL       : https://codeforces.com/contest/2193/problem/A
 // ==================================================
 

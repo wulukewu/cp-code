@@ -1,13 +1,16 @@
 name: Update Problem Metadata
 
+on:
+  push:
+    branches:
       - feat/crawler
   schedule:
-      - feat/crawler
-  workflow_dispatch: # Allow manual run
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   update-metadata:
-      - feat/crawler
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
@@ -17,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-      - feat/crawler
+          node-version: '20'
 
       - name: Run crawlers
         run: node scripts/crawlers/index.js .
@@ -28,10 +31,4 @@ jobs:
           commit_message: "chore: update problem metadata [skip ci]"
           branch: feat/crawler
           file_pattern: '**/metadata.json **/*.cpp stats.json scripts/crawlers/*_cache.json'
--e on:
-  push:
-    branches:
-      - feat/crawler
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+

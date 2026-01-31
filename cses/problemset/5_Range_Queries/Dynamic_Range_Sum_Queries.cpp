@@ -48,19 +48,54 @@ void printPQ(priority_queue < T > pq){
     }
     cout << endl;
 }
-template<typename T>
-class fenwick{
-public:
-    vector<T>bit;
-    int size;
-    fenwick(int s){size=s;bit=vector<T>(size,0);}
-    int lb(int x){return x&(-x);}
-    void up(int x,T y){for(int i=x;i<size;i+=lb(i))bit[i]+=y;}
-    T sum(int x){T res=0;for(int i=x;i>0;i-=lb(i))res+=bit[i];return res;}
-};
+
+int m = 2e5+5;
+vector<int>bit(m, 0);
+
+int lb(int x){
+    return x & (-x);
+}
+
+void up(int x, int y){
+    for(int i=x; i<m; i+=lb(i)){
+        bit[i] += y;
+    }
+}
+
+int sum(int x){
+    int res = 0;
+    for(int i=x; i>0; i-=lb(i)){
+        res += bit[i];
+    }
+    return res;
+}
 
 void solve(){
-    
+    int n, q;
+    cin >> n >> q;
+    FOR(i, 0, n){
+        int x;
+        cin >> x;
+        up(i+1, x);
+    }
+    while(q--){
+        // FOR(i, 0, n) cout << sum(i+1) << ' ';
+        // cout << endl;
+        int t;
+        cin >> t;
+        if(t==1){
+            int k, u;
+            cin >> k >> u;
+            int cur = sum(k)-sum(k-1);
+            int add = u - cur;
+            up(k, add);
+        }else{
+            int a, b;
+            cin >> a >> b;
+            int ans = sum(b) - sum(a-1);
+            cout << ans << endl;
+        }
+    }
 }
 
 signed main(){

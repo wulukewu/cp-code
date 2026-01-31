@@ -48,19 +48,20 @@ void printPQ(priority_queue < T > pq){
     }
     cout << endl;
 }
-template<typename T>
-class fenwick{
-public:
-    vector<T>bit;
-    int size;
-    fenwick(int s){size=s;bit=vector<T>(size,0);}
-    int lb(int x){return x&(-x);}
-    void up(int x,T y){for(int i=x;i<size;i+=lb(i))bit[i]+=y;}
-    T sum(int x){T res=0;for(int i=x;i>0;i-=lb(i))res+=bit[i];return res;}
-};
 
 void solve(){
-    
+    int n, q;
+    cin >> n >> q;
+    vector<int>v(n+1, 0);
+    FOR(i, 1, n+1) cin >> v[i];
+    FOR(i, 0, n) v[i+1] += v[i];
+    // print(v);
+
+    while(q--){
+        int a, b;
+        cin >> a >> b;
+        cout << v[b]-v[a-1] << endl;
+    }
 }
 
 signed main(){

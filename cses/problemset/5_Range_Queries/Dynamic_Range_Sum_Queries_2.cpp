@@ -60,7 +60,29 @@ public:
 };
 
 void solve(){
-    
+    int n, q;
+    cin >> n >> q;
+    fenwick<int>v(3e5);
+    FOR(i, 0, n){
+        int x;
+        cin >> x;
+        v.up(i+1, x);
+    }
+    while(q--){
+        int t;
+        cin >> t;
+        if(t==1){
+            int k, u;
+            cin >> k >> u;
+            int cur = v.sum(k) - v.sum(k-1);
+            v.up(k, u-cur);
+        }else{
+            int a, b;
+            cin >> a >> b;
+            int ans = v.sum(b) - v.sum(a-1);
+            cout << ans << endl;
+        }
+    }
 }
 
 signed main(){

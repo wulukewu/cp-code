@@ -184,6 +184,7 @@ function generateHeader(info) {
     }
     
     if (info.runtime !== undefined && info.runtime !== null) {
+        lines.push(`// Submission Result: Runtime of ${info.runtime} ms and Memory usage of ${info.memory} KB`);
         lines.push(`// Runtime   : ${info.runtime} ms`);
     }
     if (info.memory !== undefined && info.memory !== null) {

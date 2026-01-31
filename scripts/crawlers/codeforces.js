@@ -106,6 +106,7 @@ function generateHeader(info) {
         lines.push(`// Tags      : ${info.tags.join(', ')}`);
     }
     if (info.runtime !== undefined) {
+        lines.push(`// Submission Result: Runtime of ${info.runtime} ms and Memory usage of ${Math.round(info.memory / 1024)} KB`);
         lines.push(`// Runtime   : ${info.runtime} ms`);
     }
     if (info.memory !== undefined) {

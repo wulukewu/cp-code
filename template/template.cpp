@@ -53,7 +53,7 @@ class BIT{
 public:
     vector<T>bit;
     int size;
-    fenwick(int s){size=s;bit=vector<T>(size,0);}
+    BIT(int s){size=s;bit=vector<T>(size,0);}
     int lb(int x){return x&(-x);}
     void up(int x,T y){for(int i=x;i<size;i+=lb(i))bit[i]+=y;}
     T sum(int x){T res=0;for(int i=x;i>0;i-=lb(i))res+=bit[i];return res;}

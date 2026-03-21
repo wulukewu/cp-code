@@ -1,0 +1,195 @@
+./atcoder/abc/abc360/20240706 abc360b.cpp: In function ‘int main()’:
+./atcoder/abc/abc360/20240706 abc360b.cpp:9:5: error: ‘vector’ was not declared in this scope
+    9 |     vector <string> arr;
+      |     ^~~~~~
+./atcoder/abc/abc360/20240706 abc360b.cpp:2:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    1 | #include <iostream>
+  +++ |+#include <vector>
+    2 | using namespace std;
+./atcoder/abc/abc360/20240706 abc360b.cpp:9:19: error: expected primary-expression before ‘>’ token
+    9 |     vector <string> arr;
+      |                   ^
+./atcoder/abc/abc360/20240706 abc360b.cpp:9:21: error: ‘arr’ was not declared in this scope
+    9 |     vector <string> arr;
+      |                     ^~~
+./atcoder/abc/abc360/20240706 abc360b.cpp:11:15: error: ‘s’ was not declared in this scope
+   11 |     for(s1=0; s < S.length(); s++){
+      |               ^
+./atcoder/abc/abc360/20240706 abc360b.cpp:13:31: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   13 |             arr.push_back(S[s2:s1+1])
+      |                               ^
+      |                               ::
+./atcoder/abc/abc360/20240706 abc360b.cpp:13:29: error: ‘s2’ is not a class, namespace, or enumeration
+   13 |             arr.push_back(S[s2:s1+1])
+      |                             ^~
+./atcoder/abc/abc394/20250222 abc394f.cpp: In function ‘int dfs(long long int, std::vector<long long int>)’:
+./atcoder/abc/abc394/20250222 abc394f.cpp:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   43 | }
+      | ^
+./atcoder/abc/abc394/20250222 abc394f.cpp: In function ‘int main()’:
+./atcoder/abc/abc394/20250222 abc394f.cpp:69:12: error: too few arguments to function ‘int dfs(long long int, std::vector<long long int>)’
+   69 |         dfs(i);
+      |         ~~~^~~
+./atcoder/abc/abc394/20250222 abc394f.cpp:23:8: note: declared here
+   23 | signed dfs(int v, vector < int > visited){
+      |        ^~~
+./atcoder/abc/others/20240629 queen.cpp:6:1: error: ‘vector’ does not name a type
+    6 | vector <int> chess;
+      | ^~~~~~
+./atcoder/abc/others/20240629 queen.cpp: In function ‘void dfs()’:
+./atcoder/abc/others/20240629 queen.cpp:18:22: error: ‘chess’ was not declared in this scope
+   18 |             int jj = chess[ii];
+      |                      ^~~~~
+./atcoder/abc/others/20240629 queen.cpp:28:13: error: ‘chess’ was not declared in this scope
+   28 |             chess[i] = j;
+      |             ^~~~~
+./atcoder/abc/others/20240629 queen.cpp: In function ‘int main()’:
+./atcoder/abc/others/20240629 queen.cpp:39:5: error: ‘chess’ was not declared in this scope
+   39 |     chess = vector <int> (N, -1);
+      |     ^~~~~
+./atcoder/abc/others/20240629 queen.cpp:39:13: error: ‘vector’ was not declared in this scope
+   39 |     chess = vector <int> (N, -1);
+      |             ^~~~~~
+./atcoder/abc/others/20240629 queen.cpp:2:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    1 | #include <iostream>
+  +++ |+#include <vector>
+    2 | using namespace std;
+./atcoder/abc/others/20240629 queen.cpp:39:21: error: expected primary-expression before ‘int’
+   39 |     chess = vector <int> (N, -1);
+      |                     ^~~
+In file included from /usr/include/c++/13/fstream:1300,
+                 from ./atcoder/abc/others/20250104 o714.cpp:4:
+/usr/include/c++/13/fstream: In instantiation of ‘class std::basic_filebuf<char>’:
+/usr/include/c++/13/bits/fstream.tcc:1081:25:   required from here
+/usr/include/c++/13/bits/fstream.tcc:1008:5: error: conflicting return type specified for ‘long long int std::basic_filebuf<_CharT, _Traits>::sync() [with _CharT = char; _Traits = std::char_traits<char>]’
+ 1008 |     basic_filebuf<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/ios:45,
+                 from /usr/include/c++/13/ostream:40,
+                 from /usr/include/c++/13/iostream:41,
+                 from ./atcoder/abc/others/20250104 o714.cpp:1:
+/usr/include/c++/13/streambuf:634:7: note: overridden function is ‘int std::basic_streambuf<_CharT, _Traits>::sync() [with _CharT = char; _Traits = std::char_traits<char>]’
+  634 |       sync() { return 0; }
+      |       ^~~~
+/usr/include/c++/13/fstream: In instantiation of ‘class std::basic_filebuf<wchar_t>’:
+/usr/include/c++/13/bits/fstream.tcc:1087:25:   required from here
+/usr/include/c++/13/bits/fstream.tcc:1008:5: error: conflicting return type specified for ‘long long int std::basic_filebuf<_CharT, _Traits>::sync() [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>]’
+ 1008 |     basic_filebuf<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/streambuf:634:7: note: overridden function is ‘int std::basic_streambuf<_CharT, _Traits>::sync() [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>]’
+  634 |       sync() { return 0; }
+      |       ^~~~
+./atcoder/abc/others/20240629 practice.cpp:4:1: error: ‘vector’ does not name a type
+    4 | vector <int> arr;
+      | ^~~~~~
+./atcoder/abc/others/20240629 practice.cpp: In function ‘int f(int)’:
+./atcoder/abc/others/20240629 practice.cpp:9:19: error: ‘arr’ was not declared in this scope
+    9 |     return f(x/2)+arr[x-1];
+      |                   ^~~
+./atcoder/abc/others/20240629 practice.cpp: In function ‘int main()’:
+./atcoder/abc/others/20240629 practice.cpp:16:5: error: ‘arr’ was not declared in this scope
+   16 |     arr = vector <int> (n);
+      |     ^~~
+./atcoder/abc/others/20240629 practice.cpp:16:11: error: ‘vector’ was not declared in this scope
+   16 |     arr = vector <int> (n);
+      |           ^~~~~~
+./atcoder/abc/others/20240629 practice.cpp:2:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    1 | #include <iostream>
+  +++ |+#include <vector>
+    2 | using namespace std;
+./atcoder/abc/others/20240629 practice.cpp:16:19: error: expected primary-expression before ‘int’
+   16 |     arr = vector <int> (n);
+      |                   ^~~
+./icpc/topc/2025-09-20/L2.cpp: In function ‘void solve()’:
+./icpc/topc/2025-09-20/L2.cpp:40:5: error: expected ‘,’ or ‘;’ before ‘int’
+   40 |     int mdown = x2 - x1
+      |     ^~~
+./icpc/topc/2025-09-20/L2.cpp:45:20: error: ‘False’ was not declared in this scope
+   45 |     bool isdying = False;
+      |                    ^~~~~
+./icpc/topc/2025-09-20/L2.cpp:50:1: error: expected ‘(’ before ‘}’ token
+   50 | }
+      | ^
+      | (
+./ncpc/112/preliminary/A.cpp: In function ‘int linef(int, int, int, int, int, int)’:
+./ncpc/112/preliminary/A.cpp:35:47: error: ‘x2y1’ was not declared in this scope; did you mean ‘x1’?
+   35 |     return (y1-y2)*x + (x2 - x1)*y + (y2-x1 - x2y1)
+      |                                               ^~~~
+      |                                               x1
+./ncpc/112/preliminary/A.cpp:35:52: error: expected ‘;’ before ‘}’ token
+   35 |     return (y1-y2)*x + (x2 - x1)*y + (y2-x1 - x2y1)
+      |                                                    ^
+      |                                                    ;
+   36 | }
+      | ~                                                   
+./ncpc/112/preliminary/A.cpp: In function ‘bool isintersect(int, int, int, int, int, int, int, int)’:
+./ncpc/112/preliminary/A.cpp:39:5: error: ‘a1’ was not declared in this scope; did you mean ‘y1’?
+   39 |     a1 = linef(line1x1, line1y1, line1x2, line1x2, line2x1, line2y1)
+      |     ^~
+      |     y1
+./ncpc/112/preliminary/A.cpp:45:5: error: ‘a3’ was not declared in this scope
+   45 |     a3 = linef(line2x1, line2y1, line2x2, line2x2, line1x1, line1y1)
+      |     ^~
+./ncpc/112/preliminary/A.cpp:51:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   51 | }
+      | ^
+./ncpc/114/preliminary/ncu/g2.cpp: In function ‘void solve()’:
+./ncpc/114/preliminary/ncu/g2.cpp:11:9: error: ‘d’ was not declared in this scope
+   11 |         d
+      |         ^
+./ncpc/114/preliminary/ncu/g2.cpp:19:25: error: ‘N’ was not declared in this scope
+   19 |                         N.push(i);
+      |                         ^
+./ncpc/114/preliminary/ncu/g2.cpp:21:29: error: ‘N’ was not declared in this scope
+   21 |                         if(!N.empty() and N.front()<i){
+      |                             ^
+./ncpc/114/preliminary/ncu/g2.cpp:25:29: error: ‘N’ was not declared in this scope
+   25 |                         if(!N.empty() and !C.empty() and N.front()<C.front() and C.front()<i){
+      |                             ^
+./ncpc/114/preliminary/ncu/g2.cpp:32:20: error: ‘N’ was not declared in this scope
+   32 |                 if(N.empty()) while(!C.empty()) C.pop();
+      |                    ^
+./ncpc/114/preliminary/ncu/trash/template.cpp:1:2: error: invalid preprocessing directive #incldue; did you mean #include?
+    1 | #incldue<bits/stdc++.h>
+      |  ^~~~~~~
+      |  include
+./ncpc/114/preliminary/ncu/trash/template.cpp:2:7: error: expected nested-name-specifier before ‘namespcae’
+    2 | using namespcae std;
+      |       ^~~~~~~~~
+./ncpc/114/preliminary/ncu/trash/template.cpp: In function ‘int main()’:
+./ncpc/114/preliminary/ncu/trash/template.cpp:9:9: error: ‘ios’ has not been declared
+    9 |         ios::sync_with_stdio(false), cin.tie(0);
+      |         ^~~
+./ncpc/114/preliminary/ncu/trash/template.cpp:9:38: error: ‘cin’ was not declared in this scope
+    9 |         ios::sync_with_stdio(false), cin.tie(0);
+      |                                      ^~~
+./codeforces/gym/101667/E.cpp:7:1: error: ISO C++ forbids declaration of ‘solve’ with no type [-fpermissive]
+    7 | solve(){
+      | ^~~~~
+./codeforces/gym/101667/E.cpp: In function ‘int solve()’:
+./codeforces/gym/101667/E.cpp:18:14: error: ‘v’ was not declared in this scope
+   18 |     sort(ALL(v));
+      |              ^
+./codeforces/gym/101667/E.cpp:4:16: note: in definition of macro ‘ALL’
+    4 | #define ALL(v) v.begin(), v.end()
+      |                ^
+./codeforces/gym/101667/E.cpp:26:5: error: expected primary-expression before ‘}’ token
+   26 |     }
+      |     ^
+./codeforces/gym/101667/E.cpp:30:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   30 | }
+      | ^
+./ncuma-oj/2025_CPE_course/001.cpp: In function ‘int main()’:
+./ncuma-oj/2025_CPE_course/001.cpp:26:5: error: ‘vector’ was not declared in this scope
+   26 |     vector < pair < int, char > > arr;
+      |     ^~~~~~
+./ncuma-oj/2025_CPE_course/001.cpp:4:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    3 | #include <algorithm>
+  +++ |+#include <vector>
+    4 | 
+./ncuma-oj/2025_CPE_course/001.cpp:26:33: error: expected primary-expression before ‘>’ token
+   26 |     vector < pair < int, char > > arr;
+      |                                 ^
+./ncuma-oj/2025_CPE_course/001.cpp:26:35: error: ‘arr’ was not declared in this scope
+   26 |     vector < pair < int, char > > arr;
+      |                                   ^~~

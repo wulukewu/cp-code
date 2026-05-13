@@ -1,0 +1,1078 @@
+./codeforces/gym/101667/E.cpp:7:1: error: ISO C++ forbids declaration of ‘solve’ with no type [-fpermissive]
+    7 | solve(){
+      | ^~~~~
+./codeforces/gym/101667/E.cpp: In function ‘int solve()’:
+./codeforces/gym/101667/E.cpp:18:14: error: ‘v’ was not declared in this scope
+   18 |     sort(ALL(v));
+      |              ^
+./codeforces/gym/101667/E.cpp:4:16: note: in definition of macro ‘ALL’
+    4 | #define ALL(v) v.begin(), v.end()
+      |                ^
+./codeforces/gym/101667/E.cpp:26:5: error: expected primary-expression before ‘}’ token
+   26 |     }
+      |     ^
+./codeforces/gym/101667/E.cpp:30:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   30 | }
+      | ^
+./ncpc/112/preliminary/A.cpp: In function ‘int linef(int, int, int, int, int, int)’:
+./ncpc/112/preliminary/A.cpp:35:47: error: ‘x2y1’ was not declared in this scope; did you mean ‘x1’?
+   35 |     return (y1-y2)*x + (x2 - x1)*y + (y2-x1 - x2y1)
+      |                                               ^~~~
+      |                                               x1
+./ncpc/112/preliminary/A.cpp:35:52: error: expected ‘;’ before ‘}’ token
+   35 |     return (y1-y2)*x + (x2 - x1)*y + (y2-x1 - x2y1)
+      |                                                    ^
+      |                                                    ;
+   36 | }
+      | ~                                                   
+./ncpc/112/preliminary/A.cpp: In function ‘bool isintersect(int, int, int, int, int, int, int, int)’:
+./ncpc/112/preliminary/A.cpp:39:5: error: ‘a1’ was not declared in this scope; did you mean ‘y1’?
+   39 |     a1 = linef(line1x1, line1y1, line1x2, line1x2, line2x1, line2y1)
+      |     ^~
+      |     y1
+./ncpc/112/preliminary/A.cpp:45:5: error: ‘a3’ was not declared in this scope
+   45 |     a3 = linef(line2x1, line2y1, line2x2, line2x2, line1x1, line1y1)
+      |     ^~
+./ncpc/112/preliminary/A.cpp:51:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   51 | }
+      | ^
+./ncpc/114/preliminary/ncu/trash/template.cpp:1:2: error: invalid preprocessing directive #incldue; did you mean #include?
+    1 | #incldue<bits/stdc++.h>
+      |  ^~~~~~~
+      |  include
+./ncpc/114/preliminary/ncu/trash/template.cpp:2:7: error: expected nested-name-specifier before ‘namespcae’
+    2 | using namespcae std;
+      |       ^~~~~~~~~
+./ncpc/114/preliminary/ncu/trash/template.cpp: In function ‘int main()’:
+./ncpc/114/preliminary/ncu/trash/template.cpp:9:9: error: ‘ios’ has not been declared
+    9 |         ios::sync_with_stdio(false), cin.tie(0);
+      |         ^~~
+./ncpc/114/preliminary/ncu/trash/template.cpp:9:38: error: ‘cin’ was not declared in this scope
+    9 |         ios::sync_with_stdio(false), cin.tie(0);
+      |                                      ^~~
+./ncpc/114/preliminary/ncu/g2.cpp: In function ‘void solve()’:
+./ncpc/114/preliminary/ncu/g2.cpp:11:9: error: ‘d’ was not declared in this scope
+   11 |         d
+      |         ^
+./ncpc/114/preliminary/ncu/g2.cpp:19:25: error: ‘N’ was not declared in this scope
+   19 |                         N.push(i);
+      |                         ^
+./ncpc/114/preliminary/ncu/g2.cpp:21:29: error: ‘N’ was not declared in this scope
+   21 |                         if(!N.empty() and N.front()<i){
+      |                             ^
+./ncpc/114/preliminary/ncu/g2.cpp:25:29: error: ‘N’ was not declared in this scope
+   25 |                         if(!N.empty() and !C.empty() and N.front()<C.front() and C.front()<i){
+      |                             ^
+./ncpc/114/preliminary/ncu/g2.cpp:32:20: error: ‘N’ was not declared in this scope
+   32 |                 if(N.empty()) while(!C.empty()) C.pop();
+      |                    ^
+./icpc/topc/2025-09-20/L2.cpp: In function ‘void solve()’:
+./icpc/topc/2025-09-20/L2.cpp:40:5: error: expected ‘,’ or ‘;’ before ‘int’
+   40 |     int mdown = x2 - x1
+      |     ^~~
+./icpc/topc/2025-09-20/L2.cpp:45:20: error: ‘False’ was not declared in this scope
+   45 |     bool isdying = False;
+      |                    ^~~~~
+./icpc/topc/2025-09-20/L2.cpp:50:1: error: expected ‘(’ before ‘}’ token
+   50 | }
+      | ^
+      | (
+./ncuma-oj/2025_CPE_course/001.cpp: In function ‘int main()’:
+./ncuma-oj/2025_CPE_course/001.cpp:26:5: error: ‘vector’ was not declared in this scope
+   26 |     vector < pair < int, char > > arr;
+      |     ^~~~~~
+./ncuma-oj/2025_CPE_course/001.cpp:4:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    3 | #include <algorithm>
+  +++ |+#include <vector>
+    4 | 
+./ncuma-oj/2025_CPE_course/001.cpp:26:33: error: expected primary-expression before ‘>’ token
+   26 |     vector < pair < int, char > > arr;
+      |                                 ^
+./ncuma-oj/2025_CPE_course/001.cpp:26:35: error: ‘arr’ was not declared in this scope
+   26 |     vector < pair < int, char > > arr;
+      |                                   ^~~
+./atcoder/abc/abc394/20250222 abc394f.cpp: In function ‘int dfs(long long int, std::vector<long long int>)’:
+./atcoder/abc/abc394/20250222 abc394f.cpp:43:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   43 | }
+      | ^
+./atcoder/abc/abc394/20250222 abc394f.cpp: In function ‘int main()’:
+./atcoder/abc/abc394/20250222 abc394f.cpp:69:12: error: too few arguments to function ‘int dfs(long long int, std::vector<long long int>)’
+   69 |         dfs(i);
+      |         ~~~^~~
+./atcoder/abc/abc394/20250222 abc394f.cpp:23:8: note: declared here
+   23 | signed dfs(int v, vector < int > visited){
+      |        ^~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:71,
+                 from /usr/include/c++/13/algorithm:60,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:51,
+                 from ./atcoder/abc/abc457/E_Crossing_Table_Cloth.cpp:1:
+/usr/include/c++/13/bits/predefined_ops.h: In instantiation of ‘bool __gnu_cxx::__ops::_Val_less_iter::operator()(_Value&, _Iterator) const [with _Value = const std::pair<long long int, double>; _Iterator = __gnu_cxx::__normal_iterator<std::pair<long long int, long long int>*, std::vector<std::pair<long long int, long long int> > >]’:
+/usr/include/c++/13/bits/stl_algo.h:2035:14:   required from ‘_ForwardIterator std::__upper_bound(_ForwardIterator, _ForwardIterator, const _Tp&, _Compare) [with _ForwardIterator = __gnu_cxx::__normal_iterator<pair<long long int, long long int>*, vector<pair<long long int, long long int> > >; _Tp = pair<long long int, double>; _Compare = __gnu_cxx::__ops::_Val_less_iter]’
+/usr/include/c++/13/bits/stl_algo.h:2070:32:   required from ‘_FIter std::upper_bound(_FIter, _FIter, const _Tp&) [with _FIter = __gnu_cxx::__normal_iterator<pair<long long int, long long int>*, vector<pair<long long int, long long int> > >; _Tp = pair<long long int, double>]’
+./atcoder/abc/abc457/E_Crossing_Table_Cloth.cpp:174:31:   required from here
+/usr/include/c++/13/bits/predefined_ops.h:98:22: error: no match for ‘operator<’ (operand types are ‘const std::pair<long long int, double>’ and ‘std::pair<long long int, long long int>’)
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:67:
+/usr/include/c++/13/bits/stl_iterator.h:1250:5: note: candidate: ‘template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator<(const __normal_iterator<_IteratorL, _Container>&, const __normal_iterator<_IteratorR, _Container>&)’
+ 1250 |     operator<(const __normal_iterator<_IteratorL, _Container>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1250:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1258:5: note: candidate: ‘template<class _Iterator, class _Container> bool __gnu_cxx::operator<(const __normal_iterator<_Iterator, _Container>&, const __normal_iterator<_Iterator, _Container>&)’
+ 1258 |     operator<(const __normal_iterator<_Iterator, _Container>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1258:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/regex:68,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:181:
+/usr/include/c++/13/bits/regex.h:1143:5: note: candidate: ‘template<class _BiIter> bool std::__cxx11::operator<(const sub_match<_BiIter>&, const sub_match<_BiIter>&)’
+ 1143 |     operator<(const sub_match<_BiIter>& __lhs, const sub_match<_BiIter>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1143:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1224:5: note: candidate: ‘template<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator<(__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&, const sub_match<_BiIter>&)’
+ 1224 |     operator<(const __sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1224:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1317:5: note: candidate: ‘template<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator<(const sub_match<_BiIter>&, __sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&)’
+ 1317 |     operator<(const sub_match<_Bi_iter>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1317:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1391:5: note: candidate: ‘template<class _Bi_iter> bool std::__cxx11::operator<(const typename std::iterator_traits<_Iter>::value_type*, const sub_match<_BiIter>&)’
+ 1391 |     operator<(typename iterator_traits<_Bi_iter>::value_type const* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1391:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1485:5: note: candidate: ‘template<class _Bi_iter> bool std::__cxx11::operator<(const sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type*)’
+ 1485 |     operator<(const sub_match<_Bi_iter>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1485:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1560:5: note: candidate: ‘template<class _Bi_iter> bool std::__cxx11::operator<(const typename std::iterator_traits<_Iter>::value_type&, const sub_match<_BiIter>&)’
+ 1560 |     operator<(typename iterator_traits<_Bi_iter>::value_type const& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1560:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1660:5: note: candidate: ‘template<class _Bi_iter> bool std::__cxx11::operator<(const sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type&)’
+ 1660 |     operator<(const sub_match<_Bi_iter>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1660:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:64:
+/usr/include/c++/13/bits/stl_pair.h:835:5: note: candidate: ‘template<class _T1, class _T2> constexpr bool std::operator<(const pair<_T1, _T2>&, const pair<_T1, _T2>&)’
+  835 |     operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_pair.h:835:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   deduced conflicting types for parameter ‘_T2’ (‘double’ and ‘long long int’)
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:455:5: note: candidate: ‘template<class _Iterator> constexpr bool std::operator<(const reverse_iterator<_Iterator>&, const reverse_iterator<_Iterator>&)’
+  455 |     operator<(const reverse_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:455:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:500:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)’
+  500 |     operator<(const reverse_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:500:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1705:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)’
+ 1705 |     operator<(const move_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1705:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1770:5: note: candidate: ‘template<class _Iterator> constexpr bool std::operator<(const move_iterator<_IteratorL>&, const move_iterator<_IteratorL>&)’
+ 1770 |     operator<(const move_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1770:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/bits/basic_string.h:47,
+                 from /usr/include/c++/13/string:54,
+                 from /usr/include/c++/13/bitset:52,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:52:
+/usr/include/c++/13/string_view:671:5: note: candidate: ‘template<class _CharT, class _Traits> constexpr bool std::operator<(basic_string_view<_CharT, _Traits>, basic_string_view<_CharT, _Traits>)’
+  671 |     operator< (basic_string_view<_CharT, _Traits> __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/string_view:671:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, double>’ is not derived from ‘std::basic_string_view<_CharT, _Traits>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/string_view:678:5: note: candidate: ‘template<class _CharT, class _Traits> constexpr bool std::operator<(basic_string_view<_CharT, _Traits>, __type_identity_t<basic_string_view<_CharT, _Traits> >)’
+  678 |     operator< (basic_string_view<_CharT, _Traits> __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/string_view:678:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, double>’ is not derived from ‘std::basic_string_view<_CharT, _Traits>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/string_view:686:5: note: candidate: ‘template<class _CharT, class _Traits> constexpr bool std::operator<(__type_identity_t<basic_string_view<_CharT, _Traits> >, basic_string_view<_CharT, _Traits>)’
+  686 |     operator< (__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/string_view:686:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘std::basic_string_view<_CharT, _Traits>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3829:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3829 |     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3829:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3843:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)’
+ 3843 |     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3843:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3856:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3856 |     operator<(const _CharT* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3856:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   mismatched types ‘const _CharT*’ and ‘std::pair<long long int, double>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/bits/memory_resource.h:47,
+                 from /usr/include/c++/13/string:58:
+/usr/include/c++/13/tuple:1961:5: note: candidate: ‘template<class ... _TElements, class ... _UElements> constexpr bool std::operator<(const tuple<_UTypes ...>&, const tuple<_UTypes ...>&)’
+ 1961 |     operator<(const tuple<_TElements...>& __t,
+      |     ^~~~~~~~
+/usr/include/c++/13/tuple:1961:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::tuple<_UTypes ...>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/vector:66,
+                 from /usr/include/c++/13/functional:64,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:53:
+/usr/include/c++/13/bits/stl_vector.h:2079:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator<(const vector<_Tp, _Alloc>&, const vector<_Tp, _Alloc>&)’
+ 2079 |     operator<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_vector.h:2079:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::vector<_Tp, _Alloc>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/functional:65:
+/usr/include/c++/13/array:333:5: note: candidate: ‘template<class _Tp, long unsigned int _Nm> bool std::operator<(const array<_Tp, _Nm>&, const array<_Tp, _Nm>&)’
+  333 |     operator<(const array<_Tp, _Nm>& __a, const array<_Tp, _Nm>& __b)
+      |     ^~~~~~~~
+/usr/include/c++/13/array:333:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::array<_Tp, _Nm>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/memory:78,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:56:
+/usr/include/c++/13/bits/unique_ptr.h:877:5: note: candidate: ‘template<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator<(const unique_ptr<_Tp, _Dp>&, const unique_ptr<_Up, _Ep>&)’
+  877 |     operator<(const unique_ptr<_Tp, _Dp>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:877:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:890:5: note: candidate: ‘template<class _Tp, class _Dp> bool std::operator<(const unique_ptr<_Tp, _Dp>&, nullptr_t)’
+  890 |     operator<(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:890:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:900:5: note: candidate: ‘template<class _Tp, class _Dp> bool std::operator<(nullptr_t, const unique_ptr<_Tp, _Dp>&)’
+  900 |     operator<(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:900:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/bits/shared_ptr.h:53,
+                 from /usr/include/c++/13/memory:80:
+/usr/include/c++/13/bits/shared_ptr_base.h:1840:5: note: candidate: ‘template<class _Tp, class _Up, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const __shared_ptr<_Tp1, _Lp>&, const __shared_ptr<_Tp2, _Lp>&)’
+ 1840 |     operator<(const __shared_ptr<_Tp, _Lp>& __a,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1840:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::__shared_ptr<_Tp1, _Lp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1851:5: note: candidate: ‘template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const __shared_ptr<_Tp, _Lp>&, nullptr_t)’
+ 1851 |     operator<(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1851:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::__shared_ptr<_Tp, _Lp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1859:5: note: candidate: ‘template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(nullptr_t, const __shared_ptr<_Tp, _Lp>&)’
+ 1859 |     operator<(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1859:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__shared_ptr<_Tp, _Lp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:606:5: note: candidate: ‘template<class _Tp, class _Up> bool std::operator<(const shared_ptr<_Tp>&, const shared_ptr<_Tp>&)’
+  606 |     operator<(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:606:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::shared_ptr<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:617:5: note: candidate: ‘template<class _Tp> bool std::operator<(const shared_ptr<_Tp>&, nullptr_t)’
+  617 |     operator<(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:617:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::shared_ptr<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:626:5: note: candidate: ‘template<class _Tp> bool std::operator<(nullptr_t, const shared_ptr<_Tp>&)’
+  626 |     operator<(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:626:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::shared_ptr<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:79:
+/usr/include/c++/13/optional:1254:5: note: candidate: ‘template<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const optional<_Tp>&, const optional<_Up>&)’
+ 1254 |     operator<(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1254:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::optional<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/optional:1322:5: note: candidate: ‘template<class _Tp> constexpr bool std::operator<(const optional<_Tp>&, nullopt_t)’
+ 1322 |     operator<(const optional<_Tp>& /* __lhs */, nullopt_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1322:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::optional<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/optional:1327:5: note: candidate: ‘template<class _Tp> constexpr bool std::operator<(nullopt_t, const optional<_Tp>&)’
+ 1327 |     operator<(nullopt_t, const optional<_Tp>& __rhs) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1327:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::optional<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/optional:1388:5: note: candidate: ‘template<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const optional<_Tp>&, const _Up&)’
+ 1388 |     operator<(const optional<_Tp>& __lhs, const _Up& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1388:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::optional<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/optional:1394:5: note: candidate: ‘template<class _Tp, class _Up> constexpr std::__optional_lt_t<_Up, _Tp> std::operator<(const _Up&, const optional<_Tp>&)’
+ 1394 |     operator<(const _Up& __lhs, const optional<_Tp>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1394:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::optional<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:80:
+/usr/include/c++/13/variant:1264:3: note: candidate: ‘template<class ... _Types> constexpr bool std::operator<(const variant<_Types ...>&, const variant<_Types ...>&)’
+ 1264 |   _VARIANT_RELATION_FUNCTION_TEMPLATE(<, less)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/variant:1264:3: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::variant<_Types ...>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/deque:66,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:139:
+/usr/include/c++/13/bits/stl_deque.h:2330:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator<(const deque<_Tp, _Alloc>&, const deque<_Tp, _Alloc>&)’
+ 2330 |     operator<(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_deque.h:2330:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::deque<_Tp, _Alloc>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/list:65,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:150:
+/usr/include/c++/13/bits/stl_list.h:2180:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator<(const __cxx11::list<_Tp, _Alloc>&, const __cxx11::list<_Tp, _Alloc>&)’
+ 2180 |     operator<(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_list.h:2180:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::__cxx11::list<_Tp, _Alloc>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/map:63,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:152:
+/usr/include/c++/13/bits/stl_map.h:1551:5: note: candidate: ‘template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const map<_Key, _Tp, _Compare, _Allocator>&, const map<_Key, _Tp, _Compare, _Allocator>&)’
+ 1551 |     operator<(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_map.h:1551:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::map<_Key, _Tp, _Compare, _Allocator>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/map:64:
+/usr/include/c++/13/bits/stl_multimap.h:1172:5: note: candidate: ‘template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const multimap<_Key, _Tp, _Compare, _Allocator>&, const multimap<_Key, _Tp, _Compare, _Allocator>&)’
+ 1172 |     operator<(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_multimap.h:1172:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::multimap<_Key, _Tp, _Compare, _Allocator>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/queue:66,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:157:
+/usr/include/c++/13/bits/stl_queue.h:399:5: note: candidate: ‘template<class _Tp, class _Seq> bool std::operator<(const queue<_Tp, _Seq>&, const queue<_Tp, _Seq>&)’
+  399 |     operator<(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_queue.h:399:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::queue<_Tp, _Seq>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/set:63,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:158:
+/usr/include/c++/13/bits/stl_set.h:1025:5: note: candidate: ‘template<class _Key, class _Compare, class _Alloc> bool std::operator<(const set<_Key, _Compare, _Allocator>&, const set<_Key, _Compare, _Allocator>&)’
+ 1025 |     operator<(const set<_Key, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_set.h:1025:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::set<_Key, _Compare, _Allocator>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/set:64:
+/usr/include/c++/13/bits/stl_multiset.h:1011:5: note: candidate: ‘template<class _Key, class _Compare, class _Alloc> bool std::operator<(const multiset<_Key, _Compare, _Allocator>&, const multiset<_Key, _Compare, _Allocator>&)’
+ 1011 |     operator<(const multiset<_Key, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_multiset.h:1011:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::multiset<_Key, _Compare, _Allocator>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/stack:63,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:160:
+/usr/include/c++/13/bits/stl_stack.h:375:5: note: candidate: ‘template<class _Tp, class _Seq> bool std::operator<(const stack<_Tp, _Seq>&, const stack<_Tp, _Seq>&)’
+  375 |     operator<(const stack<_Tp, _Seq>& __x, const stack<_Tp, _Seq>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_stack.h:375:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::stack<_Tp, _Seq>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/valarray:605,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:166:
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__less, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const _Expr<_Dom1, typename _Dom1::value_type>&, const _Expr<_Dom2, typename _Dom2::value_type>&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__less, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const _Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__less, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const typename _Dom::value_type&, const _Expr<_Dom1, typename _Dom1::value_type>&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__less, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const _Expr<_Dom1, typename _Dom1::value_type>&, const valarray<typename _Dom::value_type>&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__less, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const valarray<typename _Dom::value_type>&, const _Expr<_Dom1, typename _Dom1::value_type>&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/valarray:1210:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__less, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__less, _Tp>::result_type> std::operator<(const valarray<_Tp>&, const valarray<_Tp>&)’
+ 1210 | _DEFINE_BINARY_OPERATOR(<, __less)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/valarray:1210:1: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::valarray<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/valarray:1210:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__less, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__less, _Tp>::result_type> std::operator<(const valarray<_Tp>&, const typename valarray<_Tp>::value_type&)’
+ 1210 | _DEFINE_BINARY_OPERATOR(<, __less)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/valarray:1210:1: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::valarray<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/valarray:1210:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__less, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__less, _Tp>::result_type> std::operator<(const typename valarray<_Tp>::value_type&, const valarray<_Tp>&)’
+ 1210 | _DEFINE_BINARY_OPERATOR(<, __less)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/valarray:1210:1: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::valarray<_Tp>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/forward_list:40,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:175:
+/usr/include/c++/13/bits/forward_list.h:1496:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator<(const forward_list<_Tp, _Alloc>&, const forward_list<_Tp, _Alloc>&)’
+ 1496 |     operator<(const forward_list<_Tp, _Alloc>& __lx,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/forward_list.h:1496:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:98:22: note:   ‘const std::pair<long long int, double>’ is not derived from ‘const std::forward_list<_Tp, _Alloc>’
+   98 |       { return __val < *__it; }
+      |                ~~~~~~^~~~~~~
+In file included from /usr/include/c++/13/bits/ios_base.h:46,
+                 from /usr/include/c++/13/streambuf:43,
+                 from /usr/include/c++/13/bits/streambuf_iterator.h:35,
+                 from /usr/include/c++/13/iterator:66,
+                 from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:54:
+/usr/include/c++/13/system_error:324:3: note: candidate: ‘bool std::operator<(const error_code&, const error_code&)’
+  324 |   operator<(const error_code& __lhs, const error_code& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/13/system_error:324:31: note:   no known conversion for argument 1 from ‘const std::pair<long long int, double>’ to ‘const std::error_code&’
+  324 |   operator<(const error_code& __lhs, const error_code& __rhs) noexcept
+      |             ~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/13/system_error:507:3: note: candidate: ‘bool std::operator<(const error_condition&, const error_condition&)’
+  507 |   operator<(const error_condition& __lhs,
+      |   ^~~~~~~~
+/usr/include/c++/13/system_error:507:36: note:   no known conversion for argument 1 from ‘const std::pair<long long int, double>’ to ‘const std::error_condition&’
+  507 |   operator<(const error_condition& __lhs,
+      |             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/13/variant:1306:18: note: candidate: ‘constexpr bool std::operator<(monostate, monostate)’
+ 1306 |   constexpr bool operator<(monostate, monostate) noexcept { return false; }
+      |                  ^~~~~~~~
+/usr/include/c++/13/variant:1306:28: note:   no known conversion for argument 1 from ‘const std::pair<long long int, double>’ to ‘std::monostate’
+ 1306 |   constexpr bool operator<(monostate, monostate) noexcept { return false; }
+      |                            ^~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:184:
+/usr/include/c++/13/thread:75:3: note: candidate: ‘bool std::operator<(thread::id, thread::id)’
+   75 |   operator<(thread::id __x, thread::id __y) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/13/thread:75:24: note:   no known conversion for argument 1 from ‘const std::pair<long long int, double>’ to ‘std::thread::id’
+   75 |   operator<(thread::id __x, thread::id __y) noexcept
+      |             ~~~~~~~~~~~^~~
+/usr/include/c++/13/bits/predefined_ops.h: In instantiation of ‘bool __gnu_cxx::__ops::_Iter_less_val::operator()(_Iterator, _Value&) const [with _Iterator = __gnu_cxx::__normal_iterator<std::pair<long long int, long long int>*, std::vector<std::pair<long long int, long long int> > >; _Value = const std::pair<long long int, int>]’:
+/usr/include/c++/13/bits/stl_algobase.h:1472:14:   required from ‘_ForwardIterator std::__lower_bound(_ForwardIterator, _ForwardIterator, const _Tp&, _Compare) [with _ForwardIterator = __gnu_cxx::__normal_iterator<pair<long long int, long long int>*, vector<pair<long long int, long long int> > >; _Tp = pair<long long int, int>; _Compare = __gnu_cxx::__ops::_Iter_less_val]’
+/usr/include/c++/13/bits/stl_algobase.h:1507:32:   required from ‘_ForwardIterator std::lower_bound(_ForwardIterator, _ForwardIterator, const _Tp&) [with _ForwardIterator = __gnu_cxx::__normal_iterator<pair<long long int, long long int>*, vector<pair<long long int, long long int> > >; _Tp = pair<long long int, int>]’
+./atcoder/abc/abc457/E_Crossing_Table_Cloth.cpp:185:31:   required from here
+/usr/include/c++/13/bits/predefined_ops.h:69:22: error: no match for ‘operator<’ (operand types are ‘std::pair<long long int, long long int>’ and ‘const std::pair<long long int, int>’)
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1250:5: note: candidate: ‘template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator<(const __normal_iterator<_IteratorL, _Container>&, const __normal_iterator<_IteratorR, _Container>&)’
+ 1250 |     operator<(const __normal_iterator<_IteratorL, _Container>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1250:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1258:5: note: candidate: ‘template<class _Iterator, class _Container> bool __gnu_cxx::operator<(const __normal_iterator<_Iterator, _Container>&, const __normal_iterator<_Iterator, _Container>&)’
+ 1258 |     operator<(const __normal_iterator<_Iterator, _Container>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1258:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1143:5: note: candidate: ‘template<class _BiIter> bool std::__cxx11::operator<(const sub_match<_BiIter>&, const sub_match<_BiIter>&)’
+ 1143 |     operator<(const sub_match<_BiIter>& __lhs, const sub_match<_BiIter>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1143:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1224:5: note: candidate: ‘template<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator<(__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&, const sub_match<_BiIter>&)’
+ 1224 |     operator<(const __sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1224:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1317:5: note: candidate: ‘template<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator<(const sub_match<_BiIter>&, __sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&)’
+ 1317 |     operator<(const sub_match<_Bi_iter>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1317:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1391:5: note: candidate: ‘template<class _Bi_iter> bool std::__cxx11::operator<(const typename std::iterator_traits<_Iter>::value_type*, const sub_match<_BiIter>&)’
+ 1391 |     operator<(typename iterator_traits<_Bi_iter>::value_type const* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1391:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1485:5: note: candidate: ‘template<class _Bi_iter> bool std::__cxx11::operator<(const sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type*)’
+ 1485 |     operator<(const sub_match<_Bi_iter>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1485:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1560:5: note: candidate: ‘template<class _Bi_iter> bool std::__cxx11::operator<(const typename std::iterator_traits<_Iter>::value_type&, const sub_match<_BiIter>&)’
+ 1560 |     operator<(typename iterator_traits<_Bi_iter>::value_type const& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1560:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/regex.h:1660:5: note: candidate: ‘template<class _Bi_iter> bool std::__cxx11::operator<(const sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type&)’
+ 1660 |     operator<(const sub_match<_Bi_iter>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/regex.h:1660:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_pair.h:835:5: note: candidate: ‘template<class _T1, class _T2> constexpr bool std::operator<(const pair<_T1, _T2>&, const pair<_T1, _T2>&)’
+  835 |     operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_pair.h:835:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   deduced conflicting types for parameter ‘_T2’ (‘long long int’ and ‘int’)
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:455:5: note: candidate: ‘template<class _Iterator> constexpr bool std::operator<(const reverse_iterator<_Iterator>&, const reverse_iterator<_Iterator>&)’
+  455 |     operator<(const reverse_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:455:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:500:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)’
+  500 |     operator<(const reverse_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:500:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1705:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)’
+ 1705 |     operator<(const move_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1705:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1770:5: note: candidate: ‘template<class _Iterator> constexpr bool std::operator<(const move_iterator<_IteratorL>&, const move_iterator<_IteratorL>&)’
+ 1770 |     operator<(const move_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator.h:1770:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/string_view:671:5: note: candidate: ‘template<class _CharT, class _Traits> constexpr bool std::operator<(basic_string_view<_CharT, _Traits>, basic_string_view<_CharT, _Traits>)’
+  671 |     operator< (basic_string_view<_CharT, _Traits> __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/string_view:671:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘std::basic_string_view<_CharT, _Traits>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/string_view:678:5: note: candidate: ‘template<class _CharT, class _Traits> constexpr bool std::operator<(basic_string_view<_CharT, _Traits>, __type_identity_t<basic_string_view<_CharT, _Traits> >)’
+  678 |     operator< (basic_string_view<_CharT, _Traits> __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/string_view:678:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘std::basic_string_view<_CharT, _Traits>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/string_view:686:5: note: candidate: ‘template<class _CharT, class _Traits> constexpr bool std::operator<(__type_identity_t<basic_string_view<_CharT, _Traits> >, basic_string_view<_CharT, _Traits>)’
+  686 |     operator< (__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/string_view:686:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, int>’ is not derived from ‘std::basic_string_view<_CharT, _Traits>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3829:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3829 |     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3829:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3843:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)’
+ 3843 |     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3843:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3856:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 3856 |     operator<(const _CharT* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/basic_string.h:3856:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   mismatched types ‘const _CharT*’ and ‘std::pair<long long int, long long int>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/tuple:1961:5: note: candidate: ‘template<class ... _TElements, class ... _UElements> constexpr bool std::operator<(const tuple<_UTypes ...>&, const tuple<_UTypes ...>&)’
+ 1961 |     operator<(const tuple<_TElements...>& __t,
+      |     ^~~~~~~~
+/usr/include/c++/13/tuple:1961:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::tuple<_UTypes ...>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_vector.h:2079:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator<(const vector<_Tp, _Alloc>&, const vector<_Tp, _Alloc>&)’
+ 2079 |     operator<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_vector.h:2079:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::vector<_Tp, _Alloc>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/array:333:5: note: candidate: ‘template<class _Tp, long unsigned int _Nm> bool std::operator<(const array<_Tp, _Nm>&, const array<_Tp, _Nm>&)’
+  333 |     operator<(const array<_Tp, _Nm>& __a, const array<_Tp, _Nm>& __b)
+      |     ^~~~~~~~
+/usr/include/c++/13/array:333:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::array<_Tp, _Nm>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:877:5: note: candidate: ‘template<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator<(const unique_ptr<_Tp, _Dp>&, const unique_ptr<_Up, _Ep>&)’
+  877 |     operator<(const unique_ptr<_Tp, _Dp>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:877:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:890:5: note: candidate: ‘template<class _Tp, class _Dp> bool std::operator<(const unique_ptr<_Tp, _Dp>&, nullptr_t)’
+  890 |     operator<(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:890:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:900:5: note: candidate: ‘template<class _Tp, class _Dp> bool std::operator<(nullptr_t, const unique_ptr<_Tp, _Dp>&)’
+  900 |     operator<(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:900:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1840:5: note: candidate: ‘template<class _Tp, class _Up, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const __shared_ptr<_Tp1, _Lp>&, const __shared_ptr<_Tp2, _Lp>&)’
+ 1840 |     operator<(const __shared_ptr<_Tp, _Lp>& __a,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1840:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__shared_ptr<_Tp1, _Lp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1851:5: note: candidate: ‘template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const __shared_ptr<_Tp, _Lp>&, nullptr_t)’
+ 1851 |     operator<(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1851:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__shared_ptr<_Tp, _Lp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1859:5: note: candidate: ‘template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(nullptr_t, const __shared_ptr<_Tp, _Lp>&)’
+ 1859 |     operator<(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr_base.h:1859:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::__shared_ptr<_Tp, _Lp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:606:5: note: candidate: ‘template<class _Tp, class _Up> bool std::operator<(const shared_ptr<_Tp>&, const shared_ptr<_Tp>&)’
+  606 |     operator<(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:606:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::shared_ptr<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:617:5: note: candidate: ‘template<class _Tp> bool std::operator<(const shared_ptr<_Tp>&, nullptr_t)’
+  617 |     operator<(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:617:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::shared_ptr<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:626:5: note: candidate: ‘template<class _Tp> bool std::operator<(nullptr_t, const shared_ptr<_Tp>&)’
+  626 |     operator<(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/shared_ptr.h:626:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::shared_ptr<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/optional:1254:5: note: candidate: ‘template<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const optional<_Tp>&, const optional<_Up>&)’
+ 1254 |     operator<(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1254:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::optional<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/optional:1322:5: note: candidate: ‘template<class _Tp> constexpr bool std::operator<(const optional<_Tp>&, nullopt_t)’
+ 1322 |     operator<(const optional<_Tp>& /* __lhs */, nullopt_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1322:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::optional<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/optional:1327:5: note: candidate: ‘template<class _Tp> constexpr bool std::operator<(nullopt_t, const optional<_Tp>&)’
+ 1327 |     operator<(nullopt_t, const optional<_Tp>& __rhs) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1327:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::optional<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/optional:1388:5: note: candidate: ‘template<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const optional<_Tp>&, const _Up&)’
+ 1388 |     operator<(const optional<_Tp>& __lhs, const _Up& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1388:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::optional<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/optional:1394:5: note: candidate: ‘template<class _Tp, class _Up> constexpr std::__optional_lt_t<_Up, _Tp> std::operator<(const _Up&, const optional<_Tp>&)’
+ 1394 |     operator<(const _Up& __lhs, const optional<_Tp>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/13/optional:1394:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::optional<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/variant:1264:3: note: candidate: ‘template<class ... _Types> constexpr bool std::operator<(const variant<_Types ...>&, const variant<_Types ...>&)’
+ 1264 |   _VARIANT_RELATION_FUNCTION_TEMPLATE(<, less)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/variant:1264:3: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::variant<_Types ...>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_deque.h:2330:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator<(const deque<_Tp, _Alloc>&, const deque<_Tp, _Alloc>&)’
+ 2330 |     operator<(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_deque.h:2330:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::deque<_Tp, _Alloc>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_list.h:2180:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator<(const __cxx11::list<_Tp, _Alloc>&, const __cxx11::list<_Tp, _Alloc>&)’
+ 2180 |     operator<(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_list.h:2180:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::__cxx11::list<_Tp, _Alloc>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_map.h:1551:5: note: candidate: ‘template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const map<_Key, _Tp, _Compare, _Allocator>&, const map<_Key, _Tp, _Compare, _Allocator>&)’
+ 1551 |     operator<(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_map.h:1551:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::map<_Key, _Tp, _Compare, _Allocator>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_multimap.h:1172:5: note: candidate: ‘template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const multimap<_Key, _Tp, _Compare, _Allocator>&, const multimap<_Key, _Tp, _Compare, _Allocator>&)’
+ 1172 |     operator<(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_multimap.h:1172:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::multimap<_Key, _Tp, _Compare, _Allocator>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_queue.h:399:5: note: candidate: ‘template<class _Tp, class _Seq> bool std::operator<(const queue<_Tp, _Seq>&, const queue<_Tp, _Seq>&)’
+  399 |     operator<(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_queue.h:399:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::queue<_Tp, _Seq>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_set.h:1025:5: note: candidate: ‘template<class _Key, class _Compare, class _Alloc> bool std::operator<(const set<_Key, _Compare, _Allocator>&, const set<_Key, _Compare, _Allocator>&)’
+ 1025 |     operator<(const set<_Key, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_set.h:1025:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::set<_Key, _Compare, _Allocator>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_multiset.h:1011:5: note: candidate: ‘template<class _Key, class _Compare, class _Alloc> bool std::operator<(const multiset<_Key, _Compare, _Allocator>&, const multiset<_Key, _Compare, _Allocator>&)’
+ 1011 |     operator<(const multiset<_Key, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_multiset.h:1011:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::multiset<_Key, _Compare, _Allocator>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/stl_stack.h:375:5: note: candidate: ‘template<class _Tp, class _Seq> bool std::operator<(const stack<_Tp, _Seq>&, const stack<_Tp, _Seq>&)’
+  375 |     operator<(const stack<_Tp, _Seq>& __x, const stack<_Tp, _Seq>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/stl_stack.h:375:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::stack<_Tp, _Seq>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__less, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const _Expr<_Dom1, typename _Dom1::value_type>&, const _Expr<_Dom2, typename _Dom2::value_type>&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__less, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const _Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__less, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const typename _Dom::value_type&, const _Expr<_Dom1, typename _Dom1::value_type>&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__less, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const _Expr<_Dom1, typename _Dom1::value_type>&, const valarray<typename _Dom::value_type>&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__less, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__less, typename _Dom1::value_type>::result_type> std::operator<(const valarray<typename _Dom::value_type>&, const _Expr<_Dom1, typename _Dom1::value_type>&)’
+  419 |     _DEFINE_EXPR_BINARY_OPERATOR(<, struct std::__less)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/valarray_after.h:419:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/valarray:1210:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__less, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__less, _Tp>::result_type> std::operator<(const valarray<_Tp>&, const valarray<_Tp>&)’
+ 1210 | _DEFINE_BINARY_OPERATOR(<, __less)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/valarray:1210:1: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::valarray<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/valarray:1210:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__less, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__less, _Tp>::result_type> std::operator<(const valarray<_Tp>&, const typename valarray<_Tp>::value_type&)’
+ 1210 | _DEFINE_BINARY_OPERATOR(<, __less)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/valarray:1210:1: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::valarray<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/valarray:1210:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__less, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__less, _Tp>::result_type> std::operator<(const typename valarray<_Tp>::value_type&, const valarray<_Tp>&)’
+ 1210 | _DEFINE_BINARY_OPERATOR(<, __less)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/valarray:1210:1: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘const std::pair<long long int, int>’ is not derived from ‘const std::valarray<_Tp>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/bits/forward_list.h:1496:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator<(const forward_list<_Tp, _Alloc>&, const forward_list<_Tp, _Alloc>&)’
+ 1496 |     operator<(const forward_list<_Tp, _Alloc>& __lx,
+      |     ^~~~~~~~
+/usr/include/c++/13/bits/forward_list.h:1496:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13/bits/predefined_ops.h:69:22: note:   ‘std::pair<long long int, long long int>’ is not derived from ‘const std::forward_list<_Tp, _Alloc>’
+   69 |       { return *__it < __val; }
+      |                ~~~~~~^~~~~~~
+/usr/include/c++/13/system_error:324:3: note: candidate: ‘bool std::operator<(const error_code&, const error_code&)’
+  324 |   operator<(const error_code& __lhs, const error_code& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/13/system_error:324:31: note:   no known conversion for argument 1 from ‘std::pair<long long int, long long int>’ to ‘const std::error_code&’
+  324 |   operator<(const error_code& __lhs, const error_code& __rhs) noexcept
+      |             ~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/13/system_error:507:3: note: candidate: ‘bool std::operator<(const error_condition&, const error_condition&)’
+  507 |   operator<(const error_condition& __lhs,
+      |   ^~~~~~~~
+/usr/include/c++/13/system_error:507:36: note:   no known conversion for argument 1 from ‘std::pair<long long int, long long int>’ to ‘const std::error_condition&’
+  507 |   operator<(const error_condition& __lhs,
+      |             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/13/variant:1306:18: note: candidate: ‘constexpr bool std::operator<(monostate, monostate)’
+ 1306 |   constexpr bool operator<(monostate, monostate) noexcept { return false; }
+      |                  ^~~~~~~~
+/usr/include/c++/13/variant:1306:28: note:   no known conversion for argument 1 from ‘std::pair<long long int, long long int>’ to ‘std::monostate’
+ 1306 |   constexpr bool operator<(monostate, monostate) noexcept { return false; }
+      |                            ^~~~~~~~~
+/usr/include/c++/13/thread:75:3: note: candidate: ‘bool std::operator<(thread::id, thread::id)’
+   75 |   operator<(thread::id __x, thread::id __y) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/13/thread:75:24: note:   no known conversion for argument 1 from ‘std::pair<long long int, long long int>’ to ‘std::thread::id’
+   75 |   operator<(thread::id __x, thread::id __y) noexcept
+      |             ~~~~~~~~~~~^~~
+./atcoder/abc/abc360/20240706 abc360b.cpp: In function ‘int main()’:
+./atcoder/abc/abc360/20240706 abc360b.cpp:9:5: error: ‘vector’ was not declared in this scope
+    9 |     vector <string> arr;
+      |     ^~~~~~
+./atcoder/abc/abc360/20240706 abc360b.cpp:2:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    1 | #include <iostream>
+  +++ |+#include <vector>
+    2 | using namespace std;
+./atcoder/abc/abc360/20240706 abc360b.cpp:9:19: error: expected primary-expression before ‘>’ token
+    9 |     vector <string> arr;
+      |                   ^
+./atcoder/abc/abc360/20240706 abc360b.cpp:9:21: error: ‘arr’ was not declared in this scope
+    9 |     vector <string> arr;
+      |                     ^~~
+./atcoder/abc/abc360/20240706 abc360b.cpp:11:15: error: ‘s’ was not declared in this scope
+   11 |     for(s1=0; s < S.length(); s++){
+      |               ^
+./atcoder/abc/abc360/20240706 abc360b.cpp:13:31: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   13 |             arr.push_back(S[s2:s1+1])
+      |                               ^
+      |                               ::
+./atcoder/abc/abc360/20240706 abc360b.cpp:13:29: error: ‘s2’ is not a class, namespace, or enumeration
+   13 |             arr.push_back(S[s2:s1+1])
+      |                             ^~
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+In file included from /usr/include/c++/13/fstream:1300,
+                 from ./atcoder/abc/others/20250104 o714.cpp:4:
+/usr/include/c++/13/fstream: In instantiation of ‘class std::basic_filebuf<char>’:
+/usr/include/c++/13/bits/fstream.tcc:1081:25:   required from here
+/usr/include/c++/13/bits/fstream.tcc:1008:5: error: conflicting return type specified for ‘long long int std::basic_filebuf<_CharT, _Traits>::sync() [with _CharT = char; _Traits = std::char_traits<char>]’
+ 1008 |     basic_filebuf<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/ios:45,
+                 from /usr/include/c++/13/ostream:40,
+                 from /usr/include/c++/13/iostream:41,
+                 from ./atcoder/abc/others/20250104 o714.cpp:1:
+/usr/include/c++/13/streambuf:634:7: note: overridden function is ‘int std::basic_streambuf<_CharT, _Traits>::sync() [with _CharT = char; _Traits = std::char_traits<char>]’
+  634 |       sync() { return 0; }
+      |       ^~~~
+/usr/include/c++/13/fstream: In instantiation of ‘class std::basic_filebuf<wchar_t>’:
+/usr/include/c++/13/bits/fstream.tcc:1087:25:   required from here
+/usr/include/c++/13/bits/fstream.tcc:1008:5: error: conflicting return type specified for ‘long long int std::basic_filebuf<_CharT, _Traits>::sync() [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>]’
+ 1008 |     basic_filebuf<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/streambuf:634:7: note: overridden function is ‘int std::basic_streambuf<_CharT, _Traits>::sync() [with _CharT = wchar_t; _Traits = std::char_traits<wchar_t>]’
+  634 |       sync() { return 0; }
+      |       ^~~~
+./atcoder/abc/others/20240629 practice.cpp:4:1: error: ‘vector’ does not name a type
+    4 | vector <int> arr;
+      | ^~~~~~
+./atcoder/abc/others/20240629 practice.cpp: In function ‘int f(int)’:
+./atcoder/abc/others/20240629 practice.cpp:9:19: error: ‘arr’ was not declared in this scope
+    9 |     return f(x/2)+arr[x-1];
+      |                   ^~~
+./atcoder/abc/others/20240629 practice.cpp: In function ‘int main()’:
+./atcoder/abc/others/20240629 practice.cpp:16:5: error: ‘arr’ was not declared in this scope
+   16 |     arr = vector <int> (n);
+      |     ^~~
+./atcoder/abc/others/20240629 practice.cpp:16:11: error: ‘vector’ was not declared in this scope
+   16 |     arr = vector <int> (n);
+      |           ^~~~~~
+./atcoder/abc/others/20240629 practice.cpp:2:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    1 | #include <iostream>
+  +++ |+#include <vector>
+    2 | using namespace std;
+./atcoder/abc/others/20240629 practice.cpp:16:19: error: expected primary-expression before ‘int’
+   16 |     arr = vector <int> (n);
+      |                   ^~~
+./atcoder/abc/others/20240629 queen.cpp:6:1: error: ‘vector’ does not name a type
+    6 | vector <int> chess;
+      | ^~~~~~
+./atcoder/abc/others/20240629 queen.cpp: In function ‘void dfs()’:
+./atcoder/abc/others/20240629 queen.cpp:18:22: error: ‘chess’ was not declared in this scope
+   18 |             int jj = chess[ii];
+      |                      ^~~~~
+./atcoder/abc/others/20240629 queen.cpp:28:13: error: ‘chess’ was not declared in this scope
+   28 |             chess[i] = j;
+      |             ^~~~~
+./atcoder/abc/others/20240629 queen.cpp: In function ‘int main()’:
+./atcoder/abc/others/20240629 queen.cpp:39:5: error: ‘chess’ was not declared in this scope
+   39 |     chess = vector <int> (N, -1);
+      |     ^~~~~
+./atcoder/abc/others/20240629 queen.cpp:39:13: error: ‘vector’ was not declared in this scope
+   39 |     chess = vector <int> (N, -1);
+      |             ^~~~~~
+./atcoder/abc/others/20240629 queen.cpp:2:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    1 | #include <iostream>
+  +++ |+#include <vector>
+    2 | using namespace std;
+./atcoder/abc/others/20240629 queen.cpp:39:21: error: expected primary-expression before ‘int’
+   39 |     chess = vector <int> (N, -1);
+      |                     ^~~

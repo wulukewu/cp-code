@@ -332,13 +332,16 @@ def annotate(root: Path, submissions: dict[str, list[dict[str, Any]]]) -> dict[s
             continue
         for path in sorted(platform_root.rglob("*.cpp")):
             rel = path.relative_to(root)
+            original = path.read_text(encoding="utf-8")
+            if not original.strip():
+                report["unmatched"].append({"path": str(rel), "reason": "empty source file"})
+                continue
             matched, reason = match_codeforces(rel, history) if platform == "codeforces" else match_atcoder(rel, history)
             if not matched:
                 report["unmatched"].append({"path": str(rel), "reason": reason})
                 continue
             commit_epoch = latest_file_commit(rel)
             selected = choose(matched, commit_epoch)
-            original = path.read_text(encoding="utf-8")
             generated = f"{header(selected, matched, reason, commit_epoch)}\n\n{without_header(original)}"
             if generated != original:
                 path.write_text(generated, encoding="utf-8")

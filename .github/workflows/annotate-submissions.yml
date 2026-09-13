@@ -67,10 +67,14 @@ jobs:
             /tmp/submission-annotations.patch
           retention-days: 1
 
-      - name: Publish annotated branch
-        if: github.event_name != 'pull_request'
+      - name: Publish generated branch
         shell: bash
         run: |
+          target="annotated"
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            target="build-branch"
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add codeforces atcoder
@@ -78,7 +82,7 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh submission annotations"
           else
-            echo "No solutions could be annotated; annotated will mirror main."
+            echo "No solutions could be annotated; generated branch will mirror the source commit."
           fi
 
-          git push --force origin HEAD:annotated
+          git push --force origin "HEAD:${target}"

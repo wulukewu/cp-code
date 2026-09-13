@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc470_b — Monocolor
+ * Problem URL:    https://atcoder.jp/contests/abc470/tasks/abc470_b
+ *
+ * Matched result: AC
+ * Submission:     #78192615
+ * Submission URL: https://atcoder.jp/contests/abc470/submissions/78192615
+ * Submitted:      2026-08-08 20:02:40 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-08 21:31:22 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

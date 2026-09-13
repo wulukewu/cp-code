@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2200E — Divisive Battle
+ * Problem URL:    https://codeforces.com/contest/2200/problem/E
+ *
+ * Matched result: AC
+ * Submission:     #364723804
+ * Submission URL: https://codeforces.com/contest/2200/submission/364723804
+ * Submitted:      2026-02-28 00:27:37 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        78 ms
+ * Memory:         5.5 MiB
+ * Rating:         1500
+ * Tags:           games, greedy, math, number theory
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-02-28 14:28:01 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

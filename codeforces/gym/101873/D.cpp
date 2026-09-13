@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        101873D — Pants On Fire
+ * Problem URL:    https://codeforces.com/gym/101873/problem/D
+ *
+ * Matched result: AC
+ * Submission:     #332054189
+ * Submission URL: https://codeforces.com/gym/101873/submission/332054189
+ * Submitted:      2025-08-02 15:41:44 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        281 ms
+ * Memory:         800.0 KiB
+ * Submissions:    5 total / 1 accepted
+ * File commit:    2025-08-02 19:11:16 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -76,4 +95,3 @@ int main() {
     while(t--) solve();
     return 0;
 }
-

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc455_b — Spiral Galaxy
+ * Problem URL:    https://atcoder.jp/contests/abc455/tasks/abc455_b
+ *
+ * Matched result: AC
+ * Submission:     #75237459
+ * Submission URL: https://atcoder.jp/contests/abc455/submissions/75237459
+ * Submitted:      2026-04-25 20:11:12 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-04-25 21:41:23 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

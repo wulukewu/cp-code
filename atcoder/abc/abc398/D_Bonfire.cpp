@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc398_d — Bonfire
+ * Problem URL:    https://atcoder.jp/contests/abc398/tasks/abc398_d
+ *
+ * Matched result: AC
+ * Submission:     #64105779
+ * Submission URL: https://atcoder.jp/contests/abc398/submissions/64105779
+ * Submitted:      2025-03-22 22:04:05 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        76 ms
+ * Points:         425.0
+ * Submissions:    4 total / 1 accepted
+ * File commit:    2025-03-22 22:07:04 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

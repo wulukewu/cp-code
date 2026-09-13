@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2237D — Fullmetal Bitchemist
+ * Problem URL:    https://codeforces.com/contest/2237/problem/D
+ *
+ * Matched result: AC
+ * Submission:     #379403173
+ * Submission URL: https://codeforces.com/contest/2237/submission/379403173
+ * Submitted:      2026-06-19 00:08:29 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        46 ms
+ * Memory:         0 B
+ * Rating:         1500
+ * Tags:           constructive algorithms, greedy, math
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-06-19 02:14:32 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

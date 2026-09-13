@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc435_d — Reachability Query 2
+ * Problem URL:    https://atcoder.jp/contests/abc435/tasks/abc435_d
+ *
+ * Matched result: AC
+ * Submission:     #71493962
+ * Submission URL: https://atcoder.jp/contests/abc435/submissions/71493962
+ * Submitted:      2025-12-06 20:30:49 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        89 ms
+ * Points:         425.0
+ * Submissions:    5 total / 1 accepted
+ * File commit:    2025-12-06 21:41:35 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

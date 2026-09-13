@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc398_b — Full House 3
+ * Problem URL:    https://atcoder.jp/contests/abc398/tasks/abc398_b
+ *
+ * Matched result: AC
+ * Submission:     #64042422
+ * Submission URL: https://atcoder.jp/contests/abc398/submissions/64042422
+ * Submitted:      2025-03-22 20:10:35 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         250.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-03-22 22:07:04 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc428_c — Brackets Stack Query
+ * Problem URL:    https://atcoder.jp/contests/abc428/tasks/abc428_c
+ *
+ * Matched result: AC
+ * Submission:     #70255759
+ * Submission URL: https://atcoder.jp/contests/abc428/submissions/70255759
+ * Submitted:      2025-10-18 21:35:11 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        57 ms
+ * Points:         300.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-10-18 22:11:23 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

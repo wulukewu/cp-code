@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        105168C — Chain Reaction
+ * Problem URL:    https://codeforces.com/gym/105168/problem/C
+ *
+ * Matched result: AC
+ * Submission:     #333113941
+ * Submission URL: https://codeforces.com/gym/105168/submission/333113941
+ * Submitted:      2025-08-09 17:20:42 +0800
+ * Language:       C++17 (GCC 7-32)
+ * Runtime:        171 ms
+ * Memory:         100.0 KiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-08-09 19:05:04 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

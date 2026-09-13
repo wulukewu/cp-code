@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc407_c — Security 2
+ * Problem URL:    https://atcoder.jp/contests/abc407/tasks/abc407_c
+ *
+ * Matched result: AC
+ * Submission:     #66123250
+ * Submission URL: https://atcoder.jp/contests/abc407/submissions/66123250
+ * Submitted:      2025-05-24 21:06:15 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        8 ms
+ * Points:         300.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2025-05-26 10:46:51 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc438_d — Tail of Snake
+ * Problem URL:    https://atcoder.jp/contests/abc438/tasks/abc438_d
+ *
+ * Matched result: AC
+ * Submission:     #72026044
+ * Submission URL: https://atcoder.jp/contests/abc438/submissions/72026044
+ * Submitted:      2025-12-27 20:43:24 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        35 ms
+ * Points:         400.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2025-12-27 21:41:07 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

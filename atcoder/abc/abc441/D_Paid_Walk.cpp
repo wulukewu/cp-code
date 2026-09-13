@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc441_d — Paid Walk
+ * Problem URL:    https://atcoder.jp/contests/abc441/tasks/abc441_d
+ *
+ * Matched result: AC
+ * Submission:     #72673781
+ * Submission URL: https://atcoder.jp/contests/abc441/submissions/72673781
+ * Submitted:      2026-01-24 19:55:18 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        138 ms
+ * Points:         400.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-24 19:56:14 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

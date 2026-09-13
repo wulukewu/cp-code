@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        106059C — Chess Pieces
+ * Problem URL:    https://codeforces.com/gym/106059/problem/C
+ *
+ * Matched result: WA
+ * Submission:     #339151664
+ * Submission URL: https://codeforces.com/gym/106059/submission/339151664
+ * Submitted:      2025-09-18 00:23:45 +0800
+ * Language:       Python 3
+ * Runtime:        61 ms
+ * Memory:         400.0 KiB
+ * Submissions:    1 total / 0 accepted
+ * File commit:    2025-09-18 08:23:08 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

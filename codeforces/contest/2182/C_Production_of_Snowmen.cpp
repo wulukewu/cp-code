@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2182C — Production of Snowmen
+ * Problem URL:    https://codeforces.com/contest/2182/problem/C
+ *
+ * Matched result: AC
+ * Submission:     #355743378
+ * Submission URL: https://codeforces.com/contest/2182/submission/355743378
+ * Submitted:      2025-12-29 23:16:08 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        421 ms
+ * Memory:         100.0 KiB
+ * Rating:         1200
+ * Tags:           brute force, combinatorics, dp
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-12-30 00:40:02 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

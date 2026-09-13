@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc462_f — More ABC
+ * Problem URL:    https://atcoder.jp/contests/abc462/tasks/abc462_f
+ *
+ * Matched result: AC
+ * Submission:     #76668336
+ * Submission URL: https://atcoder.jp/contests/abc462/submissions/76668336
+ * Submitted:      2026-06-13 22:01:02 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        614 ms
+ * Points:         500.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-06-13 22:14:02 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

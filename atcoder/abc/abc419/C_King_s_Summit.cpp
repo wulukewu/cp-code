@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc419_c — King's Summit
+ * Problem URL:    https://atcoder.jp/contests/abc419/tasks/abc419_c
+ *
+ * Matched result: AC
+ * Submission:     #68543020
+ * Submission URL: https://atcoder.jp/contests/abc419/submissions/68543020
+ * Submitted:      2025-08-16 20:24:24 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        23 ms
+ * Points:         300.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-08-16 21:33:08 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

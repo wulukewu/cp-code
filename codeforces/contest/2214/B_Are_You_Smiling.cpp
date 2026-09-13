@@ -1,3 +1,23 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2214B — Are You Smiling?
+ * Problem URL:    https://codeforces.com/contest/2214/problem/B
+ *
+ * Matched result: AC
+ * Submission:     #369132829
+ * Submission URL: https://codeforces.com/contest/2214/submission/369132829
+ * Submitted:      2026-04-01 22:41:31 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        31 ms
+ * Memory:         0 B
+ * Tags:           *special, strings
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-04-02 00:42:37 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

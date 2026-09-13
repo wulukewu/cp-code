@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc429_d — On AtCoder Conference
+ * Problem URL:    https://atcoder.jp/contests/abc429/tasks/abc429_d
+ *
+ * Matched result: AC
+ * Submission:     #70444721
+ * Submission URL: https://atcoder.jp/contests/abc429/submissions/70444721
+ * Submitted:      2025-10-25 20:51:21 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        387 ms
+ * Points:         425.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2025-10-25 21:42:27 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

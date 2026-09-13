@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc443_d — Pawn Line
+ * Problem URL:    https://atcoder.jp/contests/abc443/tasks/abc443_d
+ *
+ * Matched result: AC
+ * Submission:     #72897260
+ * Submission URL: https://atcoder.jp/contests/abc443/submissions/72897260
+ * Submitted:      2026-01-31 20:58:27 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        16 ms
+ * Points:         400.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-31 21:41:29 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

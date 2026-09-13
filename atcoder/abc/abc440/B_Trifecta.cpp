@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc440_b — Trifecta
+ * Problem URL:    https://atcoder.jp/contests/abc440/tasks/abc440_b
+ *
+ * Matched result: AC
+ * Submission:     #72340744
+ * Submission URL: https://atcoder.jp/contests/abc440/submissions/72340744
+ * Submitted:      2026-01-10 20:03:09 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        2 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-10 21:57:20 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

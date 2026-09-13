@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc411_b — Distance Table
+ * Problem URL:    https://atcoder.jp/contests/abc411/tasks/abc411_b
+ *
+ * Matched result: AC
+ * Submission:     #66931793
+ * Submission URL: https://atcoder.jp/contests/abc411/submissions/66931793
+ * Submitted:      2025-06-21 20:03:49 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-06-21 21:44:43 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

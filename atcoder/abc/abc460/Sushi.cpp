@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc460_c — Sushi
+ * Problem URL:    https://atcoder.jp/contests/abc460/tasks/abc460_c
+ *
+ * Matched result: AC
+ * Submission:     #76243508
+ * Submission URL: https://atcoder.jp/contests/abc460/submissions/76243508
+ * Submitted:      2026-05-30 20:20:26 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        38 ms
+ * Points:         300.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-05-30 21:43:10 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

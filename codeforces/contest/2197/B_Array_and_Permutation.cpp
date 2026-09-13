@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2197B — Array and Permutation
+ * Problem URL:    https://codeforces.com/contest/2197/problem/B
+ *
+ * Matched result: AC
+ * Submission:     #362454852
+ * Submission URL: https://codeforces.com/contest/2197/submission/362454852
+ * Submitted:      2026-02-11 23:21:45 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        93 ms
+ * Memory:         1000.0 KiB
+ * Rating:         1100
+ * Tags:           implementation, schedules, sortings, two pointers
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-02-12 02:16:22 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc416_a — Vacation Validation
+ * Problem URL:    https://atcoder.jp/contests/abc416/tasks/abc416_a
+ *
+ * Matched result: AC
+ * Submission:     #67911171
+ * Submission URL: https://atcoder.jp/contests/abc416/submissions/67911171
+ * Submitted:      2025-07-26 20:01:47 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         100.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-08-02 21:13:46 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

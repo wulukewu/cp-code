@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        102021H — Hyper Illuminati
+ * Problem URL:    https://codeforces.com/gym/102021/problem/H
+ *
+ * Matched result: AC
+ * Submission:     #387881483
+ * Submission URL: https://codeforces.com/gym/102021/submission/387881483
+ * Submitted:      2026-08-21 19:49:21 +0800
+ * Language:       C++20 (GCC 13-64)
+ * Runtime:        62 ms
+ * Memory:         100.0 KiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-21 22:22:10 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

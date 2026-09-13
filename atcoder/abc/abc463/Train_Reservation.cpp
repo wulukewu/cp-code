@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc463_b — Train Reservation
+ * Problem URL:    https://atcoder.jp/contests/abc463/tasks/abc463_b
+ *
+ * Matched result: AC
+ * Submission:     #76807682
+ * Submission URL: https://atcoder.jp/contests/abc463/submissions/76807682
+ * Submitted:      2026-06-20 20:04:11 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-06-20 21:39:51 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

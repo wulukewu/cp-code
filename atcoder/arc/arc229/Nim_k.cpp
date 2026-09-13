@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        arc229_d — Nim_k ?
+ * Problem URL:    https://atcoder.jp/contests/arc229/tasks/arc229_d
+ *
+ * Matched result: AC
+ * Submission:     #78984203
+ * Submission URL: https://atcoder.jp/contests/arc229/submissions/78984203
+ * Submitted:      2026-09-05 21:58:27 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        13 ms
+ * Points:         600.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-09-05 22:04:10 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

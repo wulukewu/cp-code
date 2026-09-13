@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        101873G — Water Testing
+ * Problem URL:    https://codeforces.com/gym/101873/problem/G
+ *
+ * Matched result: AC
+ * Submission:     #332063319
+ * Submission URL: https://codeforces.com/gym/101873/submission/332063319
+ * Submitted:      2025-08-02 16:46:51 +0800
+ * Language:       C++17 (GCC 7-32)
+ * Runtime:        78 ms
+ * Memory:         100.0 KiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-08-02 19:11:16 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -74,4 +93,3 @@ int main() {
     while(t--) solve();
     return 0;
 }
-

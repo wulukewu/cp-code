@@ -1,3 +1,23 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2263B — Min Matrices
+ * Problem URL:    https://codeforces.com/contest/2263/problem/B
+ *
+ * Matched result: AC
+ * Submission:     #390434278
+ * Submission URL: https://codeforces.com/contest/2263/submission/390434278
+ * Submitted:      2026-09-12 22:53:10 +0800
+ * Language:       C++20 (GCC 13-64)
+ * Runtime:        78 ms
+ * Memory:         4.7 MiB
+ * Tags:           constructive algorithms
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-09-13 00:50:38 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

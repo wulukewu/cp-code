@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc452_e — You WILL Like Sigma Problem
+ * Problem URL:    https://atcoder.jp/contests/abc452/tasks/abc452_e
+ *
+ * Matched result: AC
+ * Submission:     #74676894
+ * Submission URL: https://atcoder.jp/contests/abc452/submissions/74676894
+ * Submitted:      2026-04-04 20:56:39 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        75 ms
+ * Points:         450.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-04-04 21:26:33 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

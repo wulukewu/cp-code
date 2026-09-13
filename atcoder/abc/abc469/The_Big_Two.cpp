@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc469_d — The Big Two
+ * Problem URL:    https://atcoder.jp/contests/abc469/tasks/abc469_d
+ *
+ * Matched result: AC
+ * Submission:     #78037399
+ * Submission URL: https://atcoder.jp/contests/abc469/submissions/78037399
+ * Submitted:      2026-08-01 21:00:23 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        85 ms
+ * Points:         400.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-01 21:37:55 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

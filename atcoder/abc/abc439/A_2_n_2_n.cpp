@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc439_a — 2^n - 2*n
+ * Problem URL:    https://atcoder.jp/contests/abc439/tasks/abc439_a
+ *
+ * Matched result: AC
+ * Submission:     #72166798
+ * Submission URL: https://atcoder.jp/contests/abc439/submissions/72166798
+ * Submitted:      2026-01-03 20:01:17 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         100.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-03 21:44:40 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

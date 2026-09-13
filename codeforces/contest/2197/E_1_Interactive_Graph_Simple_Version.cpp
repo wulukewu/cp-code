@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2197E1 — Interactive Graph (Simple Version)
+ * Problem URL:    https://codeforces.com/contest/2197/problem/E1
+ *
+ * Matched result: AC
+ * Submission:     #362539565
+ * Submission URL: https://codeforces.com/contest/2197/submission/362539565
+ * Submitted:      2026-02-12 03:11:37 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        93 ms
+ * Memory:         100.0 KiB
+ * Rating:         1800
+ * Tags:           binary search, combinatorics, dfs and similar, dp, graphs, interactive
+ * Submissions:    3 total / 1 accepted
+ * File commit:    2026-02-12 02:16:22 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

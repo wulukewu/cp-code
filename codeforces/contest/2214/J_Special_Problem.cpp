@@ -1,3 +1,23 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2214J — Special Problem
+ * Problem URL:    https://codeforces.com/contest/2214/problem/J
+ *
+ * Matched result: AC
+ * Submission:     #369237079
+ * Submission URL: https://codeforces.com/contest/2214/submission/369237079
+ * Submitted:      2026-04-02 00:05:51 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        31 ms
+ * Memory:         0 B
+ * Tags:           *special, brute force, games, interactive
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-07-18 21:21:24 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc420_b — Most Minority
+ * Problem URL:    https://atcoder.jp/contests/abc420/tasks/abc420_b
+ *
+ * Matched result: AC
+ * Submission:     #68743069
+ * Submission URL: https://atcoder.jp/contests/abc420/submissions/68743069
+ * Submitted:      2025-08-24 20:09:35 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-08-24 21:53:34 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

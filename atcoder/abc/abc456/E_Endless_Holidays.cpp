@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc456_e — Endless Holidays
+ * Problem URL:    https://atcoder.jp/contests/abc456/tasks/abc456_e
+ *
+ * Matched result: AC
+ * Submission:     #75452239
+ * Submission URL: https://atcoder.jp/contests/abc456/submissions/75452239
+ * Submitted:      2026-05-02 21:14:18 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        68 ms
+ * Points:         450.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-05-02 21:52:28 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

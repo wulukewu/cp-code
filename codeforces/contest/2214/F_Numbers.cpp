@@ -1,3 +1,23 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2214F — Numbers
+ * Problem URL:    https://codeforces.com/contest/2214/problem/F
+ *
+ * Matched result: AC
+ * Submission:     #369262363
+ * Submission URL: https://codeforces.com/contest/2214/submission/369262363
+ * Submitted:      2026-04-02 00:42:25 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        31 ms
+ * Memory:         0 B
+ * Tags:           *special
+ * Submissions:    3 total / 1 accepted
+ * File commit:    2026-04-02 00:42:37 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

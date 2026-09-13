@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc408_d — Flip to Gather
+ * Problem URL:    https://atcoder.jp/contests/abc408/tasks/abc408_d
+ *
+ * Matched result: WA
+ * Submission:     #66350149
+ * Submission URL: https://atcoder.jp/contests/abc408/submissions/66350149
+ * Submitted:      2025-05-31 21:09:32 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        25 ms
+ * Points:         0.0
+ * Submissions:    1 total / 0 accepted
+ * File commit:    2025-05-31 21:33:15 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

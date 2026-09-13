@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2200B — Deletion Sort
+ * Problem URL:    https://codeforces.com/contest/2200/problem/B
+ *
+ * Matched result: AC
+ * Submission:     #364682937
+ * Submission URL: https://codeforces.com/contest/2200/submission/364682937
+ * Submitted:      2026-02-27 23:12:26 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        31 ms
+ * Memory:         0 B
+ * Rating:         800
+ * Tags:           bitmasks, brute force, greedy, sortings
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-02-28 14:28:01 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

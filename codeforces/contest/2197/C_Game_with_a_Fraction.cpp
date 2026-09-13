@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2197C — Game with a Fraction
+ * Problem URL:    https://codeforces.com/contest/2197/problem/C
+ *
+ * Matched result: AC
+ * Submission:     #362474863
+ * Submission URL: https://codeforces.com/contest/2197/submission/362474863
+ * Submitted:      2026-02-11 23:50:58 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        46 ms
+ * Memory:         100.0 KiB
+ * Rating:         1200
+ * Tags:           games, greedy, math
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-02-12 02:16:22 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2193A — DBMB and the Array
+ * Problem URL:    https://codeforces.com/contest/2193/problem/A
+ *
+ * Matched result: AC
+ * Submission:     #359740415
+ * Submission URL: https://codeforces.com/contest/2193/submission/359740415
+ * Submitted:      2026-01-25 22:39:46 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        31 ms
+ * Memory:         0 B
+ * Rating:         800
+ * Tags:           brute force, math
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-26 00:43:19 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

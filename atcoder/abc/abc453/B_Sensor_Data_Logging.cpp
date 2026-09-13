@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc453_b — Sensor Data Logging
+ * Problem URL:    https://atcoder.jp/contests/abc453/tasks/abc453_b
+ *
+ * Matched result: AC
+ * Submission:     #74846543
+ * Submission URL: https://atcoder.jp/contests/abc453/submissions/74846543
+ * Submitted:      2026-04-11 20:11:44 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        2 ms
+ * Points:         200.0
+ * Submissions:    3 total / 1 accepted
+ * File commit:    2026-04-11 21:41:52 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

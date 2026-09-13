@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc405_a — Is it rated?
+ * Problem URL:    https://atcoder.jp/contests/abc405/tasks/abc405_a
+ *
+ * Matched result: AC
+ * Submission:     #65630895
+ * Submission URL: https://atcoder.jp/contests/abc405/submissions/65630895
+ * Submitted:      2025-05-10 20:01:38 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        2 ms
+ * Points:         100.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-05-10 21:00:09 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

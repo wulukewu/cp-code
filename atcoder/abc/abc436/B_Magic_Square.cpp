@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc436_b — Magic Square
+ * Problem URL:    https://atcoder.jp/contests/abc436/tasks/abc436_b
+ *
+ * Matched result: AC
+ * Submission:     #71664022
+ * Submission URL: https://atcoder.jp/contests/abc436/submissions/71664022
+ * Submitted:      2025-12-13 20:12:11 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-12-13 21:53:30 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

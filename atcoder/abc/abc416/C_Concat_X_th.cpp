@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc416_c — Concat (X-th)
+ * Problem URL:    https://atcoder.jp/contests/abc416/tasks/abc416_c
+ *
+ * Matched result: AC
+ * Submission:     #67971693
+ * Submission URL: https://atcoder.jp/contests/abc416/submissions/67971693
+ * Submitted:      2025-07-26 21:50:24 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        34 ms
+ * Points:         300.0
+ * Submissions:    5 total / 1 accepted
+ * File commit:    2025-08-02 21:13:46 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

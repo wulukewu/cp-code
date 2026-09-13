@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc475_d — Alphametic Prime
+ * Problem URL:    https://atcoder.jp/contests/abc475/tasks/abc475_d
+ *
+ * Matched result: AC
+ * Submission:     #79212336
+ * Submission URL: https://atcoder.jp/contests/abc475/submissions/79212336
+ * Submitted:      2026-09-12 20:54:02 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        50 ms
+ * Points:         400.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-09-12 21:38:37 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

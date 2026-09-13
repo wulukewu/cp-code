@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        104059C — Chaotic Construction
+ * Problem URL:    https://codeforces.com/gym/104059/problem/C
+ *
+ * Matched result: AC
+ * Submission:     #388680511
+ * Submission URL: https://codeforces.com/gym/104059/submission/388680511
+ * Submitted:      2026-08-28 21:23:48 +0800
+ * Language:       C++17 (GCC 7-32)
+ * Runtime:        78 ms
+ * Memory:         100.0 KiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-28 23:41:51 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

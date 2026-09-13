@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc417_b — Search and Delete
+ * Problem URL:    https://atcoder.jp/contests/abc417/tasks/abc417_b
+ *
+ * Matched result: AC
+ * Submission:     #68109391
+ * Submission URL: https://atcoder.jp/contests/abc417/submissions/68109391
+ * Submitted:      2025-08-02 20:04:57 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-08-02 21:13:46 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

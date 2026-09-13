@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        102021F — Fighting Monsters
+ * Problem URL:    https://codeforces.com/gym/102021/problem/F
+ *
+ * Matched result: AC
+ * Submission:     #387879124
+ * Submission URL: https://codeforces.com/gym/102021/submission/387879124
+ * Submitted:      2026-08-21 19:26:32 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        78 ms
+ * Memory:         2.1 MiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-21 22:22:10 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

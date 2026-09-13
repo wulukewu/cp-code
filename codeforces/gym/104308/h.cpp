@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        104308H — Wonder Island
+ * Problem URL:    https://codeforces.com/gym/104308/problem/H
+ *
+ * Matched result: AC
+ * Submission:     #335270947
+ * Submission URL: https://codeforces.com/gym/104308/submission/335270947
+ * Submitted:      2025-08-24 15:37:47 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        436 ms
+ * Memory:         100.0 KiB
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2025-08-24 17:06:00 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

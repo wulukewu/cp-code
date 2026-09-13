@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc397_d — Cubes
+ * Problem URL:    https://atcoder.jp/contests/abc397/tasks/abc397_d
+ *
+ * Matched result: WA
+ * Submission:     #63831121
+ * Submission URL: https://atcoder.jp/contests/abc397/submissions/63831121
+ * Submitted:      2025-03-15 21:18:10 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        191 ms
+ * Points:         0.0
+ * Submissions:    4 total / 0 accepted
+ * File commit:    2025-03-15 22:36:26 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc451_a — illegal
+ * Problem URL:    https://atcoder.jp/contests/abc451/tasks/abc451_a
+ *
+ * Matched result: AC
+ * Submission:     #74454488
+ * Submission URL: https://atcoder.jp/contests/abc451/submissions/74454488
+ * Submitted:      2026-03-28 20:01:14 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        2 ms
+ * Points:         100.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-03-28 21:41:21 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

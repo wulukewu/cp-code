@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc430_d — Neighbor Distance
+ * Problem URL:    https://atcoder.jp/contests/abc430/tasks/abc430_d
+ *
+ * Matched result: AC
+ * Submission:     #70630373
+ * Submission URL: https://atcoder.jp/contests/abc430/submissions/70630373
+ * Submitted:      2025-11-01 22:20:28 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        977 ms
+ * Points:         400.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-11-01 22:29:14 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

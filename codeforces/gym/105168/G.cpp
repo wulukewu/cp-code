@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        105168G — Color Contagion
+ * Problem URL:    https://codeforces.com/gym/105168/problem/G
+ *
+ * Matched result: AC
+ * Submission:     #333111981
+ * Submission URL: https://codeforces.com/gym/105168/submission/333111981
+ * Submitted:      2025-08-09 17:03:44 +0800
+ * Language:       C++17 (GCC 7-32)
+ * Runtime:        202 ms
+ * Memory:         8.5 MiB
+ * Submissions:    3 total / 1 accepted
+ * File commit:    2025-08-09 19:05:04 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

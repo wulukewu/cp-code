@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2193C — Replace and Sum
+ * Problem URL:    https://codeforces.com/contest/2193/problem/C
+ *
+ * Matched result: AC
+ * Submission:     #359797122
+ * Submission URL: https://codeforces.com/contest/2193/submission/359797122
+ * Submitted:      2026-01-25 23:13:05 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        171 ms
+ * Memory:         1000.0 KiB
+ * Rating:         1000
+ * Tags:           data structures, greedy
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-26 00:43:19 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

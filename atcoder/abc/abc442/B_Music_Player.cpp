@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc442_b — Music Player
+ * Problem URL:    https://atcoder.jp/contests/abc442/tasks/abc442_b
+ *
+ * Matched result: AC
+ * Submission:     #72681496
+ * Submission URL: https://atcoder.jp/contests/abc442/submissions/72681496
+ * Submitted:      2026-01-24 20:04:09 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        10 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-24 22:20:40 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

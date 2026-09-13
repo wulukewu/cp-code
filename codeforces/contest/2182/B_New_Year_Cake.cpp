@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2182B — New Year Cake
+ * Problem URL:    https://codeforces.com/contest/2182/problem/B
+ *
+ * Matched result: AC
+ * Submission:     #355724246
+ * Submission URL: https://codeforces.com/contest/2182/submission/355724246
+ * Submitted:      2025-12-29 22:51:18 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        31 ms
+ * Memory:         100.0 KiB
+ * Rating:         800
+ * Tags:           brute force
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-12-30 00:40:02 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

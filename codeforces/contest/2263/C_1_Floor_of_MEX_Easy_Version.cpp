@@ -1,3 +1,23 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2263C1 — Floor of MEX (Easy Version)
+ * Problem URL:    https://codeforces.com/contest/2263/problem/C1
+ *
+ * Matched result: AC
+ * Submission:     #390446408
+ * Submission URL: https://codeforces.com/contest/2263/submission/390446408
+ * Submitted:      2026-09-12 23:14:06 +0800
+ * Language:       C++20 (GCC 13-64)
+ * Runtime:        46 ms
+ * Memory:         100.0 KiB
+ * Tags:           constructive algorithms, greedy
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-09-13 00:50:38 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc420_e — Reachability Query
+ * Problem URL:    https://atcoder.jp/contests/abc420/tasks/abc420_e
+ *
+ * Matched result: AC
+ * Submission:     #69090419
+ * Submission URL: https://atcoder.jp/contests/abc420/submissions/69090419
+ * Submitted:      2025-09-06 23:20:06 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        106 ms
+ * Points:         450.0
+ * Submissions:    4 total / 1 accepted
+ * File commit:    2025-09-06 23:21:22 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc413_b — cat 2
+ * Problem URL:    https://atcoder.jp/contests/abc413/tasks/abc413_b
+ *
+ * Matched result: AC
+ * Submission:     #67303650
+ * Submission URL: https://atcoder.jp/contests/abc413/submissions/67303650
+ * Submitted:      2025-07-05 20:06:30 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        5 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-07-05 22:19:41 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

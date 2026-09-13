@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc408_c — Not All Covered
+ * Problem URL:    https://atcoder.jp/contests/abc408/tasks/abc408_c
+ *
+ * Matched result: AC
+ * Submission:     #66324853
+ * Submission URL: https://atcoder.jp/contests/abc408/submissions/66324853
+ * Submitted:      2025-05-31 20:20:27 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        86 ms
+ * Points:         300.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-05-31 21:33:15 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

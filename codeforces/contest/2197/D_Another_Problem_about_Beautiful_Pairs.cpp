@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2197D — Another Problem about Beautiful Pairs
+ * Problem URL:    https://codeforces.com/contest/2197/problem/D
+ *
+ * Matched result: AC
+ * Submission:     #362503835
+ * Submission URL: https://codeforces.com/contest/2197/submission/362503835
+ * Submitted:      2026-02-12 00:43:38 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        406 ms
+ * Memory:         100.0 KiB
+ * Rating:         1600
+ * Tags:           brute force, data structures, divide and conquer, math, number theory
+ * Submissions:    4 total / 1 accepted
+ * File commit:    2026-02-12 02:16:22 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

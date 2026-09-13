@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2178A — Yes or Yes
+ * Problem URL:    https://codeforces.com/contest/2178/problem/A
+ *
+ * Matched result: AC
+ * Submission:     #355315794
+ * Submission URL: https://codeforces.com/contest/2178/submission/355315794
+ * Submitted:      2025-12-27 22:38:52 +0800
+ * Language:       C++20 (GCC 13-64)
+ * Runtime:        46 ms
+ * Memory:         0 B
+ * Rating:         800
+ * Tags:           greedy, strings
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-12-28 01:41:34 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

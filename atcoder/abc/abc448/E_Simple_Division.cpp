@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc448_e — Simple Division
+ * Problem URL:    https://atcoder.jp/contests/abc448/tasks/abc448_e
+ *
+ * Matched result: AC
+ * Submission:     #73928725
+ * Submission URL: https://atcoder.jp/contests/abc448/submissions/73928725
+ * Submitted:      2026-03-07 21:23:26 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        84 ms
+ * Points:         450.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-03-07 21:50:02 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

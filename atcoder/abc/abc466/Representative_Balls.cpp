@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc466_b — Representative Balls
+ * Problem URL:    https://atcoder.jp/contests/abc466/tasks/abc466_b
+ *
+ * Matched result: AC
+ * Submission:     #77344805
+ * Submission URL: https://atcoder.jp/contests/abc466/submissions/77344805
+ * Submitted:      2026-07-11 20:03:09 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-07-11 21:36:39 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

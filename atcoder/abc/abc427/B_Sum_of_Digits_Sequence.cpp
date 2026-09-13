@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc427_b — Sum of Digits Sequence
+ * Problem URL:    https://atcoder.jp/contests/abc427/tasks/abc427_b
+ *
+ * Matched result: AC
+ * Submission:     #70029770
+ * Submission URL: https://atcoder.jp/contests/abc427/submissions/70029770
+ * Submitted:      2025-10-11 20:06:23 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-10-11 21:43:44 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

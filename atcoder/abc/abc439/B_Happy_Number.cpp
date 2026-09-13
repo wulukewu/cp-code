@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc439_b — Happy Number
+ * Problem URL:    https://atcoder.jp/contests/abc439/tasks/abc439_b
+ *
+ * Matched result: AC
+ * Submission:     #72171712
+ * Submission URL: https://atcoder.jp/contests/abc439/submissions/72171712
+ * Submitted:      2026-01-03 20:04:38 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-03 21:44:40 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

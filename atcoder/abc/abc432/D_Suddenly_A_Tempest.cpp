@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc432_d — Suddenly, A Tempest
+ * Problem URL:    https://atcoder.jp/contests/abc432/tasks/abc432_d
+ *
+ * Matched result: AC
+ * Submission:     #70990015
+ * Submission URL: https://atcoder.jp/contests/abc432/submissions/70990015
+ * Submitted:      2025-11-15 21:44:40 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         425.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-11-15 21:49:17 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

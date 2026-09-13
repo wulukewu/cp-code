@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        105383K — Kingdom's Development Plan
+ * Problem URL:    https://codeforces.com/gym/105383/problem/K
+ *
+ * Matched result: AC
+ * Submission:     #339441707
+ * Submission URL: https://codeforces.com/gym/105383/submission/339441707
+ * Submitted:      2025-09-20 07:45:41 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        187 ms
+ * Memory:         2.4 MiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-09-20 13:03:16 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

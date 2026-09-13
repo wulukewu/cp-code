@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        102021I — It's Time for a Montage
+ * Problem URL:    https://codeforces.com/gym/102021/problem/I
+ *
+ * Matched result: AC
+ * Submission:     #387867984
+ * Submission URL: https://codeforces.com/gym/102021/submission/387867984
+ * Submitted:      2026-08-21 17:33:28 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        62 ms
+ * Memory:         100.0 KiB
+ * Submissions:    3 total / 1 accepted
+ * File commit:    2026-08-21 22:22:10 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

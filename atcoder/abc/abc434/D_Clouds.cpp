@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc434_d — Clouds
+ * Problem URL:    https://atcoder.jp/contests/abc434/tasks/abc434_d
+ *
+ * Matched result: AC
+ * Submission:     #71338389
+ * Submission URL: https://atcoder.jp/contests/abc434/submissions/71338389
+ * Submitted:      2025-11-29 21:38:15 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        67 ms
+ * Points:         425.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2025-11-29 21:43:51 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

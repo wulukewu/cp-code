@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        104059E — Enjoyable Entree
+ * Problem URL:    https://codeforces.com/gym/104059/problem/E
+ *
+ * Matched result: AC
+ * Submission:     #388678650
+ * Submission URL: https://codeforces.com/gym/104059/submission/388678650
+ * Submitted:      2026-08-28 21:03:25 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        46 ms
+ * Memory:         100.0 KiB
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-08-28 23:41:51 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

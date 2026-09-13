@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc426_b — The Odd One Out
+ * Problem URL:    https://atcoder.jp/contests/abc426/tasks/abc426_b
+ *
+ * Matched result: AC
+ * Submission:     #69828899
+ * Submission URL: https://atcoder.jp/contests/abc426/submissions/69828899
+ * Submitted:      2025-10-04 20:04:29 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-10-04 21:43:58 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

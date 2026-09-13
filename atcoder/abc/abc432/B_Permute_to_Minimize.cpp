@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc432_b — Permute to Minimize
+ * Problem URL:    https://atcoder.jp/contests/abc432/tasks/abc432_b
+ *
+ * Matched result: AC
+ * Submission:     #70954441
+ * Submission URL: https://atcoder.jp/contests/abc432/submissions/70954441
+ * Submitted:      2025-11-15 20:04:46 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-11-15 21:49:17 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

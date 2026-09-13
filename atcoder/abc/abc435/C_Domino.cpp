@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc435_c — Domino
+ * Problem URL:    https://atcoder.jp/contests/abc435/tasks/abc435_c
+ *
+ * Matched result: AC
+ * Submission:     #71478869
+ * Submission URL: https://atcoder.jp/contests/abc435/submissions/71478869
+ * Submitted:      2025-12-06 20:09:50 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        18 ms
+ * Points:         300.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-12-06 21:41:35 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

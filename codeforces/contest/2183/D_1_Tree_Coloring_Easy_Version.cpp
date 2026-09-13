@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2183D1 — Tree Coloring (Easy Version)
+ * Problem URL:    https://codeforces.com/contest/2183/problem/D1
+ *
+ * Matched result: AC
+ * Submission:     #356838951
+ * Submission URL: https://codeforces.com/contest/2183/submission/356838951
+ * Submitted:      2026-01-08 00:20:51 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        250 ms
+ * Memory:         9.0 MiB
+ * Rating:         1500
+ * Tags:           constructive algorithms, dfs and similar, greedy, trees
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-08 00:31:41 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

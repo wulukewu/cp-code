@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        101667I — Slot Machines
+ * Problem URL:    https://codeforces.com/gym/101667/problem/I
+ *
+ * Matched result: WA
+ * Submission:     #339237452
+ * Submission URL: https://codeforces.com/gym/101667/submission/339237452
+ * Submitted:      2025-09-18 17:50:57 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        171 ms
+ * Memory:         200.0 KiB
+ * Submissions:    3 total / 0 accepted
+ * File commit:    2025-09-18 18:49:50 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

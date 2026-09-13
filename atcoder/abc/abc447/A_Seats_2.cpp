@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc447_a — Seats 2
+ * Problem URL:    https://atcoder.jp/contests/abc447/tasks/abc447_a
+ *
+ * Matched result: AC
+ * Submission:     #73673263
+ * Submission URL: https://atcoder.jp/contests/abc447/submissions/73673263
+ * Submitted:      2026-02-28 20:01:53 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         100.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-02-28 21:47:53 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

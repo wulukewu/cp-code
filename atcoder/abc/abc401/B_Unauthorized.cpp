@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc401_b — Unauthorized
+ * Problem URL:    https://atcoder.jp/contests/abc401/tasks/abc401_b
+ *
+ * Matched result: AC
+ * Submission:     #65034572
+ * Submission URL: https://atcoder.jp/contests/abc401/submissions/65034572
+ * Submitted:      2025-04-19 21:21:56 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-04-19 22:01:27 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

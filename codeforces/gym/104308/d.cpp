@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        104308D — Unwanted Divisors
+ * Problem URL:    https://codeforces.com/gym/104308/problem/D
+ *
+ * Matched result: AC
+ * Submission:     #335255846
+ * Submission URL: https://codeforces.com/gym/104308/submission/335255846
+ * Submitted:      2025-08-24 13:45:12 +0800
+ * Language:       C++17 (GCC 7-32)
+ * Runtime:        390 ms
+ * Memory:         0 B
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-08-24 17:06:00 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

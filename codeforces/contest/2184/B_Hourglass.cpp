@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2184B — Hourglass
+ * Problem URL:    https://codeforces.com/contest/2184/problem/B
+ *
+ * Matched result: AC
+ * Submission:     #357528400
+ * Submission URL: https://codeforces.com/contest/2184/submission/357528400
+ * Submitted:      2026-01-12 23:25:46 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        31 ms
+ * Memory:         0 B
+ * Rating:         1100
+ * Tags:           math
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-01-13 01:29:25 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

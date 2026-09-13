@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc468_e — Sum of Average
+ * Problem URL:    https://atcoder.jp/contests/abc468/tasks/abc468_e
+ *
+ * Matched result: AC
+ * Submission:     #77851703
+ * Submission URL: https://atcoder.jp/contests/abc468/submissions/77851703
+ * Submitted:      2026-07-25 21:05:05 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        74 ms
+ * Points:         450.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-07-25 21:51:18 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc427_e — Wind Cleaning
+ * Problem URL:    https://atcoder.jp/contests/abc427/tasks/abc427_e
+ *
+ * Matched result: WA
+ * Submission:     #70058754
+ * Submission URL: https://atcoder.jp/contests/abc427/submissions/70058754
+ * Submitted:      2025-10-11 21:24:05 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         0.0
+ * Submissions:    1 total / 0 accepted
+ * File commit:    2025-10-11 21:43:44 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

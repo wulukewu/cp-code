@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2183B — Yet Another MEX Problem
+ * Problem URL:    https://codeforces.com/contest/2183/problem/B
+ *
+ * Matched result: AC
+ * Submission:     #356809521
+ * Submission URL: https://codeforces.com/contest/2183/submission/356809521
+ * Submitted:      2026-01-07 23:22:29 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        78 ms
+ * Memory:         100.0 KiB
+ * Rating:         1100
+ * Tags:           constructive algorithms, greedy
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-08 00:31:41 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

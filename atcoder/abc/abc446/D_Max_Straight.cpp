@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc446_d — Max Straight
+ * Problem URL:    https://atcoder.jp/contests/abc446/tasks/abc446_d
+ *
+ * Matched result: AC
+ * Submission:     #73488925
+ * Submission URL: https://atcoder.jp/contests/abc446/submissions/73488925
+ * Submitted:      2026-02-21 20:29:16 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        109 ms
+ * Points:         400.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-02-21 22:09:58 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

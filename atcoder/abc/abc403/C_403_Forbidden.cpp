@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc403_c — 403 Forbidden
+ * Problem URL:    https://atcoder.jp/contests/abc403/tasks/abc403_c
+ *
+ * Matched result: AC
+ * Submission:     #65252827
+ * Submission URL: https://atcoder.jp/contests/abc403/submissions/65252827
+ * Submitted:      2025-04-27 20:15:29 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        208 ms
+ * Points:         300.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-04-27 21:42:22 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

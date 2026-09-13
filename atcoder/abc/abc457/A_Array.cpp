@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc457_a — Array
+ * Problem URL:    https://atcoder.jp/contests/abc457/tasks/abc457_a
+ *
+ * Matched result: AC
+ * Submission:     #75609394
+ * Submission URL: https://atcoder.jp/contests/abc457/submissions/75609394
+ * Submitted:      2026-05-09 20:00:43 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        2 ms
+ * Points:         100.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-05-09 21:48:01 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

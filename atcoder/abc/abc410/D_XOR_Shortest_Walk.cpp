@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc410_d — XOR Shortest Walk
+ * Problem URL:    https://atcoder.jp/contests/abc410/tasks/abc410_d
+ *
+ * Matched result: AC
+ * Submission:     #66763232
+ * Submission URL: https://atcoder.jp/contests/abc410/submissions/66763232
+ * Submitted:      2025-06-14 21:01:48 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        157 ms
+ * Points:         400.0
+ * Submissions:    3 total / 1 accepted
+ * File commit:    2025-06-15 23:14:56 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

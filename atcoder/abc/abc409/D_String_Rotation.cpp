@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc409_d — String Rotation
+ * Problem URL:    https://atcoder.jp/contests/abc409/tasks/abc409_d
+ *
+ * Matched result: AC
+ * Submission:     #66578756
+ * Submission URL: https://atcoder.jp/contests/abc409/submissions/66578756
+ * Submitted:      2025-06-07 21:38:04 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        23 ms
+ * Points:         400.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-06-07 21:42:09 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        104059L — Lots of Land
+ * Problem URL:    https://codeforces.com/gym/104059/problem/L
+ *
+ * Matched result: AC
+ * Submission:     #388683020
+ * Submission URL: https://codeforces.com/gym/104059/submission/388683020
+ * Submitted:      2026-08-28 21:48:33 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        46 ms
+ * Memory:         100.0 KiB
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-08-28 23:41:51 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

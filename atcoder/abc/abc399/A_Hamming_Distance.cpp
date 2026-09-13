@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc399_a — Hamming Distance
+ * Problem URL:    https://atcoder.jp/contests/abc399/tasks/abc399_a
+ *
+ * Matched result: AC
+ * Submission:     #64279732
+ * Submission URL: https://atcoder.jp/contests/abc399/submissions/64279732
+ * Submitted:      2025-03-29 20:02:31 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         100.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-03-29 22:49:16 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

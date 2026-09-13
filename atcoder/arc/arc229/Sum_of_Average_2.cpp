@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        arc229_c — Sum of Average 2
+ * Problem URL:    https://atcoder.jp/contests/arc229/tasks/arc229_c
+ *
+ * Matched result: AC
+ * Submission:     #78981560
+ * Submission URL: https://atcoder.jp/contests/arc229/submissions/78981560
+ * Submitted:      2026-09-05 21:45:01 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        21 ms
+ * Points:         500.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-09-05 22:04:10 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

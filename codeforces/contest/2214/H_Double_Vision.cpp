@@ -1,3 +1,23 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2214H — Double Vision
+ * Problem URL:    https://codeforces.com/contest/2214/problem/H
+ *
+ * Matched result: AC
+ * Submission:     #369254627
+ * Submission URL: https://codeforces.com/contest/2214/submission/369254627
+ * Submitted:      2026-04-02 00:27:30 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        15 ms
+ * Memory:         0 B
+ * Tags:           *special
+ * Submissions:    3 total / 1 accepted
+ * File commit:    2026-04-02 00:42:37 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

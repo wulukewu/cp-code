@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc414_b — String Too Long
+ * Problem URL:    https://atcoder.jp/contests/abc414/tasks/abc414_b
+ *
+ * Matched result: AC
+ * Submission:     #67518568
+ * Submission URL: https://atcoder.jp/contests/abc414/submissions/67518568
+ * Submitted:      2025-07-12 20:06:35 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-07-12 21:29:57 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

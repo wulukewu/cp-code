@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        104059K — K.O. Kids
+ * Problem URL:    https://codeforces.com/gym/104059/problem/K
+ *
+ * Matched result: AC
+ * Submission:     #388677136
+ * Submission URL: https://codeforces.com/gym/104059/submission/388677136
+ * Submitted:      2026-08-28 20:45:07 +0800
+ * Language:       C++20 (GCC 13-64)
+ * Runtime:        46 ms
+ * Memory:         100.0 KiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-28 23:41:51 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

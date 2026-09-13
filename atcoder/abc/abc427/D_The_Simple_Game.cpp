@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc427_d — The Simple Game
+ * Problem URL:    https://atcoder.jp/contests/abc427/tasks/abc427_d
+ *
+ * Matched result: AC
+ * Submission:     #70049535
+ * Submission URL: https://atcoder.jp/contests/abc427/submissions/70049535
+ * Submitted:      2025-10-11 20:52:13 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        67 ms
+ * Points:         425.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2025-10-11 21:43:44 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

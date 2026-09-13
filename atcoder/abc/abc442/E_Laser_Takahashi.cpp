@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc442_e — Laser Takahashi
+ * Problem URL:    https://atcoder.jp/contests/abc442/tasks/abc442_e
+ *
+ * Matched result: AC
+ * Submission:     #72724041
+ * Submission URL: https://atcoder.jp/contests/abc442/submissions/72724041
+ * Submitted:      2026-01-24 21:19:22 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        157 ms
+ * Points:         450.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-24 22:20:40 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

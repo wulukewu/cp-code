@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        102021L — Logic Puzzle
+ * Problem URL:    https://codeforces.com/gym/102021/problem/L
+ *
+ * Matched result: AC
+ * Submission:     #387875682
+ * Submission URL: https://codeforces.com/gym/102021/submission/387875682
+ * Submitted:      2026-08-21 18:52:42 +0800
+ * Language:       C++17 (GCC 7-32)
+ * Runtime:        46 ms
+ * Memory:         100.0 KiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-21 22:22:10 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

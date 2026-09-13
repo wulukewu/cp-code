@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc444_d — Many Repunit Sum
+ * Problem URL:    https://atcoder.jp/contests/abc444/tasks/abc444_d
+ *
+ * Matched result: AC
+ * Submission:     #73083759
+ * Submission URL: https://atcoder.jp/contests/abc444/submissions/73083759
+ * Submitted:      2026-02-07 20:50:01 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        19 ms
+ * Points:         400.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-02-07 21:41:56 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,23 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2214E — Shortest Paths
+ * Problem URL:    https://codeforces.com/contest/2214/problem/E
+ *
+ * Matched result: AC
+ * Submission:     #369256707
+ * Submission URL: https://codeforces.com/contest/2214/submission/369256707
+ * Submitted:      2026-04-02 00:30:09 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        46 ms
+ * Memory:         2.9 MiB
+ * Tags:           *special, shortest paths
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-04-02 00:42:37 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

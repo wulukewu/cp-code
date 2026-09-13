@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc426_c — Upgrade Required
+ * Problem URL:    https://atcoder.jp/contests/abc426/tasks/abc426_c
+ *
+ * Matched result: AC
+ * Submission:     #69852654
+ * Submission URL: https://atcoder.jp/contests/abc426/submissions/69852654
+ * Submitted:      2025-10-04 20:35:02 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        58 ms
+ * Points:         300.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2025-10-04 21:43:58 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        106059E — Echoes on the Endless Line
+ * Problem URL:    https://codeforces.com/gym/106059/problem/E
+ *
+ * Matched result: RE
+ * Submission:     #339138723
+ * Submission URL: https://codeforces.com/gym/106059/submission/339138723
+ * Submitted:      2025-09-17 23:49:28 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        280 ms
+ * Memory:         760.9 MiB
+ * Submissions:    1 total / 0 accepted
+ * File commit:    2025-09-18 08:23:08 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

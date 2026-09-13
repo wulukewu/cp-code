@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc452_c — Fishbones
+ * Problem URL:    https://atcoder.jp/contests/abc452/tasks/abc452_c
+ *
+ * Matched result: AC
+ * Submission:     #74663664
+ * Submission URL: https://atcoder.jp/contests/abc452/submissions/74663664
+ * Submitted:      2026-04-04 20:26:11 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        18 ms
+ * Points:         300.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-04-04 21:26:33 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

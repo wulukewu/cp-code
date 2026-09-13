@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc454_e — LRUD Moving
+ * Problem URL:    https://atcoder.jp/contests/abc454/tasks/abc454_e
+ *
+ * Matched result: AC
+ * Submission:     #75084054
+ * Submission URL: https://atcoder.jp/contests/abc454/submissions/75084054
+ * Submitted:      2026-04-18 21:24:34 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        168 ms
+ * Points:         450.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-04-18 21:33:50 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

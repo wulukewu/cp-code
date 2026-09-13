@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc451_e — Tree Distance
+ * Problem URL:    https://atcoder.jp/contests/abc451/tasks/abc451_e
+ *
+ * Matched result: AC
+ * Submission:     #74508212
+ * Submission URL: https://atcoder.jp/contests/abc451/submissions/74508212
+ * Submitted:      2026-03-28 21:40:12 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        207 ms
+ * Points:         475.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-03-28 21:41:21 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

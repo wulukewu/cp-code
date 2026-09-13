@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc450_e — Fibonacci String
+ * Problem URL:    https://atcoder.jp/contests/abc450/tasks/abc450_e
+ *
+ * Matched result: AC
+ * Submission:     #74308509
+ * Submission URL: https://atcoder.jp/contests/abc450/submissions/74308509
+ * Submitted:      2026-03-21 21:18:17 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        68 ms
+ * Points:         450.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-03-21 21:43:38 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

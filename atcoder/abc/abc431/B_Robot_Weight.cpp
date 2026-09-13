@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc431_b — Robot Weight
+ * Problem URL:    https://atcoder.jp/contests/abc431/tasks/abc431_b
+ *
+ * Matched result: AC
+ * Submission:     #70765386
+ * Submission URL: https://atcoder.jp/contests/abc431/submissions/70765386
+ * Submitted:      2025-11-08 20:05:48 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-11-08 21:46:41 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

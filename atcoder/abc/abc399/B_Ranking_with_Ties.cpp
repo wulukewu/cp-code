@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc399_b — Ranking with Ties
+ * Problem URL:    https://atcoder.jp/contests/abc399/tasks/abc399_b
+ *
+ * Matched result: AC
+ * Submission:     #64299241
+ * Submission URL: https://atcoder.jp/contests/abc399/submissions/64299241
+ * Submitted:      2025-03-29 20:21:34 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-03-29 22:49:16 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

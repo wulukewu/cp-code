@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc447_e — Divide Graph
+ * Problem URL:    https://atcoder.jp/contests/abc447/tasks/abc447_e
+ *
+ * Matched result: AC
+ * Submission:     #73712589
+ * Submission URL: https://atcoder.jp/contests/abc447/submissions/73712589
+ * Submitted:      2026-02-28 21:01:18 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        23 ms
+ * Points:         475.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-02-28 21:47:53 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

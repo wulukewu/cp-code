@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc411_c — Black Intervals
+ * Problem URL:    https://atcoder.jp/contests/abc411/tasks/abc411_c
+ *
+ * Matched result: AC
+ * Submission:     #66943820
+ * Submission URL: https://atcoder.jp/contests/abc411/submissions/66943820
+ * Submitted:      2025-06-21 20:17:36 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        586 ms
+ * Points:         350.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-06-21 21:44:43 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

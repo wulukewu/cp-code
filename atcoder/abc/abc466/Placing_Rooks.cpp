@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc466_d — Placing Rooks
+ * Problem URL:    https://atcoder.jp/contests/abc466/tasks/abc466_d
+ *
+ * Matched result: AC
+ * Submission:     #77370403
+ * Submission URL: https://atcoder.jp/contests/abc466/submissions/77370403
+ * Submitted:      2026-07-11 20:26:25 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        28 ms
+ * Points:         400.0
+ * Submissions:    3 total / 1 accepted
+ * File commit:    2026-07-11 21:36:39 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

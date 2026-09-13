@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc428_b — Most Frequent Substrings
+ * Problem URL:    https://atcoder.jp/contests/abc428/tasks/abc428_b
+ *
+ * Matched result: AC
+ * Submission:     #70226986
+ * Submission URL: https://atcoder.jp/contests/abc428/submissions/70226986
+ * Submitted:      2025-10-18 20:42:37 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         200.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2025-10-18 22:11:23 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        105637J — Magic with Cards
+ * Problem URL:    https://codeforces.com/gym/105637/problem/J
+ *
+ * Matched result: AC
+ * Submission:     #336852924
+ * Submission URL: https://codeforces.com/gym/105637/submission/336852924
+ * Submitted:      2025-09-04 17:59:36 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        62 ms
+ * Memory:         0 B
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-09-04 23:43:22 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

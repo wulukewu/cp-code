@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        102021M — Mountaineers
+ * Problem URL:    https://codeforces.com/gym/102021/problem/M
+ *
+ * Matched result: TLE
+ * Submission:     #387870840
+ * Submission URL: https://codeforces.com/gym/102021/submission/387870840
+ * Submitted:      2026-08-21 18:02:54 +0800
+ * Language:       C++20 (GCC 13-64)
+ * Runtime:        2000 ms
+ * Memory:         4.0 MiB
+ * Submissions:    3 total / 0 accepted
+ * File commit:    2026-08-21 22:22:10 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

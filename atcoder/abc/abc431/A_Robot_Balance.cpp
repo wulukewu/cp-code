@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc431_a — Robot Balance
+ * Problem URL:    https://atcoder.jp/contests/abc431/tasks/abc431_a
+ *
+ * Matched result: AC
+ * Submission:     #70757213
+ * Submission URL: https://atcoder.jp/contests/abc431/submissions/70757213
+ * Submitted:      2025-11-08 20:01:14 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        1 ms
+ * Points:         100.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-11-08 21:46:41 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

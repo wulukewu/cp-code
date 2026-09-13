@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2263A — Min Max Game
+ * Problem URL:    https://codeforces.com/contest/2263/problem/A
+ *
+ * Matched result: AC
+ * Submission:     #390429293
+ * Submission URL: https://codeforces.com/contest/2263/submission/390429293
+ * Submitted:      2026-09-12 22:45:52 +0800
+ * Language:       C++20 (GCC 13-64)
+ * Runtime:        46 ms
+ * Memory:         0 B
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-09-13 00:50:38 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

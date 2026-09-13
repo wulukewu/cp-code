@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2200D — Portal
+ * Problem URL:    https://codeforces.com/contest/2200/problem/D
+ *
+ * Matched result: AC
+ * Submission:     #364706150
+ * Submission URL: https://codeforces.com/contest/2200/submission/364706150
+ * Submitted:      2026-02-27 23:49:42 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        93 ms
+ * Memory:         6.5 MiB
+ * Rating:         1300
+ * Tags:           greedy, sortings
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-02-28 14:28:01 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

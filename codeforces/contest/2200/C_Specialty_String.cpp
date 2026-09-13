@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2200C — Specialty String
+ * Problem URL:    https://codeforces.com/contest/2200/problem/C
+ *
+ * Matched result: AC
+ * Submission:     #364692666
+ * Submission URL: https://codeforces.com/contest/2200/submission/364692666
+ * Submitted:      2026-02-27 23:26:30 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        62 ms
+ * Memory:         100.0 KiB
+ * Rating:         900
+ * Tags:           brute force, greedy, strings
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-02-28 14:28:01 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

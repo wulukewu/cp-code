@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc452_b — Draw Frame
+ * Problem URL:    https://atcoder.jp/contests/abc452/tasks/abc452_b
+ *
+ * Matched result: AC
+ * Submission:     #74641582
+ * Submission URL: https://atcoder.jp/contests/abc452/submissions/74641582
+ * Submitted:      2026-04-04 20:02:51 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        2 ms
+ * Points:         200.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-04-04 21:26:33 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

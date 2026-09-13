@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc472_e — Odd Cycle
+ * Problem URL:    https://atcoder.jp/contests/abc472/tasks/abc472_e
+ *
+ * Matched result: AC
+ * Submission:     #78622521
+ * Submission URL: https://atcoder.jp/contests/abc472/submissions/78622521
+ * Submitted:      2026-08-22 20:54:16 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        64 ms
+ * Points:         450.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-22 21:26:38 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

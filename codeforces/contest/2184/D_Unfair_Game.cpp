@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2184D — Unfair Game
+ * Problem URL:    https://codeforces.com/contest/2184/problem/D
+ *
+ * Matched result: AC
+ * Submission:     #357603667
+ * Submission URL: https://codeforces.com/contest/2184/submission/357603667
+ * Submitted:      2026-01-13 00:42:54 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        250 ms
+ * Memory:         0 B
+ * Rating:         1600
+ * Tags:           combinatorics, dp, math
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-01-13 01:29:25 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

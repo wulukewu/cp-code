@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc417_c — Distance Indicators
+ * Problem URL:    https://atcoder.jp/contests/abc417/tasks/abc417_c
+ *
+ * Matched result: AC
+ * Submission:     #68119724
+ * Submission URL: https://atcoder.jp/contests/abc417/submissions/68119724
+ * Submitted:      2025-08-02 20:12:26 +0800
+ * Language:       C++ 20 (gcc 12.2)
+ * Runtime:        105 ms
+ * Points:         300.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2025-08-02 21:13:46 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

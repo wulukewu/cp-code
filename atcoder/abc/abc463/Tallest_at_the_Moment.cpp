@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc463_c — Tallest at the Moment
+ * Problem URL:    https://atcoder.jp/contests/abc463/tasks/abc463_c
+ *
+ * Matched result: AC
+ * Submission:     #76821859
+ * Submission URL: https://atcoder.jp/contests/abc463/submissions/76821859
+ * Submitted:      2026-06-20 20:17:54 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        164 ms
+ * Points:         300.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-06-20 21:39:51 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

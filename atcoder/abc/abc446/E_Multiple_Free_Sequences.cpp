@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc446_e — Multiple-Free Sequences
+ * Problem URL:    https://atcoder.jp/contests/abc446/tasks/abc446_e
+ *
+ * Matched result: AC
+ * Submission:     #73500438
+ * Submission URL: https://atcoder.jp/contests/abc446/submissions/73500438
+ * Submitted:      2026-02-21 21:02:48 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        179 ms
+ * Points:         450.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-02-21 22:09:58 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

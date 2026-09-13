@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        104059J — Jesting Jabberwocky
+ * Problem URL:    https://codeforces.com/gym/104059/problem/J
+ *
+ * Matched result: AC
+ * Submission:     #388685600
+ * Submission URL: https://codeforces.com/gym/104059/submission/388685600
+ * Submitted:      2026-08-28 22:15:19 +0800
+ * Language:       C++17 (GCC 7-32)
+ * Runtime:        62 ms
+ * Memory:         0 B
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-28 23:41:51 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

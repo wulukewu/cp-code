@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        102021A — Attack on Alpha-Zet
+ * Problem URL:    https://codeforces.com/gym/102021/problem/A
+ *
+ * Matched result: TLE
+ * Submission:     #387886538
+ * Submission URL: https://codeforces.com/gym/102021/submission/387886538
+ * Submitted:      2026-08-21 20:40:02 +0800
+ * Language:       C++20 (GCC 13-64)
+ * Runtime:        2000 ms
+ * Memory:         3.4 MiB
+ * Submissions:    1 total / 0 accepted
+ * File commit:    2026-08-21 22:22:10 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

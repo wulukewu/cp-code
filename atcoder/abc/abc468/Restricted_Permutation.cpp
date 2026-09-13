@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc468_g — Restricted Permutation
+ * Problem URL:    https://atcoder.jp/contests/abc468/tasks/abc468_g
+ *
+ * Matched result: AC
+ * Submission:     #77861841
+ * Submission URL: https://atcoder.jp/contests/abc468/submissions/77861841
+ * Submitted:      2026-07-25 21:35:52 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        7 ms
+ * Points:         550.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-07-25 21:51:18 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

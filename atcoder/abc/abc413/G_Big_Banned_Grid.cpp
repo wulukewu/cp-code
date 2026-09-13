@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc413_g — Big Banned Grid
+ * Problem URL:    https://atcoder.jp/contests/abc413/tasks/abc413_g
+ *
+ * Matched result: AC
+ * Submission:     #67360619
+ * Submission URL: https://atcoder.jp/contests/abc413/submissions/67360619
+ * Submitted:      2025-07-05 22:08:53 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        250 ms
+ * Points:         575.0
+ * Submissions:    4 total / 1 accepted
+ * File commit:    2025-07-05 22:19:41 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

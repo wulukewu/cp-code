@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2193E — Product Queries
+ * Problem URL:    https://codeforces.com/contest/2193/problem/E
+ *
+ * Matched result: AC
+ * Submission:     #359868378
+ * Submission URL: https://codeforces.com/contest/2193/submission/359868378
+ * Submitted:      2026-01-26 00:25:41 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        281 ms
+ * Memory:         20.2 MiB
+ * Rating:         1300
+ * Tags:           dp, math, number theory, shortest paths
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-01-26 00:43:19 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

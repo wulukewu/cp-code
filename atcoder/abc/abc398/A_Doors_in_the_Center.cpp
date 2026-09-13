@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc398_a — Doors in the Center
+ * Problem URL:    https://atcoder.jp/contests/abc398/tasks/abc398_a
+ *
+ * Matched result: AC
+ * Submission:     #64027595
+ * Submission URL: https://atcoder.jp/contests/abc398/submissions/64027595
+ * Submitted:      2025-03-22 20:02:38 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        1 ms
+ * Points:         100.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-03-22 22:07:04 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

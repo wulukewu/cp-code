@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        104308I — Colorful Queries
+ * Problem URL:    https://codeforces.com/gym/104308/problem/I
+ *
+ * Matched result: AC
+ * Submission:     #335279068
+ * Submission URL: https://codeforces.com/gym/104308/submission/335279068
+ * Submitted:      2025-08-24 17:01:42 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        233 ms
+ * Memory:         5.3 MiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2025-08-24 17:06:00 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

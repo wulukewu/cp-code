@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc467_c — Adjacent Sums (easy)
+ * Problem URL:    https://atcoder.jp/contests/abc467/tasks/abc467_c
+ *
+ * Matched result: AC
+ * Submission:     #77599842
+ * Submission URL: https://atcoder.jp/contests/abc467/submissions/77599842
+ * Submitted:      2026-07-18 20:22:09 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        18 ms
+ * Points:         300.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-07-18 21:21:24 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

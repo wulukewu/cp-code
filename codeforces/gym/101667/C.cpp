@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        101667C — Game Map
+ * Problem URL:    https://codeforces.com/gym/101667/problem/C
+ *
+ * Matched result: WA
+ * Submission:     #339239260
+ * Submission URL: https://codeforces.com/gym/101667/submission/339239260
+ * Submitted:      2025-09-18 18:07:15 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        186 ms
+ * Memory:         1.6 MiB
+ * Submissions:    6 total / 0 accepted
+ * File commit:    2025-09-18 18:49:50 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

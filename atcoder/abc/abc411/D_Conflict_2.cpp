@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc411_d — Conflict 2
+ * Problem URL:    https://atcoder.jp/contests/abc411/tasks/abc411_d
+ *
+ * Matched result: RE
+ * Submission:     #66959329
+ * Submission URL: https://atcoder.jp/contests/abc411/submissions/66959329
+ * Submitted:      2025-06-21 20:47:01 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        2429 ms
+ * Points:         0.0
+ * Submissions:    2 total / 0 accepted
+ * File commit:    2025-06-21 21:44:43 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

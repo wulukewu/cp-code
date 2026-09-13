@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc473_e — K-Divisible Subarrays
+ * Problem URL:    https://atcoder.jp/contests/abc473/tasks/abc473_e
+ *
+ * Matched result: AC
+ * Submission:     #78808059
+ * Submission URL: https://atcoder.jp/contests/abc473/submissions/78808059
+ * Submitted:      2026-08-29 20:49:08 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        75 ms
+ * Points:         450.0
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-29 21:44:05 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

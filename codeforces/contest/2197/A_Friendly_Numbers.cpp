@@ -1,3 +1,24 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        2197A — Friendly Numbers
+ * Problem URL:    https://codeforces.com/contest/2197/problem/A
+ *
+ * Matched result: AC
+ * Submission:     #362444145
+ * Submission URL: https://codeforces.com/contest/2197/submission/362444145
+ * Submitted:      2026-02-11 23:08:28 +0800
+ * Language:       C++23 (GCC 14-64, msys2)
+ * Runtime:        46 ms
+ * Memory:         0 B
+ * Rating:         800
+ * Tags:           binary search, brute force, expression parsing, math, schedules
+ * Submissions:    3 total / 1 accepted
+ * File commit:    2026-02-12 02:16:22 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

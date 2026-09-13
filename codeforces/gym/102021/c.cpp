@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       Codeforces
+ * Problem:        102021C — Coolest Ski Route
+ * Problem URL:    https://codeforces.com/gym/102021/problem/C
+ *
+ * Matched result: AC
+ * Submission:     #387872040
+ * Submission URL: https://codeforces.com/gym/102021/submission/387872040
+ * Submitted:      2026-08-21 18:15:13 +0800
+ * Language:       C++17 (GCC 7-32)
+ * Runtime:        31 ms
+ * Memory:         100.0 KiB
+ * Submissions:    1 total / 1 accepted
+ * File commit:    2026-08-21 22:22:10 +0800
+ * Match policy:   matched by contest path and filename; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 

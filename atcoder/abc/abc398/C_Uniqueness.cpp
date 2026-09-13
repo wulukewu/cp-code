@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc398_c — Uniqueness
+ * Problem URL:    https://atcoder.jp/contests/abc398/tasks/abc398_c
+ *
+ * Matched result: AC
+ * Submission:     #64073137
+ * Submission URL: https://atcoder.jp/contests/abc398/submissions/64073137
+ * Submitted:      2025-03-22 20:44:32 +0800
+ * Language:       C++ 23 (gcc 12.2)
+ * Runtime:        507 ms
+ * Points:         300.0
+ * Submissions:    4 total / 1 accepted
+ * File commit:    2025-03-22 22:07:04 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

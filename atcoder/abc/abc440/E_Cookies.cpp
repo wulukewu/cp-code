@@ -1,3 +1,22 @@
+/* cp-code:submission-metadata
+ * Generated on the annotated branch. Do not edit manually.
+ * Platform:       AtCoder
+ * Problem:        abc440_e — Cookies
+ * Problem URL:    https://atcoder.jp/contests/abc440/tasks/abc440_e
+ *
+ * Matched result: AC
+ * Submission:     #72384475
+ * Submission URL: https://atcoder.jp/contests/abc440/submissions/72384475
+ * Submitted:      2026-01-10 21:56:34 +0800
+ * Language:       C++23 (GCC 15.2.0)
+ * Runtime:        19 ms
+ * Points:         450.0
+ * Submissions:    2 total / 1 accepted
+ * File commit:    2026-01-10 21:57:20 +0800
+ * Match policy:   matched by contest path and filename/title; accepted submission nearest before file commit when possible
+ * Source equality with the online submission is not verified.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

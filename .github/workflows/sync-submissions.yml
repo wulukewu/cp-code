@@ -49,6 +49,17 @@ jobs:
       - name: Validate generated data
         run: python scripts/submissions/validate.py
 
+      - name: Show generated summary
+        run: cat data/submission-summary.json
+
+      - name: Upload PR sync snapshot
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: submission-sync-snapshot
+          path: data/
+          retention-days: 1
+
       - name: Commit updated data
         if: github.event_name != 'pull_request'
         shell: bash

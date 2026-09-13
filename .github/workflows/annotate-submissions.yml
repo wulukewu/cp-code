@@ -1,0 +1,84 @@
+name: Build annotated solutions
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - ".github/workflows/annotate-submissions.yml"
+      - "scripts/submissions/**"
+      - "config/submission_accounts.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: submission-annotations
+  cancel-in-progress: true
+
+jobs:
+  annotate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'main' }}
+
+      - name: Prepare annotated branch
+        if: github.event_name != 'pull_request'
+        run: git switch -C annotated
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Annotate matched solutions
+        run: python scripts/submissions/annotate.py
+
+      - name: Validate generated diff
+        shell: bash
+        run: |
+          git diff --check
+          git diff -- codeforces atcoder > /tmp/submission-annotations.patch
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(Path('/tmp/submission-annotation-report.json').read_text())
+          for platform, counts in report['counts'].items():
+              print(f"{platform}: {counts['annotated_files']} annotated files / {counts['submissions']} submissions")
+          print(f"unmatched files: {len(report['unmatched'])}")
+          PY
+
+      - name: Upload PR preview
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: annotated-branch-preview
+          path: |
+            /tmp/submission-annotation-report.json
+            /tmp/submission-annotations.patch
+          retention-days: 1
+
+      - name: Publish annotated branch
+        if: github.event_name != 'pull_request'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add codeforces atcoder
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh submission annotations"
+          else
+            echo "No solutions could be annotated; annotated will mirror main."
+          fi
+
+          git push --force origin HEAD:annotated

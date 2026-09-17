@@ -18,9 +18,21 @@ from zoneinfo import ZoneInfo
 CF_API = "https://codeforces.com/api/user.status"
 AT_SUBMISSIONS_API = "https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions"
 AT_PROBLEMS_API = "https://kenkoooo.com/atcoder/resources/problems.json"
+UHUNT_PROBLEMS_API = "https://uhunt.onlinejudge.org/api/p"
+UHUNT_BASE = "https://uhunt.onlinejudge.org/api"
 UA = "wulukewu/cp-code submission-annotator"
-MARKER = "/* cp-code:submission-metadata"
+MARKER = "cp-code:submission-metadata"
 TAIPEI = ZoneInfo("Asia/Taipei")
+LUKE_BANNER = (
+    "'##:::::::'##::::'##:'##:::'##:'########:",
+    " ##::::::: ##:::: ##: ##::'##:: ##.....::",
+    " ##::::::: ##:::: ##: ##:'##::: ##:::::::",
+    " ##::::::: ##:::: ##: #####:::: ######:::",
+    " ##::::::: ##:::: ##: ##. ##::: ##...::::",
+    " ##::::::: ##:::: ##: ##:. ##:: ##:::::::",
+    " ########:. #######:: ##::. ##: ########:",
+    "........:::.......:::..::::..::........::",
+)
 CF_VERDICTS = {
     "OK": "AC",
     "WRONG_ANSWER": "WA",
@@ -29,6 +41,27 @@ CF_VERDICTS = {
     "COMPILATION_ERROR": "CE",
     "RUNTIME_ERROR": "RE",
     "IDLENESS_LIMIT_EXCEEDED": "ILE",
+}
+UHUNT_VERDICTS = {
+    10: "SE",
+    15: "CJ",
+    20: "QUEUE",
+    30: "CE",
+    35: "RF",
+    40: "RE",
+    45: "OLE",
+    50: "TLE",
+    60: "MLE",
+    70: "WA",
+    80: "PE",
+    90: "AC",
+}
+UHUNT_LANGUAGES = {
+    1: "ANSI C",
+    2: "Java",
+    3: "C++",
+    4: "Pascal",
+    5: "C++11",
 }
 
 
@@ -86,6 +119,7 @@ def fetch_codeforces(handle: str) -> list[dict[str, Any]]:
                 "points": raw.get("points"),
                 "rating": p.get("rating"),
                 "tags": p.get("tags") or [],
+                "time_limit_ms": None,
                 "submission_url": f"{base}/submission/{sid}",
                 "problem_url": f"{base}/problem/{index}",
             })
@@ -134,6 +168,7 @@ def fetch_atcoder(handle: str) -> list[dict[str, Any]]:
                 "points": raw.get("point"),
                 "rating": None,
                 "tags": [],
+                "time_limit_ms": None,
                 "submission_url": f"https://atcoder.jp/contests/{contest_id}/submissions/{sid}" if contest_id else None,
                 "problem_url": f"https://atcoder.jp/contests/{contest_id}/tasks/{problem_id}" if contest_id and problem_id else None,
             })
@@ -144,6 +179,71 @@ def fetch_atcoder(handle: str) -> list[dict[str, Any]]:
             raise RuntimeError("AtCoder pagination cursor did not advance")
         cursor = next_cursor
         time.sleep(1.1)
+
+
+def uva_problem_url(problem_number: int) -> str:
+    return f"https://onlinejudge.org/external/{problem_number // 100}/{problem_number}.pdf"
+
+
+def fetch_uhunt_problems() -> dict[str, dict[str, Any]]:
+    payload = get_json(UHUNT_PROBLEMS_API)
+    if not isinstance(payload, list):
+        raise RuntimeError(f"uHunt problem API returned {type(payload).__name__}")
+    problems: dict[str, dict[str, Any]] = {}
+    for raw in payload:
+        if not isinstance(raw, list) or len(raw) < 21:
+            continue
+        pid, number, title = raw[0], raw[1], raw[2]
+        if not isinstance(number, int):
+            continue
+        problems[str(number)] = {
+            "platform": "uva",
+            "problem_id": str(number),
+            "problem_name": str(title).strip() or None,
+            "problem_url": uva_problem_url(number),
+            "uhunt_problem_id": int(pid),
+            "time_limit_ms": raw[19] if isinstance(raw[19], (int, float)) else None,
+        }
+    return problems
+
+
+def fetch_uhunt_submissions(handle: str, problems: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    encoded = urllib.parse.quote(handle, safe="")
+    uid = get_json(f"{UHUNT_BASE}/uname2uid/{encoded}")
+    if not isinstance(uid, int) or uid <= 0:
+        raise RuntimeError(f"uHunt did not resolve UVa username {handle!r}")
+    payload = get_json(f"{UHUNT_BASE}/subs-user/{uid}")
+    if not isinstance(payload, dict) or not isinstance(payload.get("subs"), list):
+        raise RuntimeError("uHunt user submissions API returned an unexpected payload")
+    by_pid = {int(p["uhunt_problem_id"]): p for p in problems.values()}
+    records: list[dict[str, Any]] = []
+    for raw in payload["subs"]:
+        if not isinstance(raw, list) or len(raw) < 7:
+            continue
+        sid, pid, verdict_id, runtime, submitted, language_id, _rank = raw[:7]
+        p = by_pid.get(int(pid))
+        if not p:
+            continue
+        records.append({
+            "platform": "uva",
+            "submission_id": str(sid),
+            "contest_id": None,
+            "problem_id": p["problem_id"],
+            "problem_index": None,
+            "problem_name": p.get("problem_name"),
+            "epoch_second": int(submitted),
+            "verdict": UHUNT_VERDICTS.get(int(verdict_id), str(verdict_id)),
+            "language": UHUNT_LANGUAGES.get(int(language_id), f"language {language_id}"),
+            "time_ms": runtime,
+            "memory_bytes": None,
+            "points": None,
+            "rating": None,
+            "tags": [],
+            "time_limit_ms": p.get("time_limit_ms"),
+            "submission_url": None,
+            "problem_url": p.get("problem_url"),
+        })
+    return records
 
 
 def normalized(value: str | None) -> str:
@@ -185,6 +285,11 @@ def at_contest(path: Path) -> str | None:
         if re.fullmatch(r"[a-z][a-z0-9_-]*\d{2,4}", part, re.IGNORECASE):
             return part.lower()
     return None
+
+
+def uva_number(path: Path) -> str | None:
+    m = re.match(r"^(\d{3,5})(?:[_\-\s.]|$)", path.stem)
+    return m.group(1) if m else None
 
 
 def group_by_problem(records: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
@@ -267,95 +372,174 @@ def memory_text(value: Any) -> str | None:
     return f"{n / 1024**2:.1f} MiB"
 
 
-def header(selected: dict[str, Any], records: list[dict[str, Any]], reason: str, commit_epoch: int | None) -> str:
-    platform = "Codeforces" if selected["platform"] == "codeforces" else "AtCoder"
-    accepted = sum(r.get("verdict") == "AC" for r in records)
-    lines = [
-        MARKER,
-        " * Generated on the annotated branch. Do not edit manually.",
-        f" * Platform:       {platform}",
-        f" * Problem:        {selected.get('problem_id')} — {selected.get('problem_name') or 'Unknown title'}",
-    ]
+def platform_name(platform: str) -> str:
+    return {"codeforces": "CODEFORCES", "atcoder": "ATCODER", "uva": "UVa"}.get(platform, platform.upper())
+
+
+def header(selected: dict[str, Any], records: list[dict[str, Any]] | None = None) -> str:
+    records = records or []
+    title = selected.get("problem_name") or "Unknown title"
+    lines = ["/*", *LUKE_BANNER, ""]
+    lines.append(f" {platform_name(str(selected['platform']))} // {selected.get('problem_id')} // {title}")
     if selected.get("problem_url"):
-        lines.append(f" * Problem URL:    {selected['problem_url']}")
-    lines += [
-        " *",
-        f" * Matched result: {selected.get('verdict') or 'Unknown'}",
-        f" * Submission:     #{selected['submission_id']}",
-    ]
-    if selected.get("submission_url"):
-        lines.append(f" * Submission URL: {selected['submission_url']}")
-    lines += [
-        f" * Submitted:      {local_time(int(selected['epoch_second']))}",
-        f" * Language:       {selected.get('language') or 'Unknown'}",
-    ]
-    if selected.get("time_ms") is not None:
-        lines.append(f" * Runtime:        {selected['time_ms']} ms")
-    mem = memory_text(selected.get("memory_bytes"))
-    if mem:
-        lines.append(f" * Memory:         {mem}")
-    if selected.get("points") is not None:
-        lines.append(f" * Points:         {selected['points']}")
-    if selected.get("rating") is not None:
-        lines.append(f" * Rating:         {selected['rating']}")
-    if selected.get("tags"):
-        lines.append(f" * Tags:           {', '.join(selected['tags'])}")
-    lines.append(f" * Submissions:    {len(records)} total / {accepted} accepted")
-    if commit_epoch is not None:
-        lines.append(f" * File commit:    {local_time(commit_epoch)}")
-    lines += [
-        f" * Match policy:   {reason}; accepted submission nearest before file commit when possible",
-        " * Source equality with the online submission is not verified.",
-        " */",
-    ]
-    return "\n".join(line.rstrip() for line in lines)
+        lines.append(f" {selected['problem_url']}")
+    lines.append("")
+
+    if selected.get("submission_id") is not None:
+        summary = [str(selected.get("verdict") or "UNKNOWN")]
+        if selected.get("language"):
+            summary.append(str(selected["language"]))
+        if selected.get("time_ms") is not None:
+            summary.append(f"{selected['time_ms']} ms")
+        mem = memory_text(selected.get("memory_bytes"))
+        if mem:
+            summary.append(mem)
+        if selected.get("points") is not None:
+            summary.append(f"{selected['points']} pt")
+        lines.append(" " + " // ".join(summary))
+
+        detail = [f"#{selected['submission_id']}", local_time(int(selected["epoch_second"]))]
+        if len(records) > 1:
+            detail.append(f"{len(records)} attempts")
+        lines.append(" " + " // ".join(detail))
+
+        extras: list[str] = []
+        if selected.get("rating") is not None:
+            extras.append(f"rating {selected['rating']}")
+        if selected.get("tags"):
+            extras.append(", ".join(str(t) for t in selected["tags"]))
+        if selected.get("time_limit_ms") is not None:
+            extras.append(f"time limit {selected['time_limit_ms']} ms")
+        if extras:
+            lines.append(" " + " // ".join(extras))
+        if selected.get("submission_url"):
+            lines.append(f" {selected['submission_url']}")
+    else:
+        details = ["problem metadata: uHunt"]
+        if selected.get("time_limit_ms") is not None:
+            details.append(f"time limit {selected['time_limit_ms']} ms")
+        lines.append(" " + " // ".join(details))
+
+    lines += ["", f" {MARKER}", "*/"]
+    return "\n".join(lines)
 
 
-def without_header(text: str) -> str:
-    if text.startswith(MARKER):
-        end = text.find("*/")
-        if end != -1:
-            text = text[end + 2:].lstrip("\n")
-    return text.rstrip("\n") + "\n"
+def without_header_bytes(data: bytes) -> bytes:
+    if not data.startswith(b"/*"):
+        return data
+    end = data.find(b"*/")
+    if end == -1 or MARKER.encode() not in data[: end + 2]:
+        return data
+    rest = data[end + 2 :]
+    if rest.startswith(b"\r\n\r\n"):
+        return rest[4:]
+    if rest.startswith(b"\n\n"):
+        return rest[2:]
+    if rest.startswith(b"\r\n"):
+        return rest[2:]
+    if rest.startswith(b"\n"):
+        return rest[1:]
+    return rest
 
 
-def annotate(root: Path, submissions: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
+def write_annotated(path: Path, generated_header: str, original: bytes) -> None:
+    body = without_header_bytes(original)
+    generated = generated_header.encode("utf-8") + b"\n\n" + body
+    if generated != original:
+        path.write_bytes(generated)
+
+
+def annotate_submission_platform(
+    root: Path,
+    platform: str,
+    records: list[dict[str, Any]],
+    report: dict[str, Any],
+) -> None:
+    history: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for r in records:
+        if r.get("contest_id"):
+            history[str(r["contest_id"]).lower()].append(r)
+    count = 0
+    platform_root = root / platform
+    if not platform_root.exists():
+        return
+    for path in sorted(platform_root.rglob("*.cpp")):
+        rel = path.relative_to(root)
+        original = path.read_bytes()
+        if not original.strip():
+            report["unmatched"].append({"path": str(rel), "reason": "empty source file"})
+            continue
+        matched, reason = match_codeforces(rel, history) if platform == "codeforces" else match_atcoder(rel, history)
+        if not matched:
+            report["unmatched"].append({"path": str(rel), "reason": reason})
+            continue
+        commit_epoch = latest_file_commit(rel)
+        selected = choose(matched, commit_epoch)
+        write_annotated(path, header(selected, matched), original)
+        count += 1
+        report["annotated"].append({
+            "path": str(rel),
+            "problem_id": selected.get("problem_id"),
+            "submission_id": selected["submission_id"],
+            "verdict": selected.get("verdict"),
+        })
+    report["counts"][platform] = {
+        "submissions": len(records),
+        "annotated_files": count,
+    }
+
+
+def annotate_cpe(
+    root: Path,
+    problems: dict[str, dict[str, Any]],
+    uva_submissions: list[dict[str, Any]],
+    report: dict[str, Any],
+) -> None:
+    platform_root = root / "cpe"
+    if not platform_root.exists() or not problems:
+        return
+    history = group_by_problem(uva_submissions)
+    count = 0
+    for path in sorted(platform_root.rglob("*.cpp")):
+        rel = path.relative_to(root)
+        original = path.read_bytes()
+        if not original.strip():
+            report["unmatched"].append({"path": str(rel), "reason": "empty source file"})
+            continue
+        number = uva_number(rel)
+        if not number or number not in problems:
+            report["unmatched"].append({"path": str(rel), "reason": "filename did not identify a UVa problem in uHunt"})
+            continue
+        problem = problems[number]
+        records = history.get(number, [])
+        if records:
+            commit_epoch = latest_file_commit(rel)
+            selected = choose(records, commit_epoch)
+        else:
+            selected = problem
+        write_annotated(path, header(selected, records), original)
+        count += 1
+        report["annotated"].append({
+            "path": str(rel),
+            "problem_id": number,
+            "submission_id": selected.get("submission_id"),
+            "verdict": selected.get("verdict"),
+        })
+    report["counts"]["cpe"] = {
+        "submissions": len(uva_submissions),
+        "annotated_files": count,
+    }
+
+
+def annotate(
+    root: Path,
+    submissions: dict[str, list[dict[str, Any]]],
+    uhunt_problems: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
     report: dict[str, Any] = {"annotated": [], "unmatched": [], "counts": {}}
     for platform in ("codeforces", "atcoder"):
-        history: dict[str, list[dict[str, Any]]] = defaultdict(list)
-        for r in submissions.get(platform, []):
-            if r.get("contest_id"):
-                history[str(r["contest_id"]).lower()].append(r)
-        count = 0
-        platform_root = root / platform
-        if not platform_root.exists():
-            continue
-        for path in sorted(platform_root.rglob("*.cpp")):
-            rel = path.relative_to(root)
-            original = path.read_text(encoding="utf-8")
-            if not original.strip():
-                report["unmatched"].append({"path": str(rel), "reason": "empty source file"})
-                continue
-            matched, reason = match_codeforces(rel, history) if platform == "codeforces" else match_atcoder(rel, history)
-            if not matched:
-                report["unmatched"].append({"path": str(rel), "reason": reason})
-                continue
-            commit_epoch = latest_file_commit(rel)
-            selected = choose(matched, commit_epoch)
-            generated = f"{header(selected, matched, reason, commit_epoch)}\n\n{without_header(original)}"
-            if generated != original:
-                path.write_text(generated, encoding="utf-8")
-            count += 1
-            report["annotated"].append({
-                "path": str(rel),
-                "problem_id": selected.get("problem_id"),
-                "submission_id": selected["submission_id"],
-                "verdict": selected.get("verdict"),
-            })
-        report["counts"][platform] = {
-            "submissions": len(submissions.get(platform, [])),
-            "annotated_files": count,
-        }
+        annotate_submission_platform(root, platform, submissions.get(platform, []), report)
+    annotate_cpe(root, uhunt_problems, submissions.get("uva", []), report)
     return report
 
 
@@ -368,16 +552,29 @@ def main() -> int:
 
     accounts = json.loads(args.accounts.read_text(encoding="utf-8"))
     submissions: dict[str, list[dict[str, Any]]] = {}
+
     if handle := str(accounts.get("codeforces", "")).strip():
         submissions["codeforces"] = fetch_codeforces(handle)
         print(f"codeforces: fetched {len(submissions['codeforces'])} submissions")
     if handle := str(accounts.get("atcoder", "")).strip():
         submissions["atcoder"] = fetch_atcoder(handle)
         print(f"atcoder: fetched {len(submissions['atcoder'])} submissions")
-    if not submissions:
-        raise RuntimeError("no submission accounts configured")
 
-    report = annotate(args.root, submissions)
+    uhunt_problems: dict[str, dict[str, Any]] = {}
+    if (args.root / "cpe").exists():
+        try:
+            uhunt_problems = fetch_uhunt_problems()
+            print(f"uhunt: fetched {len(uhunt_problems)} UVa problems")
+            if handle := str(accounts.get("uva", "")).strip():
+                submissions["uva"] = fetch_uhunt_submissions(handle, uhunt_problems)
+                print(f"uva: fetched {len(submissions['uva'])} submissions")
+        except RuntimeError as exc:
+            print(f"warning: uHunt enrichment unavailable: {exc}")
+
+    if not submissions and not uhunt_problems:
+        raise RuntimeError("no submission accounts configured and no public problem metadata available")
+
+    report = annotate(args.root, submissions, uhunt_problems)
     args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     for platform, counts in report["counts"].items():
         print(f"{platform}: {counts['annotated_files']} files annotated from {counts['submissions']} submissions")

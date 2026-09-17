@@ -39,6 +39,9 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Test annotation renderer
+        run: python -m unittest discover -s scripts/submissions -p 'test_*.py'
+
       - name: Annotate matched solutions
         run: python scripts/submissions/annotate.py
 
@@ -46,7 +49,7 @@ jobs:
         shell: bash
         run: |
           git diff --check
-          git diff -- codeforces atcoder > /tmp/submission-annotations.patch
+          git diff -- codeforces atcoder cpe > /tmp/submission-annotations.patch
           python - <<'PY'
           import json
           from pathlib import Path
@@ -73,7 +76,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add codeforces atcoder
+          git add codeforces atcoder cpe
 
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh submission annotations"

@@ -8,24 +8,41 @@ This directory builds a machine-generated `annotated` branch for the competitive
 
 - Codeforces: official `user.status` API
 - AtCoder: AtCoder Problems `v3/user/submissions` API and public problem metadata
+- CPE / UVa: public uHunt problem metadata, including problem titles and run-time limits
+- UVa submissions: optional uHunt user-submission enrichment when a `uva` username is configured
 
 The annotator uses public metadata only. It does not require login cookies, repository secrets, or third-party Python dependencies.
 
-Accounts are configured in `config/submission_accounts.json`.
+Accounts are configured in `config/submission_accounts.json`. Codeforces and AtCoder are currently configured. A UVa username can be added later as an optional `uva` key; without it, CPE files still receive problem metadata but do not claim a UVa verdict or submission.
 
 ## Matching
 
-The annotator combines repository structure, filename/problem title, and the file's latest Git commit time. It prefers an accepted submission that occurred before the file commit when possible.
+For Codeforces and AtCoder, the annotator combines repository structure, filename/problem title, and the file's latest Git commit time. It prefers an accepted submission that occurred before the file commit when possible.
 
-The source code itself is not downloaded from the judge and byte-for-byte equality is not claimed. Every generated header states that limitation explicitly.
+For `cpe/`, a leading numeric filename such as `12063_Zeros_and_Ones.cpp` is treated as a UVa problem number only when that number exists in the uHunt problem catalog.
 
-Files that cannot be matched confidently are left untouched.
+The source code itself is not downloaded from the judge and byte-for-byte equality with an online submission is not claimed. Files that cannot be matched confidently are left untouched.
 
 ## Generated header
 
-Matched C++ files receive a managed comment at the top containing the platform, problem and submission links, matched verdict, submission time, language, runtime, available memory/points/rating/tags, submission counts, and the file commit time.
+Matched files receive a managed comment headed by Luke's fixed ASCII signature:
 
-The marker `cp-code:submission-metadata` allows the branch to be rebuilt idempotently without stacking duplicate comments.
+```text
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+```
+
+The metadata below the signature is intentionally compact: platform, problem identity/link, verdict/language/runtime/memory when available, submission ID/time, and optional rating/tags/limits.
+
+The marker `cp-code:submission-metadata` is kept inside the generated comment so reruns can replace the managed block without stacking duplicate comments.
+
+The source body is handled as bytes. Adding or replacing the managed header does not normalize the solution's line endings, leading whitespace, trailing whitespace, or EOF newlines.
 
 ## Branch lifecycle
 
@@ -36,7 +53,7 @@ push main
 checkout latest main
    |
    v
-fetch public submission metadata
+fetch public judge metadata
    |
    v
 annotate all confidently matched solutions
@@ -50,7 +67,8 @@ Every published `annotated` commit is therefore based directly on the current `m
 ## Running locally
 
 ```bash
+python -m unittest discover -s scripts/submissions -p 'test_*.py'
 python scripts/submissions/annotate.py
 ```
 
-This edits matched files in the working tree and writes a report to `/tmp/submission-annotation-report.json` by default. Use `git diff` to inspect the generated annotations.
+The annotator edits matched files in the working tree and writes a report to `/tmp/submission-annotation-report.json` by default. Use `git diff` to inspect the generated annotations.

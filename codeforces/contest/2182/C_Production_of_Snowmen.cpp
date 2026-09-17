@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2182C // Production of Snowmen
+ https://codeforces.com/contest/2182/problem/C
+
+ AC // C++23 (GCC 14-64, msys2) // 421 ms // 100.0 KiB
+ #355743378 // 2025-12-29 23:16:08 +0800
+ rating 1200 // brute force, combinatorics, dp
+ https://codeforces.com/contest/2182/submission/355743378
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2237D // Fullmetal Bitchemist
+ https://codeforces.com/contest/2237/problem/D
+
+ AC // C++23 (GCC 14-64, msys2) // 46 ms // 0 B
+ #379403173 // 2026-06-19 00:08:29 +0800
+ rating 1500 // constructive algorithms, greedy, math
+ https://codeforces.com/contest/2237/submission/379403173
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

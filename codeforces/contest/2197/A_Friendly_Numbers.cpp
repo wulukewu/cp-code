@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2197A // Friendly Numbers
+ https://codeforces.com/contest/2197/problem/A
+
+ AC // C++23 (GCC 14-64, msys2) // 46 ms // 0 B
+ #362444145 // 2026-02-11 23:08:28 +0800 // 3 attempts
+ rating 800 // binary search, brute force, expression parsing, math, schedules
+ https://codeforces.com/contest/2197/submission/362444145
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

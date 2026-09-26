@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2183B // Yet Another MEX Problem
+ https://codeforces.com/contest/2183/problem/B
+
+ AC // C++23 (GCC 14-64, msys2) // 78 ms // 100.0 KiB
+ #356809521 // 2026-01-07 23:22:29 +0800
+ rating 1100 // constructive algorithms, greedy
+ https://codeforces.com/contest/2183/submission/356809521
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

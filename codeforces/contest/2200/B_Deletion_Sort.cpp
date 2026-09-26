@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2200B // Deletion Sort
+ https://codeforces.com/contest/2200/problem/B
+
+ AC // C++23 (GCC 14-64, msys2) // 31 ms // 0 B
+ #364682937 // 2026-02-27 23:12:26 +0800
+ rating 800 // bitmasks, brute force, greedy, sortings
+ https://codeforces.com/contest/2200/submission/364682937
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

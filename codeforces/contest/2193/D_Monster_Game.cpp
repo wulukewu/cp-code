@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2193D // Monster Game
+ https://codeforces.com/contest/2193/problem/D
+
+ AC // C++23 (GCC 14-64, msys2) // 109 ms // 0 B
+ #359846306 // 2026-01-25 23:58:45 +0800
+ rating 1100 // binary search, sortings, two pointers
+ https://codeforces.com/contest/2193/submission/359846306
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

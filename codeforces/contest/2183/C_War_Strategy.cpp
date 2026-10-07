@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2183C // War Strategy
+ https://codeforces.com/contest/2183/problem/C
+
+ AC // C++23 (GCC 14-64, msys2) // 46 ms // 0 B
+ #356822982 // 2026-01-07 23:46:42 +0800
+ rating 1500 // binary search, greedy, math, two pointers
+ https://codeforces.com/contest/2183/submission/356822982
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

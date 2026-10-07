@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2214A // Odd One Out
+ https://codeforces.com/contest/2214/problem/A
+
+ AC // C++23 (GCC 14-64, msys2) // 0 ms // 0 B
+ #369128187 // 2026-04-01 22:39:04 +0800 // 3 attempts
+ *special, graph matchings, implementation
+ https://codeforces.com/contest/2214/submission/369128187
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

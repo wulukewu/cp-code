@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2183D1 // Tree Coloring (Easy Version)
+ https://codeforces.com/contest/2183/problem/D1
+
+ AC // C++23 (GCC 14-64, msys2) // 250 ms // 9.0 MiB
+ #356838951 // 2026-01-08 00:20:51 +0800
+ rating 1500 // constructive algorithms, dfs and similar, greedy, trees
+ https://codeforces.com/contest/2183/submission/356838951
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

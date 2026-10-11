@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2214J // Special Problem
+ https://codeforces.com/contest/2214/problem/J
+
+ AC // C++23 (GCC 14-64, msys2) // 31 ms // 0 B
+ #369237079 // 2026-04-02 00:05:51 +0800
+ *special, brute force, games, interactive
+ https://codeforces.com/contest/2214/submission/369237079
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

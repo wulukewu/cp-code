@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2197E1 // Interactive Graph (Simple Version)
+ https://codeforces.com/contest/2197/problem/E1
+
+ AC // C++23 (GCC 14-64, msys2) // 93 ms // 100.0 KiB
+ #362539565 // 2026-02-12 03:11:37 +0800 // 3 attempts
+ rating 1800 // binary search, combinatorics, dfs and similar, dp, graphs, interactive
+ https://codeforces.com/contest/2197/submission/362539565
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

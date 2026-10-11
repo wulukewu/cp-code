@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2184E // Exquisite Array
+ https://codeforces.com/contest/2184/problem/E
+
+ AC // C++23 (GCC 14-64, msys2) // 125 ms // 4.2 MiB
+ #357618775 // 2026-01-13 01:44:46 +0800
+ rating 1800 // combinatorics, data structures, dsu, sortings
+ https://codeforces.com/contest/2184/submission/357618775
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

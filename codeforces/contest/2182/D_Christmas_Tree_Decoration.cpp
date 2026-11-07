@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2182D // Christmas Tree Decoration
+ https://codeforces.com/contest/2182/problem/D
+
+ AC // C++23 (GCC 14-64, msys2) // 78 ms // 0 B
+ #355773132 // 2025-12-30 00:13:50 +0800 // 3 attempts
+ rating 1600 // combinatorics, dp, greedy, math
+ https://codeforces.com/contest/2182/submission/355773132
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

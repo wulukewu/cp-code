@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2200E // Divisive Battle
+ https://codeforces.com/contest/2200/problem/E
+
+ AC // C++23 (GCC 14-64, msys2) // 78 ms // 5.5 MiB
+ #364723804 // 2026-02-28 00:27:37 +0800 // 2 attempts
+ rating 1500 // games, greedy, math, number theory
+ https://codeforces.com/contest/2200/submission/364723804
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

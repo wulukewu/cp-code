@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2041B // Bowling Frame
+ https://codeforces.com/contest/2041/problem/B
+
+ AC // C++20 (GCC 13-64) // 31 ms // 0 B
+ #398093118 // 2026-11-11 12:41:42 +0800
+ rating 1200 // binary search, brute force, math
+ https://codeforces.com/contest/2041/submission/398093118
+
+ cp-code:submission-metadata
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define F first

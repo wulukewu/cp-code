@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2197B // Array and Permutation
+ https://codeforces.com/contest/2197/problem/B
+
+ AC // C++23 (GCC 14-64, msys2) // 93 ms // 1000.0 KiB
+ #362454852 // 2026-02-11 23:21:45 +0800
+ rating 1100 // implementation, schedules, sortings, two pointers
+ https://codeforces.com/contest/2197/submission/362454852
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

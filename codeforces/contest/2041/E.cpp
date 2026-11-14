@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2041E // Beautiful Array
+ https://codeforces.com/contest/2041/problem/E
+
+ AC // C++20 (GCC 13-64) // 46 ms // 0 B
+ #398093440 // 2026-11-11 12:49:14 +0800
+ rating 1200 // constructive algorithms, math
+ https://codeforces.com/contest/2041/submission/398093440
+
+ cp-code:submission-metadata
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define F first

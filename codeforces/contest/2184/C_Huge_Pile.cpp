@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2184C // Huge Pile
+ https://codeforces.com/contest/2184/problem/C
+
+ AC // C++23 (GCC 14-64, msys2) // 46 ms // 0 B
+ #357564851 // 2026-01-12 23:58:40 +0800 // 2 attempts
+ rating 1100 // binary search, dfs and similar, dp, graphs, math
+ https://codeforces.com/contest/2184/submission/357564851
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

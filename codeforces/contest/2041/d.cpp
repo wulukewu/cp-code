@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2041D // Drunken Maze
+ https://codeforces.com/contest/2041/problem/D
+
+ AC // C++20 (GCC 13-64) // 203 ms // 64.0 MiB
+ #398102691 // 2026-11-11 15:24:46 +0800 // 2 attempts
+ rating 1700 // brute force, dfs and similar, graphs, shortest paths
+ https://codeforces.com/contest/2041/submission/398102691
+
+ cp-code:submission-metadata
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define F first

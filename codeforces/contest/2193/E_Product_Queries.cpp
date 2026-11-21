@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2193E // Product Queries
+ https://codeforces.com/contest/2193/problem/E
+
+ AC // C++23 (GCC 14-64, msys2) // 281 ms // 20.2 MiB
+ #359868378 // 2026-01-26 00:25:41 +0800 // 2 attempts
+ rating 1300 // dp, math, number theory, shortest paths
+ https://codeforces.com/contest/2193/submission/359868378
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

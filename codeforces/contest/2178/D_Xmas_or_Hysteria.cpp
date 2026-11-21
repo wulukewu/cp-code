@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2178D // Xmas or Hysteria
+ https://codeforces.com/contest/2178/problem/D
+
+ WA // C++20 (GCC 13-64) // 0 ms // 0 B
+ #355406409 // 2025-12-28 01:30:13 +0800 // 4 attempts
+ rating 1700 // constructive algorithms, greedy, implementation, math
+ https://codeforces.com/contest/2178/submission/355406409
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

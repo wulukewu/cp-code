@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2197D // Another Problem about Beautiful Pairs
+ https://codeforces.com/contest/2197/problem/D
+
+ AC // C++23 (GCC 14-64, msys2) // 406 ms // 100.0 KiB
+ #362503835 // 2026-02-12 00:43:38 +0800 // 4 attempts
+ rating 1600 // brute force, data structures, divide and conquer, math, number theory
+ https://codeforces.com/contest/2197/submission/362503835
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

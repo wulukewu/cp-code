@@ -1,3 +1,24 @@
+/*
+'##:::::::'##::::'##:'##:::'##:'########:
+ ##::::::: ##:::: ##: ##::'##:: ##.....::
+ ##::::::: ##:::: ##: ##:'##::: ##:::::::
+ ##::::::: ##:::: ##: #####:::: ######:::
+ ##::::::: ##:::: ##: ##. ##::: ##...::::
+ ##::::::: ##:::: ##: ##:. ##:: ##:::::::
+ ########:. #######:: ##::. ##: ########:
+........:::.......:::..::::..::........::
+
+ CODEFORCES // 2263C1 // Floor of MEX (Easy Version)
+ https://codeforces.com/contest/2263/problem/C1
+
+ AC // C++20 (GCC 13-64) // 46 ms // 100.0 KiB
+ #390446408 // 2026-09-12 23:14:06 +0800
+ rating 1200 // constructive algorithms, greedy
+ https://codeforces.com/contest/2263/submission/390446408
+
+ cp-code:submission-metadata
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
